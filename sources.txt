@@ -45,6 +45,7 @@ https://raw.githubusercontent.com/infinityofspace/jellyfin-alexa-plugin/master/m
 https://raw.githubusercontent.com/Viperinius/jellyfin-plugins/master/manifest.json
 https://raw.githubusercontent.com/nikarh/jellyfin-plugin-authelia/main/manifest.json
 https://simoni.dev/jellyfin/repo.json
+https://raw.githubusercontent.com/n00bcodr/JellyfinTweaks/refs/heads/main/manifest.json
 https://raw.githubusercontent.com/johnpc/jellyfin-plugin-smart-collections/refs/heads/main/manifest.json
 https://raw.githubusercontent.com/bonukai/jellyfin-plugin-mediatracker/main/manifest.json
 https://raw.githubusercontent.com/Felitendo/jellyfin-plugin-lyrics/master/manifest.json
