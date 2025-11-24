@@ -23,9 +23,7 @@ https://raw.githubusercontent.com/jon4hz/jellyfin-plugin-jellysleep/main/manifes
 https://raw.githubusercontent.com/KeksBombe/jellyfin-plugin-auto-collections/refs/heads/main/manifest.json
 https://raw.githubusercontent.com/lostb1t/jellyfin-plugin-collection-import/main/manifest.json
 https://raw.githubusercontent.com/metatube-community/jellyfin-plugin-metatube/dist/manifest.json
-https://raw.githubusercontent.com/n00bcodr/jellyfin-enhanced/main/manifest.json
-https://raw.githubusercontent.com/n00bcodr/jellyfin-javascript-injector/main/manifest.json
-https://raw.githubusercontent.com/n00bcodr/JellyfinTweaks/refs/heads/main/manifest.json
+https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json
 https://raw.githubusercontent.com/Namo2/InPlayerEpisodePreview/master/manifest.json
 https://raw.githubusercontent.com/nikarh/jellyfin-plugin-authelia/main/manifest.json
 https://raw.githubusercontent.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/main/manifest.json
