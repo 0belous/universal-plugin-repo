@@ -14,4 +14,4 @@
 
  - VSCode: ctrl + shift + p > Sort Lines Ascending
 
-2. [ ] Is a source you added a fork of an existing source?
+3. [ ] If you are adding a source: is it a fork of an existing plugin?
