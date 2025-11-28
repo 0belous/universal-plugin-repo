@@ -7,7 +7,7 @@
     "owner": "LizardByte",
     "category": "Metadata",
     "image": "themerr-jellyfin.png",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Themerr.png",
+    "imageUrl": "https://lizardbyte.github.io/jellyfin-plugin-repo/themerr/themerr-jellyfin.png",
     "versions": [
       {
         "version": "2024.523.2124.32",
@@ -3074,6 +3074,14 @@
     "owner": "iankiller77",
     "category": "General",
     "versions": [
+      {
+        "version": "1.5.0.0",
+        "changelog": "Feature: add option for full anime list update from jellyfin watch status.\nFeature: add option to handle specials.",
+        "targetAbi": "10.9.2",
+        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.5.0.0/myanimesync_1.5.0.0.zip",
+        "checksum": "7c411918adfd33fefd0d33d3603e5071",
+        "timestamp": "2025-11-27T18:54:00Z"
+      },
       {
         "version": "1.4.2.2",
         "changelog": "Fixed an issue with bulk update causing wrong episode number to be updated.",
@@ -10620,6 +10628,46 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "## [0.24.5.2] - 2025-11-27\n\n### 🐛 Bug Fixes\n\n- Downloads when no mediasource is given\n",
+        "checksum": "d0590854df1a05e582eae7c5446ade6f",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.5.2/gelato_0.24.5.2.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-11-27T15:16:46Z",
+        "version": "0.24.5.2"
+      },
+      {
+        "changelog": "## [0.24.5.1] - 2025-11-27\n\n### 🐛 Bug Fixes\n\n- Prefix collection id with type as the tmdb addon does not seem to use unique ids\n",
+        "checksum": "58581239680a9c9afe18f200028aac54",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.5.1/gelato_0.24.5.1.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-11-27T09:17:44Z",
+        "version": "0.24.5.1"
+      },
+      {
+        "changelog": "## [0.24.5.0] - 2025-11-27\n\n### 🚀 Features\n\n- Use overview for episodes\n",
+        "checksum": "a54e84294523a9e54f5b6de9981b14e4",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.5.0/gelato_0.24.5.0.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-11-27T08:20:34Z",
+        "version": "0.24.5.0"
+      },
+      {
+        "changelog": "## [0.24.4.1] - 2025-11-27\n\n### 🐛 Bug Fixes\n\n- Make addtocollectionids thread safe\n",
+        "checksum": "2fd3a8150c12284f00e3d37d0e7b3626",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.4.1/gelato_0.24.4.1.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-11-27T08:09:10Z",
+        "version": "0.24.4.1"
+      },
+      {
+        "changelog": "## [0.24.4.0] - 2025-11-27\n\n### 🚀 Features\n\n- Add parralism to catalog import and process metadata in background\n",
+        "checksum": "8a0baef2cee53ec3e162792edeaf4ccd",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.4.0/gelato_0.24.4.0.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-11-27T07:58:43Z",
+        "version": "0.24.4.0"
+      },
+      {
         "changelog": "## [unreleased]\n\n### 🐛 Bug Fixes\n\n- Collection purge\n",
         "checksum": "9b52e0f65ecb51ca3e8811a54f605e35",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.3.4/gelato_0.24.3.4.zip",
@@ -10802,46 +10850,6 @@
         "targetAbi": "10.11.0.0",
         "timestamp": "2025-11-07T12:27:19Z",
         "version": "0.20.14.0"
-      },
-      {
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n\n\n**Full Changelog**: https://github.com/lostb1t/Gelato/compare/v0.20.12.0...v0.20.13.0",
-        "checksum": "b3f5bf1f8444175c2341e8673128e224",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.20.13.0/gelato_0.20.13.0.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-11-07T10:43:26Z",
-        "version": "0.20.13.0"
-      },
-      {
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n\n\n**Full Changelog**: https://github.com/lostb1t/Gelato/compare/v0.20.11.0...v0.20.12.0",
-        "checksum": "",
-        "sourceUrl": "",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-11-07T10:27:18Z",
-        "version": "0.20.12.0"
-      },
-      {
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n\n\n**Full Changelog**: https://github.com/lostb1t/Gelato/compare/v0.20.10.0...v0.20.11.0",
-        "checksum": "f42e0357adfb908aceb1bf4f3377381c",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.20.11.0/gelato_0.20.11.0.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-11-06T18:36:27Z",
-        "version": "0.20.11.0"
-      },
-      {
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n\n\n**Full Changelog**: https://github.com/lostb1t/Gelato/compare/v0.20.9.0...v0.20.10.0",
-        "checksum": "0c25b22dd1bbe906055e833070ccaf15",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.20.10.0/gelato_0.20.10.0.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-11-06T18:01:28Z",
-        "version": "0.20.10.0"
-      },
-      {
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n\n\n**Full Changelog**: https://github.com/lostb1t/Gelato/compare/v0.20.8.0...v0.20.9.0",
-        "checksum": "",
-        "sourceUrl": "",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-11-06T17:56:49Z",
-        "version": "0.20.9.0"
       }
     ]
   }
