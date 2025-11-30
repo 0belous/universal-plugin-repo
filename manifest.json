@@ -968,6 +968,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
     "versions": [
       {
+        "version": "2.2.2.0",
+        "changelog": "对Jellyfin 10.11进行刮削优化，增加开关控制降级到tmdb进行自动匹配",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.2.2/metashark_2.2.2.0.zip",
+        "checksum": "ac7d09477ba12e9518d1e130c90b4c14",
+        "timestamp": "2025-11-29T07:58:56"
+      },
+      {
         "version": "2.2.1.0",
         "changelog": "修复演员链接错误",
         "targetAbi": "10.11.0.0",
@@ -1373,6 +1381,14 @@
     "category": "MoviesAndShows",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Intro Skipper.png",
     "versions": [
+      {
+        "version": "1.10.11.7",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.7)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.7/intro-skipper-v1.10.11.7.zip",
+        "checksum": "a96f17dddc3d5a2d50f3b4e65ca6a113",
+        "timestamp": "2025-10-24T18:55:22Z"
+      },
       {
         "version": "1.10.11.8",
         "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.8)\n",
@@ -10639,6 +10655,14 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "## [0.24.5.5] - 2025-11-29\n\n### 🐛 Bug Fixes\n\n- Try to take userid from query if necessary\n",
+        "checksum": "6c7a937b6b934ecbbcd8f77a2b51e220",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.5.5/gelato_0.24.5.5.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-11-29T11:06:06Z",
+        "version": "0.24.5.5"
+      },
+      {
         "changelog": "## [0.24.5.4] - 2025-11-28\n\n### 🐛 Bug Fixes\n\n- Take into account local files on stream sync\n",
         "checksum": "bfc4a5a1901d176d015c099dd3a7f9f2",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.5.4/gelato_0.24.5.4.zip",
@@ -10853,14 +10877,6 @@
         "targetAbi": "10.11.0.0",
         "timestamp": "2025-11-07T15:09:15Z",
         "version": "0.21.0.0"
-      },
-      {
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n\n\n**Full Changelog**: https://github.com/lostb1t/Gelato/compare/v0.20.15.0...v0.20.16.0",
-        "checksum": "94219ab5c06ffff2afc206d8f3b1673e",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.20.16.0/gelato_0.20.16.0.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-11-07T13:32:06Z",
-        "version": "0.20.16.0"
       }
     ]
   }
