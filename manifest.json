@@ -725,6 +725,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.4.3.0",
+        "changelog": "修正影响电视剧季名称更新",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.4.3/danmu_2.4.3.0.zip",
+        "checksum": "96f9446ddafe23475d0e048521816203",
+        "timestamp": "2025-11-30T08:06:14"
+      },
+      {
         "version": "2.4.2.0",
         "changelog": "修正插件版本兼容性",
         "targetAbi": "10.11.0.0",
@@ -4165,6 +4173,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Enhanced.png",
     "versions": [
       {
+        "changelog": "- Add Brazilian language mapping to country codes\n - Add Russian language support for genre icons\n - Fix advanced auto request\n - Add option to select all seasons",
+        "targetAbi": "10.11.0.0",
+        "version": "9.6.2.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.6.2.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "23090AA41A6140E2EE34ABC7C9F0AA68",
+        "timestamp": "2025-11-30T12:54:49"
+      },
+      {
         "changelog": "- Add admin page selectors to ignore lists in tag scripts\n - Add Series/Season language detection for item details\n - Add data-lang attributes for CSS targeting\n - Update configPage.html\n - Add Enhanced Settings link to user preferences menu",
         "targetAbi": "10.11.0.0",
         "version": "9.6.1.0",
@@ -4325,6 +4341,22 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/InPlayerEpisodePreview.png",
     "versions": [
+      {
+        "version": "1.6.0.0",
+        "changelog": "- Correctly apply blur to episode thumbnail/description.\n - Show preview for movie collections when Movie type was disabled but not the Collection type.",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.6.0.0/InPlayerEpisodePreview_1.6.0.0-10.11.0.zip",
+        "checksum": "dea029dae14405b3ea8b7f6153a5bd26",
+        "timestamp": "2025-11-30T15:13:10Z"
+      },
+      {
+        "version": "1.6.0.0",
+        "changelog": "- Correctly apply blur to episode thumbnail/description.\n - Show preview for movie collections when Movie type was disabled but not the Collection type.",
+        "targetAbi": "10.10.7",
+        "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.6.0.0/InPlayerEpisodePreview_1.6.0.0-10.10.7.zip",
+        "checksum": "abbf297fffc0e96c1b456e3e389dd6dd",
+        "timestamp": "2025-11-30T15:08:16Z"
+      },
       {
         "version": "1.5.0.0",
         "changelog": "- Internal URL handling, resolves certain issues for other plugins like Meilisearch.\n - The first set of plugin settings are here. You will now be able to hide the preview button for movies.",
