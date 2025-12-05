@@ -976,6 +976,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
     "versions": [
       {
+        "version": "2.3.0.0",
+        "changelog": "支持tmdb剧集组，优化刮削",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.0/metashark_2.3.0.0.zip",
+        "checksum": "f0b298b487af04e886bbf0afd3912bc3",
+        "timestamp": "2025-12-04T12:52:27"
+      },
+      {
         "version": "2.2.2.0",
         "changelog": "对Jellyfin 10.11进行刮削优化，增加开关控制降级到tmdb进行自动匹配",
         "targetAbi": "10.11.0.0",
@@ -3460,6 +3468,22 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Auto Collections.jpg",
     "category": "General",
     "versions": [
+      {
+        "version": "0.0.4.1",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.4.1)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.4.1/auto-collections-0.0.4.1.zip",
+        "checksum": "b7937d64b97f5123962f2c619b6256c3",
+        "timestamp": "2025-12-04T08:45:45Z"
+      },
+      {
+        "version": "0.0.4.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.4.0)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.4.0/auto-collections-0.0.4.0.zip",
+        "checksum": "3a87ed0a88215c05b5fe8fa257442eaf",
+        "timestamp": "2025-12-04T08:20:50Z"
+      },
       {
         "version": "0.0.3.25",
         "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.3.25)\n",
@@ -9672,6 +9696,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Custom Tabs.png",
     "versions": [
       {
+        "version": "0.2.4.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.4",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.4.0/Release-10.11.0.zip",
+        "checksum": "E76526F397D68A7E5F6FD79FD1EFEA7F",
+        "timestamp": "2025-11-03T22:24:54",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "0.2.3.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.3",
         "targetAbi": "10.11.0.0",
@@ -9760,6 +9795,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Collection Sections.png",
     "versions": [
       {
+        "version": "2.3.4.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.4",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.4.0/Release-10.11.0.zip",
+        "checksum": "35E4B88FB3D9B3244CE3540B0831AE95",
+        "timestamp": "2025-11-03T22:24:52",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.3.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.3",
         "targetAbi": "10.11.0.0",
@@ -9847,6 +9893,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/File Transformation.png",
     "versions": [
+      {
+        "version": "2.5.1.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.4",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.1.0/Release-10.11.0.zip",
+        "checksum": "5B1AE64B16A37AB9CD3613A1B3EF1E40",
+        "timestamp": "2025-11-28T20:39:29",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.5.0.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for users to define their own transformations which make web mods like BobHasNoSoul's a lot easier to integrate into systems without having to modify the files directly. Note: Where mods require other files, those will still be required to be dropped where directed.",
@@ -9980,6 +10037,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Bar.png",
     "versions": [
       {
+        "version": "2.4.4.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.4",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.4.0/Release-10.11.0.zip",
+        "checksum": "BE6DBC022F11C462AD27E8606EFFB3EA",
+        "timestamp": "2025-11-03T22:34:47",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.3.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.3",
         "targetAbi": "10.11.0.0",
@@ -10079,6 +10147,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Plugin Pages.png",
     "versions": [
       {
+        "version": "2.4.5.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.4",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.5.0/Release-10.11.0.zip",
+        "checksum": "1A0C91A256C32CAEBDE3F052C149BFF1",
+        "timestamp": "2025-11-11T22:05:46",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.4.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.3",
         "targetAbi": "10.11.0.0",
@@ -10177,6 +10256,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
+      {
+        "version": "2.4.13.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.4\r\n- PR#155 - Added support for internal/external jellyseerr urls. Thanks @botagas",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.13.0/Release-10.11.0.zip",
+        "checksum": "C117CD4781629A7FB3D77B9913A1A921",
+        "timestamp": "2025-11-21T22:07:12",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.4.12.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.3\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed issue where user settings wouldn't correctly display enabled checkbox",
@@ -10703,6 +10793,22 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "## [0.24.7.1] - 2025-12-04\n\n### 🚜 Refactor\n\n- Proxy search images instead of redirect\n",
+        "checksum": "55d9dd01925ed2249cb43c8dfaa02b2c",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.7.1/gelato_0.24.7.1.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-12-04T19:11:12Z",
+        "version": "0.24.7.1"
+      },
+      {
+        "changelog": "## [0.24.7.0] - 2025-12-04\n\n### 🚀 Features\n\n- Run stream purge weekly by eefault\n\n### 🚜 Refactor\n\n- Speedup purge\n",
+        "checksum": "257cd770f2d9baba88345cfc3c246677",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.7.0/gelato_0.24.7.0.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-12-04T18:02:55Z",
+        "version": "0.24.7.0"
+      },
+      {
         "changelog": "## [0.24.6.7] - 2025-12-04\n\n### 🐛 Bug Fixes\n\n- Always use primary id for first media source\n",
         "checksum": "2dca67a69654b76b31315073ea9ff86e",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.6.7/gelato_0.24.6.7.zip",
@@ -10909,22 +11015,6 @@
         "targetAbi": "10.11.0.0",
         "timestamp": "2025-11-17T17:32:49Z",
         "version": "0.23.1.0"
-      },
-      {
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n\n\n**Full Changelog**: https://github.com/lostb1t/Gelato/compare/v0.22.1.0...v0.23.0.0",
-        "checksum": "c4d80faaed49aa463ce5eec2ffc29c5b",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.23.0.0/gelato_0.23.0.0.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-11-12T11:13:47Z",
-        "version": "0.23.0.0"
-      },
-      {
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n\n\n**Full Changelog**: https://github.com/lostb1t/Gelato/compare/v0.22.0.0...v0.22.1.0",
-        "checksum": "866becd9d0103309d40d72e20b39424f",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.22.1.0/gelato_0.22.1.0.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-11-11T05:20:52Z",
-        "version": "0.22.1.0"
       }
     ]
   }
