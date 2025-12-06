@@ -1187,12 +1187,12 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Editor's Choice.png",
     "versions": [
       {
-        "version": "1.4.1",
-        "changelog": "Fixes issue preventing Collections mode from working",
+        "version": "1.4.2",
+        "changelog": "Fix version mismatch",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.4.1/EditorsChoicePlugin.v1.4.1.zip",
-        "checksum": "91dce768a877127d4069c9dfb3916fa1",
-        "timestamp": "2025-11-02 11:02:00"
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.4.2/EditorsChoicePlugin.v1.4.2.zip",
+        "checksum": "8351fbf0302bac1a23e94c6d7cec6c74",
+        "timestamp": "2025-12-05 18:06:00"
       },
       {
         "version": "1.4.0.0",
