@@ -2,7 +2,7 @@ https://app.lizardbyte.dev/jellyfin-plugin-repo/manifest.json
 https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/manifest/manifest.json
 https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/manifest/manifest.json
 https://github.com/lachlandcp/jellyfin-editors-choice-plugin/raw/main/manifest.json
-https://intro-skipper.org/manifest.json
+https://raw.githubusercontent.com/intro-skipper/manifest/refs/heads/main/10.11/manifest.json
 https://jellyfin-repo.jesseward.com/manifest.json
 https://kookxiang.github.io/jellyfin-plugin-bangumi/repository.json
 https://noonamer.github.io/Jellyfin.Plugin.LocalPosters/repository.json
