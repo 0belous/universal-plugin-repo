@@ -3042,6 +3042,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "1.5.0.1",
+        "changelog": "Updated code to work with jellyfin 10.11.x",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.5.0.1/myanimesync_1.5.0.1.zip",
+        "checksum": "3d4551e5bfbbc33dc5e416d1961f7c99",
+        "timestamp": "2025-11-27T18:54:00Z"
+      },
+      {
         "version": "1.5.0.0",
         "changelog": "Feature: add option for full anime list update from jellyfin watch status.\nFeature: add option to handle specials.",
         "targetAbi": "10.9.2",
