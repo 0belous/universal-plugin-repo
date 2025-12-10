@@ -725,6 +725,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.5.0.0",
+        "changelog": "支持自建danmu_api源",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.5.0/danmu_2.5.0.0.zip",
+        "checksum": "8e8d59f3412cc5bc0a1553e3a2e31b32",
+        "timestamp": "2025-12-10T13:47:16"
+      },
+      {
         "version": "2.4.3.0",
         "changelog": "修正影响电视剧季名称更新",
         "targetAbi": "10.11.0.0",
@@ -2785,10 +2793,18 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Playlist Generator.png",
     "versions": [
       {
+        "version": "1.4.2.0",
+        "changelog": "Updated music recommendations",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.4.2.0/PlaylistGenerator_1.4.2.0.zip",
+        "checksum": "d5477259c42f97ac837b7e0ff037de04",
+        "timestamp": "2025-12-10T18:53:01Z"
+      },
+      {
         "version": "1.4.1.0",
         "changelog": "Added Jellyfin 10.11.0 compatability",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.4.1.0/v1.4.1.0-release.zip",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.4.1.0/PlaylistGenerator_1.4.1.0.zip",
         "checksum": "c315035ece2c18b511f7372563002501",
         "timestamp": "2025-10-24T15:47:12Z"
       },
@@ -3742,6 +3758,14 @@
     "overview": "Stream external media.",
     "owner": "lstb1t",
     "versions": [
+      {
+        "changelog": "## [0.24.7.6] - 2025-12-10\n\n### 🐛 Bug Fixes\n\n- Add movie recommended\n",
+        "checksum": "89824303a14beb6dc79b5e42fe1a2103",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.7.6/gelato_0.24.7.6.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-12-10T18:01:07Z",
+        "version": "0.24.7.6"
+      },
       {
         "changelog": "## [0.24.7.5] - 2025-12-07\n\n### 🐛 Bug Fixes\n\n- Force save for metadata refresh on insert\n",
         "checksum": "bbc4a62faf6a6cea428e0f9dc078ab43",
