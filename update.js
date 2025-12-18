@@ -1,7 +1,7 @@
 const fs = require('fs/promises');
 const path = require('path');
 const crypto = require('crypto');
-const userAgent = "Jellyfin-Server/10.11.0"; // Required for some repositories
+const userAgent = "Jellyfin-Server/10.11.4"; // Required for some repositories
 
 const imagesDir = path.join(__dirname, 'images');
 const imageBaseUrl = 'https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/';
