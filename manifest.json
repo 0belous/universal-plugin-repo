@@ -725,6 +725,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.5.1.0",
+        "changelog": "修正不触发nfo更新元数据",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.5.1/danmu_2.5.1.0.zip",
+        "checksum": "0590648ae7eb2cd681af0affb0a61d87",
+        "timestamp": "2025-12-20T06:04:27"
+      },
+      {
         "version": "2.5.0.0",
         "changelog": "支持自建danmu_api源",
         "targetAbi": "10.11.0.0",
@@ -4414,6 +4422,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Enhanced.png",
     "versions": [
+      {
+        "changelog": "- Fix Log spam for watchlist\n - Update AutoSeasonRequestMonitor.cs\n - Initial Commit - Issue reporter rough Integration\n - fixed some UI issues\n - Added config and checks\n - Added Season and Episode selection\n - removed files not present\n - Added Jellyseerr issue reporting to README\n - old mapping for textual problem types were removed\n - Add missing Jellyseerr report issue translations and fix modal backdrop visibility\n - Fix Translations for Issue Reporting\n - Add onClose handler to Jellyseerr modal for cleanup\n - Sync Jellyseerr requests with watchlist items",
+        "targetAbi": "10.11.0.0",
+        "version": "9.8.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.8.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "380B6985EFE8676A87F6096FCECB410C",
+        "timestamp": "2025-12-20T14:04:23"
+      },
       {
         "changelog": "- Update configPage.html\n - Revert \"Add File Size and Watched % for BoxSets and Playlists\"\n - Add centralized observer management and performance helpers\n - Fix elsewhere where it does not consider filtered services",
         "targetAbi": "10.11.0.0",
