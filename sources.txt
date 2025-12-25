@@ -42,3 +42,4 @@ https://repo.xkrivo.net/jellyfin/manifest.json
 https://simoni.dev/jellyfin/repo.json
 https://www.iamparadox.dev/jellyfin/plugins/manifest.json
 https://xzonn.top/JellyfinPluginDouban/manifest.json
+https://raw.githubusercontent.com/virtualmarc/jellyfin-jfignore-plugin/master/manifest.json
