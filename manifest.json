@@ -3799,6 +3799,14 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "## [0.24.7.9] - 2025-12-29\n\n### 🐛 Bug Fixes\n\n- Check for valid stremio client in seriesprovider\n",
+        "checksum": "f094fa9e72545503b8b8438b3f3b1bac",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.7.9/gelato_0.24.7.9.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-12-29T16:11:46Z",
+        "version": "0.24.7.9"
+      },
+      {
         "changelog": "## [0.24.7.8] - 2025-12-23\n\n### 🐛 Bug Fixes\n\n- Dont refresh metadata for episodes on insert\n",
         "checksum": "584ef732068c31eaad1a89e26916ea8b",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.7.8/gelato_0.24.7.8.zip",
@@ -4029,14 +4037,6 @@
         "targetAbi": "10.11.0.0",
         "timestamp": "2025-11-24T21:23:57Z",
         "version": "0.24.3.2"
-      },
-      {
-        "changelog": null,
-        "checksum": "e2d1c3b94ba492fe56b7b05990e1188e",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.3.1/gelato_0.24.3.1.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-11-24T16:53:08Z",
-        "version": "0.24.3.1"
       }
     ]
   },
@@ -5710,6 +5710,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Streamyfin.png",
     "versions": [
+      {
+        "version": "0.66.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/streamyfin/jellyfin-plugin-streamyfin/releases/tag/0.66.0.0)\n",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/streamyfin/jellyfin-plugin-streamyfin/releases/download/0.66.0.0/streamyfin-0.66.0.0.zip",
+        "checksum": "6c4daa669154318ba2b73ba2289ecf2c",
+        "timestamp": "2025-12-29T13:06:31Z"
+      },
       {
         "version": "0.65.0.0",
         "changelog": "- See the full changelog at [GitHub](https://github.com/streamyfin/jellyfin-plugin-streamyfin/releases/tag/0.65.0.0)\n",
