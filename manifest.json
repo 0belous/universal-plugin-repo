@@ -3201,7 +3201,7 @@
     "description": "Add the abiliy to replace the Jellyfin logo\n\nhttps://github.com/ImLacy/Jellyfin-CustomLogo",
     "owner": "Lacy",
     "category": "General",
-    "imageUrl": "https://github.com/ImLacy/Jellyfin-CustomLogo/blob/main/logo.png?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/CustomLogo.png",
     "versions": [
       {
         "version": "1.0.0.4",
@@ -10426,6 +10426,32 @@
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.2.0.0.zip",
         "timestamp": "2024-05-21T14:12:12Z",
         "version": "1.2.0.0"
+      }
+    ]
+  },
+  {
+    "guid": "A6363EF3-AEB3-4BC1-8408-243AAE4C1B8B",
+    "name": ".jfignore",
+    "description": "Ignore specific files and folders by placing .jfignore files inside your library folder.\nThe file can be at the root level or inside a sub directory.\n\n\nhttps://github.com/virtualmarc/jellyfin-jfignore-plugin",
+    "overview": "Ignore files and folders by .jfignore Files",
+    "owner": "virtualmarc",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/virtualmarc/jellyfin-jfignore-plugin/releases/download/1.0.0.0/JFIgnore_1.0.0.0.zip",
+        "checksum": "57b836ed928e6d1e2d95e1d1ea24388b",
+        "timestamp": "2024-08-19T20:50:00Z"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelog": "Fixed NPE on new series",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/virtualmarc/jellyfin-jfignore-plugin/releases/download/1.0.0.1/JFIgnore_1.0.0.1.zip",
+        "checksum": "e05e04750927c8fcc69ae0b237fe28c6",
+        "timestamp": "2024-10-11T21:37:00Z"
       }
     ]
   }
