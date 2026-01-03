@@ -7277,12 +7277,20 @@
   {
     "guid": "170a157f-ac6c-437a-abdd-ca9c25cebd39",
     "name": "Fanart",
-    "description": "Scrape poster images for movies, shows, and artists in your library.",
+    "description": "Scrape poster images for movies, shows, and artists in your library.\n\nhttps://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#69) @[renovate[bot]](https:",
     "overview": "Scrape poster images from Fanart",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Fanart.png",
     "versions": [
+      {
+        "version": "14.0.0.0",
+        "changelog": "- Use file scoped namespaces and add analyzers (#72) @Shadowghost\n- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#73) @Shadowghost\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#68) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#69) @[renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/fanart/fanart_14.0.0.0.zip",
+        "checksum": "c022966331a2e37c4a05a65f4540d780",
+        "timestamp": "2026-01-02T04:00:52Z"
+      },
       {
         "version": "12.0.0.0",
         "changelog": "- Jellyfin 10.11 support (#62) @crobibero\n- Guess correct Thumb image size (#52) @enter-a-random-username\n- Adjust structure of the classes to v3.2 response (#56) @markalex2209\n- Link to wiki for API key information (#51) @enter-a-random-username\n- Use latest API 3.2 (#49) @enter-a-random-username\n\n### Code or Repo Maintenance ###\n- Maintenance (#57) @Shadowghost\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to 8.0.1 (#54) @renovate",
