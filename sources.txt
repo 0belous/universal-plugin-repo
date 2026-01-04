@@ -43,3 +43,11 @@ https://simoni.dev/jellyfin/repo.json
 https://www.iamparadox.dev/jellyfin/plugins/manifest.json
 https://xzonn.top/JellyfinPluginDouban/manifest.json
 https://raw.githubusercontent.com/virtualmarc/jellyfin-jfignore-plugin/master/manifest.json
+https://raw.githubusercontent.com/luall0/jellyfin-luall0-plugins/refs/heads/main/manifest.json
+https://raw.githubusercontent.com/rdpharr/jellyfin-plugin-localrecs/main/manifest.json
+https://raw.githubusercontent.com/cedev-1/Jellyfin-Plugin-DiscordNotifier/master/manifest.json
+https://raw.githubusercontent.com/Fovty/HoverTrailer/master/manifest.json
+https://raw.githubusercontent.com/ztffn/Jellyfin-Roulette/main/manifest.json
+https://raw.githubusercontent.com/jyourstone/jellyfin-plugin-manifest/main/manifest.json
+https://raw.githubusercontent.com/jyourstone/jellyfin-plugin-manifest/master/manifest.json
+https://raw.githubusercontent.com/G-grbz/Jellyfin-MonWUI-Plugin/main/manifest.json
