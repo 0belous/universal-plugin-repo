@@ -51,3 +51,5 @@ https://raw.githubusercontent.com/ztffn/Jellyfin-Roulette/main/manifest.json
 https://raw.githubusercontent.com/jyourstone/jellyfin-plugin-manifest/main/manifest.json
 https://raw.githubusercontent.com/jyourstone/jellyfin-plugin-manifest/master/manifest.json
 https://raw.githubusercontent.com/G-grbz/Jellyfin-MonWUI-Plugin/main/manifest.json
+https://raw.githubusercontent.com/enoch85/bazarr-jellyfin/main/manifest.json
+https://raw.githubusercontent.com/johnpc/jellyfin-plugin-top-ten/refs/heads/main/manifest.json
