@@ -11707,6 +11707,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JMSFusion.png",
     "versions": [
       {
+        "version": "1.7.4.0",
+        "changelog": "Fix",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/G-grbz/Jellyfin-MonWUI-Plugin/releases/download/v1.7.0/JMSFusion-1.7.4.0-server.zip",
+        "checksum": "d8adb5c045d3a2b9c8fd67cd341d1706",
+        "timestamp": "2026-01-05T08:18:46.6139959Z"
+      },
+      {
         "version": "1.7.3.0",
         "changelog": "Fix",
         "targetAbi": "10.10.0.0",
