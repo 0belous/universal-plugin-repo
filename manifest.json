@@ -3819,6 +3819,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/SmartLists.jpg",
     "versions": [
       {
+        "version": "10.11.16.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.16.0/Jellyfin.Plugin.SmartLists_v10.11.16.0.zip",
+        "checksum": "2F1F044864C0C1F1E5BA94A7EC29C361",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.16.0 -->\n\n## What's Changed\n### New Features\n* You can now sort by and set limits to individual rule groups\n* Added support for Actor Roles in people metadata.\n### Bug Fixes\n* Fixed a bug where negated operators did not work with playlist/collection rules\n* Fixed some issues with rule group sorting\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.15.0...v10.11.16.0",
+        "timestamp": "2026-01-09"
+      },
+      {
         "version": "10.11.15.0",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.15.0/Jellyfin.Plugin.SmartLists_v10.11.15.0.zip",
@@ -4256,6 +4264,14 @@
     "owner": "jyourstone",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/SmartLists.jpg",
     "versions": [
+      {
+        "version": "10.11.16.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.16.0/Jellyfin.Plugin.SmartLists_v10.11.16.0.zip",
+        "checksum": "2F1F044864C0C1F1E5BA94A7EC29C361",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.16.0 -->\n\n## What's Changed\n### New Features\n* You can now sort by and set limits to individual rule groups\n* Added support for Actor Roles in people metadata.\n### Bug Fixes\n* Fixed a bug where negated operators did not work with playlist/collection rules\n* Fixed some issues with rule group sorting\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.15.0...v10.11.16.0",
+        "timestamp": "2026-01-09"
+      },
       {
         "version": "10.11.15.0",
         "targetAbi": "10.11.0",
@@ -6535,6 +6551,14 @@
     "category": "Anime",
     "imageUrl": "",
     "versions": [
+      {
+        "version": "6.3.9",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.9",
+        "targetAbi": "10.11.5",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.9/myanimelist_6.3.9.zip",
+        "checksum": "2054e6989594cb61026adf20c159e8c8",
+        "timestamp": "2026-01-09T23:50:41Z"
+      },
       {
         "version": "6.3.8",
         "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.8",
