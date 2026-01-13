@@ -2038,7 +2038,7 @@
       },
       {
         "changelog": "Nightly build\n",
-        "checksum": "68b497c9bdd00921359dbf17e435c938",
+        "checksum": "861fabf0d4b4792d4e959ccf29f35d34",
         "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/nightly/sso-authentication_0.0.0.9000.zip",
         "targetAbi": "10.11.0.0",
         "timestamp": "2022-07-01T01:20:33Z",
@@ -3102,6 +3102,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JMSFusion.png",
     "versions": [
+      {
+        "version": "1.7.5.0",
+        "changelog": "Fix",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/G-grbz/Jellyfin-MonWUI-Plugin/releases/download/v1.7.0/JMSFusion-1.7.5.0-server.zip",
+        "checksum": "03bc9fb01c2fd8bd34f6416ffa769141",
+        "timestamp": "2026-01-12T21:54:07.2754230Z"
+      },
       {
         "version": "1.7.4.0",
         "changelog": "Fix",
