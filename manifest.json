@@ -5073,6 +5073,22 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "## [0.25.0.3] - 2026-01-13\n\n### 🐛 Bug Fixes\n\n- Squeezing out the last drop of performance for loading streams\n",
+        "checksum": "345155d0b6c54c96109dd1b279cdd93d",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.0.3/gelato_0.25.0.3.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2026-01-13T11:58:11Z",
+        "version": "0.25.0.3"
+      },
+      {
+        "changelog": "## [0.25.0.2] - 2026-01-13\n\n### 🐛 Bug Fixes\n\n- Use jellyfin bulk save for streams. At least i think it is\n",
+        "checksum": "56ad8609ee94417edff42365d894a572",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.0.2/gelato_0.25.0.2.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2026-01-13T11:47:20Z",
+        "version": "0.25.0.2"
+      },
+      {
         "changelog": "## [0.25.0.1] - 2026-01-07\n\n### 🐛 Bug Fixes\n\n- Purge streams\n",
         "checksum": "f4e50ddc941ee8890f1cb36713bc8561",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.0.1/gelato_0.25.0.1.zip",
@@ -5295,22 +5311,6 @@
         "targetAbi": "10.11.0.0",
         "timestamp": "2025-11-27T09:17:44Z",
         "version": "0.24.5.1"
-      },
-      {
-        "changelog": "## [0.24.5.0] - 2025-11-27\n\n### 🚀 Features\n\n- Use overview for episodes\n",
-        "checksum": "a54e84294523a9e54f5b6de9981b14e4",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.5.0/gelato_0.24.5.0.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-11-27T08:20:34Z",
-        "version": "0.24.5.0"
-      },
-      {
-        "changelog": "## [0.24.4.1] - 2025-11-27\n\n### 🐛 Bug Fixes\n\n- Make addtocollectionids thread safe\n",
-        "checksum": "2fd3a8150c12284f00e3d37d0e7b3626",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.4.1/gelato_0.24.4.1.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-11-27T08:09:10Z",
-        "version": "0.24.4.1"
       }
     ]
   },
@@ -6882,6 +6882,14 @@
     "category": "Anime",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Shoko.png",
     "versions": [
+      {
+        "version": "6.0.0.0",
+        "changelog": "",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.0/shoko_6.0.0.0.zip",
+        "checksum": "48e0a6000f548dcae0ec2efc61630899",
+        "timestamp": "2026-01-13T22:39:51Z"
+      },
       {
         "version": "5.0.6.0",
         "changelog": "",
@@ -11786,11 +11794,35 @@
     "category": "Metadata",
     "guid": "f962a752-15e8-4a43-b42a-6d9cfba35ce1",
     "name": "Douban",
-    "description": "提供豆瓣电影/电视剧的元数据 Provide Movie/TV metadata from Douban\n\nhttps://github.com/Xzonn/xzonn.github.io",
+    "description": "提供豆瓣电影/电视剧的元数据 Provide Movie/TV metadata from Douban\n\nhttps://github.com/Xzonn/JellyfinPluginDouban",
     "owner": "Xzonn",
     "overview": "Jellyfin 豆瓣元数据插件 Douban Metadata Provider for Jellyfin",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Douban.png",
     "versions": [
+      {
+        "checksum": "3A311DEADB7B9A9E528C23F59A429F83",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.11.0 及更高版本。**\n\nhttps://github.com/Xzonn/JellyfinPluginDouban/blob/master/ChangeLog.md",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.4.4.2.0.zip",
+        "timestamp": "2026-01-13T03:53:23Z",
+        "version": "4.4.2.0"
+      },
+      {
+        "checksum": "081629CC338C9563994621DED10E626D",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\nhttps://github.com/Xzonn/JellyfinPluginDouban/blob/master/ChangeLog.md",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.3.4.2.0.zip",
+        "timestamp": "2026-01-13T03:52:23Z",
+        "version": "3.4.2.0"
+      },
+      {
+        "checksum": "32EEA2691E776BDFCF6BD2E4CC8663E9",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\nhttps://github.com/Xzonn/JellyfinPluginDouban/blob/master/ChangeLog.md",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.4.2.0.zip",
+        "timestamp": "2026-01-13T03:50:23Z",
+        "version": "1.4.2.0"
+      },
       {
         "checksum": "C840F7C62F3F754E48566456EB0270CE",
         "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.11.0 及更高版本。**\n\n- 修复搜索不匹配的问题。",
@@ -11841,7 +11873,7 @@
       },
       {
         "checksum": "1B105C2F78647371D4BB1B43F049B034",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复自动生成单集名字配置项逻辑有误的问题。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复自动生成单集名字配置项逻辑有误的问题。",
         "targetAbi": "10.10.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.3.3.8.0.zip",
         "timestamp": "2025-11-09T10:30:40Z",
@@ -11849,7 +11881,7 @@
       },
       {
         "checksum": "BEA7382E75EAAE45B7793D35ECE0BC03",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复自动生成单集名字配置项逻辑有误的问题。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复自动生成单集名字配置项逻辑有误的问题。",
         "targetAbi": "10.8.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.3.8.0.zip",
         "timestamp": "2025-11-09T10:28:40Z",
@@ -11857,7 +11889,7 @@
       },
       {
         "checksum": "104CABB47640DBCAC8E610903701BDDA",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复单集信息获取的问题。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复单集信息获取的问题。",
         "targetAbi": "10.10.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.3.3.7.0.zip",
         "timestamp": "2025-10-08T05:23:15Z",
@@ -11865,7 +11897,7 @@
       },
       {
         "checksum": "8E55D8B617196F6324EE2CFFA069A889",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复单集信息获取的问题。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复单集信息获取的问题。",
         "targetAbi": "10.8.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.3.7.0.zip",
         "timestamp": "2025-10-08T05:21:15Z",
@@ -11873,7 +11905,7 @@
       },
       {
         "checksum": "C10D592B3E8CEC4507ABC4939B4F24A2",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复豆瓣不显示图片大小导致无法区分海报和背景图的问题。 ([comment](https://github.com/Xzonn/xzonn.github.io/discussions/22#discussioncomment-13472343))",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复豆瓣不显示图片大小导致无法区分海报和背景图的问题。 ([comment](https://github.com/Xzonn/xzonn.github.io/discussions/22#discussioncomment-13472343))",
         "targetAbi": "10.10.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.3.3.6.0.zip",
         "timestamp": "2025-06-15T05:09:45Z",
@@ -11881,7 +11913,7 @@
       },
       {
         "checksum": "ED4A97E5DAC0B78FD43A15204BD5CE4F",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复豆瓣不显示图片大小导致无法区分海报和背景图的问题。 ([comment](https://github.com/Xzonn/xzonn.github.io/discussions/22#discussioncomment-13472343))",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复豆瓣不显示图片大小导致无法区分海报和背景图的问题。 ([comment](https://github.com/Xzonn/xzonn.github.io/discussions/22#discussioncomment-13472343))",
         "targetAbi": "10.8.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.3.6.0.zip",
         "timestamp": "2025-06-15T05:07:45Z",
@@ -11889,7 +11921,7 @@
       },
       {
         "checksum": "A42C7C430F614E01B986F73D73603B15",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复豆瓣图片链接更改导致无法正常获取照片的问题。 ([#6](https://github.com/Xzonn/JellyfinPluginDouban/issues/6))\n- 修复缓存可能导致报错的问题。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复豆瓣图片链接更改导致无法正常获取照片的问题。 ([#6](https://github.com/Xzonn/JellyfinPluginDouban/issues/6))\n- 修复缓存可能导致报错的问题。",
         "targetAbi": "10.10.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.3.3.5.0.zip",
         "timestamp": "2025-05-10T05:07:59Z",
@@ -11897,7 +11929,7 @@
       },
       {
         "checksum": "D6C82628F43451E0C15FD24B16EC323D",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复豆瓣图片链接更改导致无法正常获取照片的问题。 ([#6](https://github.com/Xzonn/JellyfinPluginDouban/issues/6))\n- 修复缓存可能导致报错的问题。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复豆瓣图片链接更改导致无法正常获取照片的问题。 ([#6](https://github.com/Xzonn/JellyfinPluginDouban/issues/6))\n- 修复缓存可能导致报错的问题。",
         "targetAbi": "10.8.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.3.5.0.zip",
         "timestamp": "2025-05-10T05:05:59Z",
@@ -11905,7 +11937,7 @@
       },
       {
         "checksum": "EF3FB328845854D7762F0463C5BCB726",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复拥有豆瓣账号的演职员无法正常获取照片的问题。 ([comment](https://github.com/Xzonn/xzonn.github.io/discussions/22#discussioncomment-12182968))\n- 修复生卒年月的解析问题。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复拥有豆瓣账号的演职员无法正常获取照片的问题。 ([comment](https://github.com/Xzonn/xzonn.github.io/discussions/22#discussioncomment-12182968))\n- 修复生卒年月的解析问题。",
         "targetAbi": "10.10.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.3.3.4.0.zip",
         "timestamp": "2025-02-13T11:13:12Z",
@@ -11913,7 +11945,7 @@
       },
       {
         "checksum": "6807649AE267F139E5212F4B69E69DC7",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复拥有豆瓣账号的演职员无法正常获取照片的问题。 ([comment](https://github.com/Xzonn/xzonn.github.io/discussions/22#discussioncomment-12182968))\n- 修复生卒年月的解析问题。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复拥有豆瓣账号的演职员无法正常获取照片的问题。 ([comment](https://github.com/Xzonn/xzonn.github.io/discussions/22#discussioncomment-12182968))\n- 修复生卒年月的解析问题。",
         "targetAbi": "10.8.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.3.4.0.zip",
         "timestamp": "2025-02-13T11:11:12Z",
@@ -11921,7 +11953,7 @@
       },
       {
         "checksum": "070993B15AE22B9C49DA03174BA9070C",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复剧照数量过多时可能导致超时的问题。 ([例](https://movie.douban.com/subject/26816519/photos?type=S))",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复剧照数量过多时可能导致超时的问题。 ([例](https://movie.douban.com/subject/26816519/photos?type=S))",
         "targetAbi": "10.10.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.3.3.3.0.zip",
         "timestamp": "2024-12-10T11:58:36Z",
@@ -11929,7 +11961,7 @@
       },
       {
         "checksum": "39E2867CCA2081F8424A9E13CEEEB22A",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复剧照数量过多时可能导致超时的问题。 ([例](https://movie.douban.com/subject/26816519/photos?type=S))",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复剧照数量过多时可能导致超时的问题。 ([例](https://movie.douban.com/subject/26816519/photos?type=S))",
         "targetAbi": "10.8.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.3.3.0.zip",
         "timestamp": "2024-12-10T11:56:36Z",
@@ -11937,7 +11969,7 @@
       },
       {
         "checksum": "C2D115B282B4315DEC4DE742902D7BE5",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复豆瓣节目类型与实际文件不一致的问题。 ([例](https://movie.douban.com/subject/35952098/))",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复豆瓣节目类型与实际文件不一致的问题。 ([例](https://movie.douban.com/subject/35952098/))",
         "targetAbi": "10.10.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.3.3.2.0.zip",
         "timestamp": "2024-12-08T11:58:34Z",
@@ -11945,7 +11977,7 @@
       },
       {
         "checksum": "A705FE541F6CAE40C5A45874AFEDD423",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复豆瓣节目类型与实际文件不一致的问题。 ([例](https://movie.douban.com/subject/35952098/))",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复豆瓣节目类型与实际文件不一致的问题。 ([例](https://movie.douban.com/subject/35952098/))",
         "targetAbi": "10.8.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.3.2.0.zip",
         "timestamp": "2024-12-08T11:56:34Z",
@@ -11953,7 +11985,7 @@
       },
       {
         "checksum": "38D2585E0A4CCD88DDFA11116FF1DE97",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复了不存在子文件夹时季数可能解析失败的问题。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 修复了不存在子文件夹时季数可能解析失败的问题。",
         "targetAbi": "10.10.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.3.3.1.0.zip",
         "timestamp": "2024-12-01T16:20:59Z",
@@ -11961,7 +11993,7 @@
       },
       {
         "checksum": "50B8B2772A2FDA44B3771E3C209DF633",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复了不存在子文件夹时季数可能解析失败的问题。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复了不存在子文件夹时季数可能解析失败的问题。",
         "targetAbi": "10.8.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.3.1.0.zip",
         "timestamp": "2024-12-01T16:18:58Z",
@@ -11969,7 +12001,7 @@
       },
       {
         "checksum": "2587D4D48F824C0DC60FF258DCCDE7DD",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 支持Jellyfin 10.10版本。\n- 修复了日期格式。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 支持Jellyfin 10.10版本。\n- 修复了日期格式。",
         "targetAbi": "10.10.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.3.3.0.0.zip",
         "timestamp": "2024-11-15T17:20:04Z",
@@ -11977,7 +12009,7 @@
       },
       {
         "checksum": "63A4EB22AB05B64ACA05B3BBA4EAC739",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 支持Jellyfin 10.10版本。\n- 修复了日期格式。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 支持Jellyfin 10.10版本。\n- 修复了日期格式。",
         "targetAbi": "10.8.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.3.0.0.zip",
         "timestamp": "2024-11-15T17:18:04Z",
@@ -11985,7 +12017,7 @@
       },
       {
         "checksum": "A70FF1D8DE3F21AE905A786A0609AF9B",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n- 修复了标识符缺失导致无法获取元数据的问题。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n- 修复了标识符缺失导致无法获取元数据的问题。",
         "targetAbi": "10.9.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.2.2.3.0.zip",
         "timestamp": "2024-10-28T07:46:41Z",
@@ -11993,7 +12025,7 @@
       },
       {
         "checksum": "A99480B7F763D1FE08E669677C5387AD",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复了标识符缺失导致无法获取元数据的问题。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复了标识符缺失导致无法获取元数据的问题。",
         "targetAbi": "10.8.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.2.3.0.zip",
         "timestamp": "2024-10-28T07:45:41Z",
@@ -12001,7 +12033,7 @@
       },
       {
         "checksum": "76BAE5FF243800BACA48C841649C3D13",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n- 修复了解析评分受服务器区域影响的问题。 ([comment](https://github.com/Xzonn/xzonn.github.io/discussions/22#discussioncomment-9545154))\n- 优化了对单集信息的支持。\n- 优化了设置页面。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n- 修复了解析评分受服务器区域影响的问题。 ([comment](https://github.com/Xzonn/xzonn.github.io/discussions/22#discussioncomment-9545154))\n- 优化了对单集信息的支持。\n- 优化了设置页面。",
         "targetAbi": "10.9.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.2.2.1.0.zip",
         "timestamp": "2024-05-25T02:06:27Z",
@@ -12009,7 +12041,7 @@
       },
       {
         "checksum": "318C61228FA266BD414053ED5722F5C5",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复了解析评分受服务器区域影响的问题。 ([comment](https://github.com/Xzonn/xzonn.github.io/discussions/22#discussioncomment-9545154))\n- 优化了对单集信息的支持。\n- 优化了设置页面。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 修复了解析评分受服务器区域影响的问题。 ([comment](https://github.com/Xzonn/xzonn.github.io/discussions/22#discussioncomment-9545154))\n- 优化了对单集信息的支持。\n- 优化了设置页面。",
         "targetAbi": "10.8.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.2.1.0.zip",
         "timestamp": "2024-05-25T02:06:17Z",
@@ -12017,7 +12049,7 @@
       },
       {
         "checksum": "4C19A6A300099677D95EF2F86FDBC76B",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n- 增加了反向代理。\n- 优化了图片的获取方式。\n- 优化了对季数的解析。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.9.0 及更高版本。**\n\n- 增加了反向代理。\n- 优化了图片的获取方式。\n- 优化了对季数的解析。",
         "targetAbi": "10.9.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.2.2.0.0.zip",
         "timestamp": "2024-05-21T14:12:22Z",
@@ -12025,7 +12057,7 @@
       },
       {
         "checksum": "68692C7FD4D7D1D34DBD2E8AFCC718E5",
-        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 增加了反向代理。\n- 优化了图片的获取方式。\n- 优化了对季数的解析。",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 增加了反向代理。\n- 优化了图片的获取方式。\n- 优化了对季数的解析。",
         "targetAbi": "10.8.0.0",
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.2.0.0.zip",
         "timestamp": "2024-05-21T14:12:12Z",
