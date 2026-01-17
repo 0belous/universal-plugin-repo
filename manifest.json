@@ -3619,6 +3619,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Intro Skipper.png",
     "versions": [
       {
+        "version": "1.10.11.13",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.13)\n",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.13/intro-skipper-v1.10.11.13.zip",
+        "checksum": "22dfe07e8be11dc58b0257eefa0f5980",
+        "timestamp": "2026-01-16T21:38:26Z"
+      },
+      {
         "version": "1.10.11.12",
         "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.12)\n",
         "targetAbi": "10.11.5.0",
@@ -4214,6 +4222,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MusicTags.jpg",
     "versions": [
       {
+        "version": "10.11.3.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.11.3.0/Jellyfin.Plugin.MusicTags_v10.11.3.0.zip",
+        "checksum": "398B4681028983CFA71E013696C51568",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.3.0 -->\n\n## What's Changed\n### Other Changes\n* PRIV frames are now extracted as well\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-musictags-plugin/compare/v10.11.2.0...v10.11.3.0",
+        "timestamp": "2026-01-16"
+      },
+      {
         "version": "10.11.2.0",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.11.2.0/Jellyfin.Plugin.MusicTags_v10.11.2.0.zip",
@@ -4659,6 +4675,14 @@
     "owner": "jyourstone",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MusicTags.jpg",
     "versions": [
+      {
+        "version": "10.11.3.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.11.3.0/Jellyfin.Plugin.MusicTags_v10.11.3.0.zip",
+        "checksum": "398B4681028983CFA71E013696C51568",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.3.0 -->\n\n## What's Changed\n### Other Changes\n* PRIV frames are now extracted as well\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-musictags-plugin/compare/v10.11.2.0...v10.11.3.0",
+        "timestamp": "2026-01-16"
+      },
       {
         "version": "10.11.2.0",
         "targetAbi": "10.11.0",
@@ -5852,12 +5876,20 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Enhanced.png",
     "versions": [
       {
-        "changelog": "- stop tags from being added again on hover\n - Add preview and baseurl support for Custom Branding\n - Fix reporting button on Seasons and Episodes\n - feat: handle nested collections and different item types",
+        "changelog": "- Update README.md\n - Add Esc to close more-info-modal\n - Minor fixes for Jellyseerr in-library items\n - Add hover tooltip for Partially Available TV shows with active downloads\n - Reduce Logging\n - Update playback.js\n - Collections in More Info Modal\n - Fix Collection results opening more-info-modal\n - Update redirect for random button [Bang Redirect]",
+        "targetAbi": "10.11.0.0",
+        "version": "10.4.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/10.4.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "96438DDA652EBCF4B532831ED1A78C3D",
+        "timestamp": "2026-01-16T19:09:03"
+      },
+      {
+        "changelog": "",
         "targetAbi": "10.11.0.0",
         "version": "10.3.0.0",
         "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/10.3.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
-        "checksum": "0337B40AEF6D65BC60F80C6B1DA8C0AB",
-        "timestamp": "2026-01-11T18:41:13"
+        "checksum": "DFA080C6CDEDE6F11281085520E9EEBF",
+        "timestamp": "2026-01-11T20:19:11"
       },
       {
         "changelog": "- feat: implemented icons selection and switch logic\n - fix: add empty array fallback in the case shortcuts arent available right away\n - fix: trigger window location check on load to load icons fix: tag icon replaced dynamically\n - fix: initialize stubs to help with initialization\n - fix: wrap lucide icons with center styling\n - feat: replace all emoji inside js files with JE.icon() function call\n - feat: translation token replacement for emoji fix: add missing emoji (ⓘ) fix: better fallback handling\n - chore: update all translation files with icon tokens instead of literal emoji\n - Merge branch 'main' into feat_optional-icons\n - fix: update new translations to use icon tokens instead of emoji\n - Update README.md\n - Update README.md\n - Add infinite scroll to network discovery section\n - Fix card sizing to match native Jellyfin\n - Fix card sizing to exactly match native Jellyfin\n - Fix card sizing to match native Jellyfin exactly\n - Performance optimization for network-discovery.js\n - Add genre, tag, and person discovery sections\n - Fix discovery sections rendering on hidden pages\n - Use dynamic TMDB genre lookup instead of hardcoded list\n - Use dynamic TMDB search for networks instead of hardcoded list\n - Fix network discovery to use separate TV network and company IDs\n - Update manifest to point to fork repository\n - Target Jellyfin 10.11+ for v10.1.0.1\n - Add checksum for v10.1.0.1 release\n - Revert manifest.json to upstream\n - Update translations and Controller to use the plugin config\n - fix formatting for linediffs\n - Merge branch 'main' into feat_optional-icons\n - Feat: Customizable icons ([#262](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/262))\n - Remove unused translations\n - Cache Jellyseerr user-status\n - Add some missing icons and change configpage layout\n - Fix icons for names like fastForward\n - Add margin for tags if they have cardIndicators\n - Add options for watch % display\n - Fix warning_off icon for issue reporter\n - Update issue-reporting errors\n - Custom Branding",
