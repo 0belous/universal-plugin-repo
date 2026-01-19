@@ -1519,21 +1519,28 @@
     ]
   },
   {
-    "owner": "kookxiang",
-    "name": "Bangumi",
-    "guid": "41b59f1b-a6cf-474a-b416-785379cbd856",
+    "description": "bgm.tv metadata provider for Jellyfin\n\nhttps://github.com/user-attachments/assets",
     "versions": [
+      {
+        "checksum": "6a6705d51df1d9c41acb9916193a1f76",
+        "targetAbi": "10.11.0.0",
+        "imageUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/poster.png",
+        "version": "1.7.6.0",
+        "timestamp": "2026-01-18T14:56:28",
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.7.6.0.zip",
+        "changelog": "## New Features\r\n\r\n增加了重复剧集检测小工具，用于替换字幕组、发布 V2 版时自动清理旧版本\r\n\r\n<img alt=\"image\" src=\"https://github.com/user-attachments/assets/5a785f13-436b-4e06-a420-ae5eff2c6ea3\" style=\"max-width: 1100px; width: 100%; aspect-ratio: 1100 / 920\" />\r\n\r\n## What's Changed\r\n* fix: handle null and empty ChineseName correctly by @chu-shen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/232\r\n* fix: Emby plugin support for macOS ARM and .NET 6 runtime by @nihs903222 in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/233\r\n* fix: implement IHasSupportedExternalIdentifiers for Emby by @sjtuross in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/236\r\n* 修复Subject的PersonInfos或Characters拉取失败导致整个Subject的元数据拉取失败的问题 by @HydrogensaysHDT in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/238\r\n\r\n## New Contributors\r\n* @nihs903222 made their first contribution in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/233\r\n* @sjtuross made their first contribution in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/236\r\n* @HydrogensaysHDT made their first contribution in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/238\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.7.5...1.7.6"
+      },
       {
         "version": "1.7.5.0",
         "targetAbi": "10.11.0.0",
-        "imageUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/poster.png",
+        "imageUrl": "https://jellyfin-plugin-bangumi.kookxiang.dev/poster.png",
         "changelog": "## What's Changed\r\n* 支持人物搜索\r\n* 为 Emby 添加 bangumi.ini 支持 by @luoboQAQ in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/224\r\n* 优化 markdown 换行转换，对于不支持 markdown 显示的第三方播放器更友好\r\n* 修复元数据中 `Bangumi ID` 显示为 `Bangumi 专辑 ID` 的问题\r\n* 修复插件配置目录不存在导致的登录失败 #218\r\n* 添加了插件 logo 图（改自 https://www.pixiv.net/artworks/4455303 ）\r\n\r\n## New Contributors\r\n* @luoboQAQ made their first contribution in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/224\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.7.4...1.7.5",
         "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.7.5.0.zip",
         "checksum": "0b009a8a40cae46d72190a4580257bf0",
         "timestamp": "2025-11-12T17:02:18"
       },
       {
-        "targetAbi": null,
+        "targetAbi": "10.10.0.0",
         "changelog": "修复 Jellyfin 10.11.0 中遇到的一些小问题\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.7.3...1.7.4",
         "timestamp": "2025-10-21T14:22:20",
         "version": "1.7.4.0",
@@ -1542,7 +1549,7 @@
       },
       {
         "version": "1.7.3.0",
-        "targetAbi": null,
+        "targetAbi": "10.10.0.0",
         "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.7.3.0.zip",
         "changelog": "## 支持 Jellyfin 10.11\r\n\r\n注：如需使用 10.10 及更早的版本，请到 Release 中下载老版本\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.7.2...1.7.3",
         "checksum": "0366fc089b0d5492463aaa911e803321",
@@ -1686,9 +1693,11 @@
       }
     ],
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Bangumi.png",
-    "description": "bgm.tv metadata provider for Jellyfin\n\nhttps://github.com/kookxiang/jellyfin-plugin-bangumi",
+    "guid": "41b59f1b-a6cf-474a-b416-785379cbd856",
+    "category": "Metadata",
+    "name": "Bangumi",
     "overview": "Jellyfin bgm.tv 数据源插件，用于拉取中文番剧信息及图片。",
-    "category": "Metadata"
+    "owner": "kookxiang"
   },
   {
     "category": "Metadata",
@@ -6079,6 +6088,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JavaScript Injector.png",
     "versions": [
       {
+        "changelog": "- Update README.md\n - Add quick enable/disable and remove buttons for scripts",
+        "targetAbi": "10.11.0.0",
+        "version": "3.3.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-JavaScript-Injector/releases/download/3.3.0.0/Jellyfin.Plugin.JavaScriptInjector_10.11.0.zip",
+        "checksum": "38D83C75282B4E5A51D622E3FF58E4CE",
+        "timestamp": "2026-01-18T18:25:22"
+      },
+      {
         "changelog": "- Implement timestamp cache-busting",
         "targetAbi": "10.11.0.0",
         "version": "3.2.0.0",
@@ -6121,6 +6138,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Tweaks.png",
     "versions": [
+      {
+        "changelog": "- Revise installation instructions for Jellyfin plugins\n - Add display and video settings to plugin configuration\n - v3.1.0.0",
+        "targetAbi": "10.11.0.0",
+        "version": "3.1.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/JellyfinTweaks/releases/download/3.1.0.0/Jellyfin.Plugin.JellyTweaks_10.11.0.zip",
+        "checksum": "0BC862688C9045D7C2793CBDA0AA8446",
+        "timestamp": "2026-01-18T19:36:36"
+      },
       {
         "changelog": "- Fix script path for installations with base url",
         "targetAbi": "10.11.0.0",
