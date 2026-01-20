@@ -3045,6 +3045,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/HoverTrailer.png",
     "versions": [
       {
+        "version": "0.2.3.0",
+        "changelog": "• fix: Add Series hover trailer support by @Fovty in https://github.com/Fovty/HoverTrailer/pull/13",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Fovty/HoverTrailer/releases/download/v0.2.3.0/HoverTrailer-0.2.3.0-server.zip",
+        "checksum": "db46e7ec4568f59f28ac0f808bd47ee8",
+        "timestamp": "2026-01-19T13:03:58Z"
+      },
+      {
         "version": "0.2.2.0",
         "changelog": "• Add Plugin Preview to README by @Fovty in https://github.com/Fovty/HoverTrailer/pull/8",
         "targetAbi": "10.11.0.0",
@@ -11655,6 +11663,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Custom Tabs.png",
     "versions": [
       {
+        "version": "0.2.6.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6",
+        "targetAbi": "10.11.4.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.6.0/Release-10.11.4.zip",
+        "checksum": "3EAF7F68616B763D33B2DA5565809117",
+        "timestamp": "2025-11-03T22:24:54",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "0.2.5.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.5",
         "targetAbi": "10.11.4.0",
@@ -11687,6 +11706,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Collection Sections.png",
     "versions": [
+      {
+        "version": "2.3.6.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6",
+        "targetAbi": "10.11.4.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.6.0/Release-10.11.4.zip",
+        "checksum": "99458F739906D8D1CBB796E793800FD5",
+        "timestamp": "2025-11-03T22:24:52",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.3.5.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.5",
@@ -11721,6 +11751,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/File Transformation.png",
     "versions": [
       {
+        "version": "2.5.3.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6",
+        "targetAbi": "10.11.4.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.3.0/Release-10.11.4.zip",
+        "checksum": "78A7770B3F257CBC8779F5BC6DD98E8D",
+        "timestamp": "2025-11-28T20:39:29",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.5.2.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.5",
         "targetAbi": "10.11.4.0",
@@ -11753,6 +11794,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Bar.png",
     "versions": [
+      {
+        "version": "2.4.7.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6\r\n- Merged with upstream",
+        "targetAbi": "10.11.4.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.7.0/Release-10.11.4.zip",
+        "checksum": "A5FD40E26A0B1B87F5E1DE1966AF4017",
+        "timestamp": "2026-01-15T00:19:42",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.4.6.0",
         "changelog": "✨ New Features\r\n\r\n- Missed some more upstream improvements",
@@ -11798,6 +11850,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Plugin Pages.png",
     "versions": [
       {
+        "version": "2.4.7.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6\r\n\r\n🪲 Bug Fixes\r\n\r\n- Removed spammy log",
+        "targetAbi": "10.11.4.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.7.0/Release-10.11.4.zip",
+        "checksum": "FB73F929184981E0F63468E41C23AF4F",
+        "timestamp": "2026-01-19T21:32:45",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.6.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.5",
         "targetAbi": "10.11.4.0",
@@ -11825,11 +11888,22 @@
     "guid": "b8298e01-2697-407a-b44d-aa8dc795e850",
     "name": "Home Screen Sections",
     "overview": null,
-    "description": "Adds support for server provided home screen sections\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-file-transformation",
+    "description": "Adds support for server provided home screen sections\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-home-sections",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
+      {
+        "version": "2.5.3.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed #177 - Added support for hiding watched episodes in the combined Continue Watching / Next Up section (PR #178, @AdamWHY2K)\r\n\r\n🌐 Translations\r\n\r\n- Added Turkish translations (PR #186, @dgkndemir)\r\n- Added Czech translations (PR #187, @vdobes)",
+        "targetAbi": "10.11.4.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.3.0/Release-10.11.4.zip",
+        "checksum": "5A2979F6FFF6304582A63159B31D900D",
+        "timestamp": "2026-01-19T21:44:05",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.5.2.0",
         "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed #176 and https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/issues/33, Solves issue where dll scan could happen on missing directory causing the plugin to malfunction",
