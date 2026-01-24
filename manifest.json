@@ -5122,6 +5122,54 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "## [0.25.3.1] - 2026-01-23\n\n### 🐛 Bug Fixes\n\n- Check existing tripping over type\n",
+        "checksum": "980a58789a583d3ac5dd30eb682d8e83",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.3.1/gelato_0.25.3.1.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-01-23T19:09:53Z",
+        "version": "0.25.3.1"
+      },
+      {
+        "changelog": "## [0.25.3.0] - 2026-01-23\n\n### 🚀 Features\n\n- Check if user as access on insert\n",
+        "checksum": "94a7d7ee81b0215275b6a7f0d13cc7a0",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.3.0/gelato_0.25.3.0.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-01-23T18:28:22Z",
+        "version": "0.25.3.0"
+      },
+      {
+        "changelog": "## [0.25.2.0] - 2026-01-23\n\n### 🚀 Features\n\n- Check if user as access on insert\n",
+        "checksum": "200c98e8b92148f4f7f41374e5dcd1e8",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.2.0/gelato_0.25.2.0.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-01-23T16:06:27Z",
+        "version": "0.25.2.0"
+      },
+      {
+        "changelog": "## [0.25.1.9] - 2026-01-23\n\n### 🐛 Bug Fixes\n\n- Save users to stream, so that probe data os shared\n",
+        "checksum": "9dde0f61907426cbae269c0cc7fc53ba",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.1.9/gelato_0.25.1.9.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-01-23T12:33:56Z",
+        "version": "0.25.1.9"
+      },
+      {
+        "changelog": "## [0.25.1.8] - 2026-01-23\n\n### 🐛 Bug Fixes\n\n- Dont refresh streams for non user\n",
+        "checksum": "faac3a2dd9fcfe3a07b3b7bc471d7e3c",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.1.8/gelato_0.25.1.8.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-01-23T11:55:35Z",
+        "version": "0.25.1.8"
+      },
+      {
+        "changelog": "## [0.25.1.7] - 2026-01-23\n\n### ⚙️ Miscellaneous Tasks\n\n- More stream logging\n",
+        "checksum": "dc4c60c050cbb500e78a9afe6652edf1",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.1.7/gelato_0.25.1.7.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-01-23T10:53:57Z",
+        "version": "0.25.1.7"
+      },
+      {
         "changelog": "## [0.25.1.6] - 2026-01-20\n\n### 🐛 Bug Fixes\n\n- Reset linked children to clewr ghost versions\n",
         "checksum": "a9013788c34c9e2b15a44d9a58eae44e",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.1.6/gelato_0.25.1.6.zip",
@@ -5312,54 +5360,6 @@
         "targetAbi": "10.11.0.0",
         "timestamp": "2025-12-04T00:42:28Z",
         "version": "0.24.6.7"
-      },
-      {
-        "changelog": "## [0.24.6.6] - 2025-12-03\n\n### 🐛 Bug Fixes\n\n- Always use primary id for first media source\n",
-        "checksum": "be8b168fe7f11a09ee96b8cd38a95ba0",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.6.6/gelato_0.24.6.6.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-12-03T21:30:53Z",
-        "version": "0.24.6.6"
-      },
-      {
-        "changelog": "## [0.24.6.5] - 2025-12-03\n\n### 🚜 Refactor\n\n- Handle addons that dont listen to skip\n",
-        "checksum": "6c35c3e5d3d79fbe70adfb520e279e95",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.6.5/gelato_0.24.6.5.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-12-03T16:43:03Z",
-        "version": "0.24.6.5"
-      },
-      {
-        "changelog": "## [0.24.6.4] - 2025-12-03\n\n### 🐛 Bug Fixes\n\n- Check ffor streams only whennitem is a video when inserting\n",
-        "checksum": "8f0e3218ddca92f253ad74a23b2a3817",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.6.4/gelato_0.24.6.4.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-12-03T07:34:46Z",
-        "version": "0.24.6.4"
-      },
-      {
-        "changelog": "## [0.24.6.3] - 2025-12-02\n\n### 🚜 Refactor\n\n- Catch collection save error a d retry a single time\n",
-        "checksum": "9a1d26a3f82ccd79cc86e1392ec5ef52",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.6.3/gelato_0.24.6.3.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-12-02T20:33:58Z",
-        "version": "0.24.6.3"
-      },
-      {
-        "changelog": "## [0.24.6.2] - 2025-12-02\n\n### 🐛 Bug Fixes\n\n- Dedupe item ids for collections\n",
-        "checksum": "734378b41c82edeea9c6d293810be469",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.6.2/gelato_0.24.6.2.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-12-02T20:16:26Z",
-        "version": "0.24.6.2"
-      },
-      {
-        "changelog": "## [0.24.6.1] - 2025-12-01\n\n### 🐛 Bug Fixes\n\n- Primary check on insert redirect\n",
-        "checksum": "92f9db29473584d611e4b1a02598d845",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.6.1/gelato_0.24.6.1.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-12-01T14:36:35Z",
-        "version": "0.24.6.1"
       }
     ]
   },
@@ -5887,11 +5887,19 @@
     "name": "Jellyfin Enhanced",
     "guid": "f69e946a-4b3c-4e9a-8f0a-8d7c1b2c4d9b",
     "overview": "Jellyfin Enhanced and Jellyfin Elsewhere for a better Jellyfin experience.",
-    "description": "A combination of the Jellyfin Enhanced and Jellyfin Elsewhere userscripts, providing a comprehensive set of tweaks and features for Jellyfin.\n\nhttps://github.com/n00bcodr/Jellyfin-Enhanced",
+    "description": "A combination of the Jellyfin Enhanced and Jellyfin Elsewhere userscripts, providing a comprehensive set of tweaks and features for Jellyfin.\n\nhttps://github.com/4eh5xitv6787h645ebv/Jellyfin-Enhanced into pr",
     "owner": "n00bcodr",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Enhanced.png",
     "versions": [
+      {
+        "changelog": "- Refactor discovery modules with shared utilities and fix All filter\n - fix: feature toggle for colored ratings\n - Fix Plugin Icons overriding default material icon styles\n - Add support for Apple Touch Icons in branding\n - Update configPage.html\n - Add option to exclude rejected items from suggestions\n - Update discovery-filter-utils.js\n - Update item-details.js\n - Refactor discovery modules with shared utilities and fix All filter\n - Update discovery-filter-utils.js\n - Update item-details.js\n - Update item-details.js\n - Merge branch 'jake/discovery-refactor-and-filter-fix' of https://github.com/4eh5xitv6787h645ebv/Jellyfin-Enhanced into pr/285\n - Refactor discovery modules with shared utilities and fix All filter ([#285](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/285))\n - Add missed JellyseerrExcludeRejectedItems to Public-Config\n - Add i18n for discovery filter and update button styles\n - Update README.md",
+        "targetAbi": "10.11.0.0",
+        "version": "10.6.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/10.6.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "E6608972A623F9822943AC89A5F1A710",
+        "timestamp": "2026-01-23T23:22:10"
+      },
       {
         "changelog": "- Add cache-busting for settings.json\n - Fix random button showing watched series\n - Improve status handling for movie collections UI\n - Add extras: colored ratings, theme selector, activity and plugin icons\n - Fix links\n - Add logging and simplify observers in icon scripts\n - Wrap example images in links and update styles\n - Refactor feature initializers to use JellyfinEnhanced namespace\n - Improve config UI and plugin icon handling\n - Add login image feature to manual login screen\n - Use TMDB for total episode count in auto season requests\n - Add mobile client mapping warning to config page\n - Add custom plugin links to dashboard sidebar\n - Fix jellyseerr links opening in app\n - Refactor Jellyseerr config UI with collapsible sections\n - Fix placeholder examples for custom plugin links\n - Add warning about 10.10 compatibility for plugin icons\n - Add section for personal scripts and update file structure",
         "targetAbi": "10.11.0.0",
@@ -11973,11 +11981,35 @@
     "category": "Metadata",
     "guid": "f962a752-15e8-4a43-b42a-6d9cfba35ce1",
     "name": "Douban",
-    "description": "提供豆瓣电影/电视剧的元数据 Provide Movie/TV metadata from Douban\n\nhttps://github.com/Xzonn/xzonn.github.io",
+    "description": "提供豆瓣电影/电视剧的元数据 Provide Movie/TV metadata from Douban\n\nhttps://github.com/Xzonn/JellyfinPluginDouban",
     "owner": "Xzonn",
     "overview": "Jellyfin 豆瓣元数据插件 Douban Metadata Provider for Jellyfin",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Douban.png",
     "versions": [
+      {
+        "checksum": "EAC72C951ECB10CDE164F54FF4B06CBA",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.11.0 及更高版本。**\n\n- 添加在系列信息中去除“第一季”的名字的选项。 ([#9](https://github.com/Xzonn/JellyfinPluginDouban/issues/9))",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.4.4.3.0.zip",
+        "timestamp": "2026-01-23T13:03:20Z",
+        "version": "4.4.3.0"
+      },
+      {
+        "checksum": "15FBECD3C9B877E110A51F6ED15DF646",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.10.0 及更高版本。**\n\n- 添加在系列信息中去除“第一季”的名字的选项。 ([#9](https://github.com/Xzonn/JellyfinPluginDouban/issues/9))",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.3.4.3.0.zip",
+        "timestamp": "2026-01-23T13:02:20Z",
+        "version": "3.4.3.0"
+      },
+      {
+        "checksum": "2C2BD1FB677E21B7B682184B6A99337A",
+        "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.8.0 及更高版本。**\n\n- 添加在系列信息中去除“第一季”的名字的选项。 ([#9](https://github.com/Xzonn/JellyfinPluginDouban/issues/9))",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.4.3.0.zip",
+        "timestamp": "2026-01-23T13:00:20Z",
+        "version": "1.4.3.0"
+      },
       {
         "checksum": "3A311DEADB7B9A9E528C23F59A429F83",
         "changelog": "**注意：此版本插件仅适用于 Jellyfin 10.11.0 及更高版本。**\n\n- 修复“电影”与“剧集”的判断逻辑。",
