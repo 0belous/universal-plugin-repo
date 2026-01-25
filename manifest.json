@@ -3876,6 +3876,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/SmartLists.jpg",
     "versions": [
       {
+        "version": "10.11.20.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.20.0/Jellyfin.Plugin.SmartLists_v10.11.20.0.zip",
+        "checksum": "D52D6A21CF8C682682AED72D640552A1",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.20.0 -->\n\n## What's Changed\n### New Features\n* Users can now create and manage their own smart lists (requires the plugins 'File Transformation' and 'Plugin Pages'). Read more in the documentation: https://jellyfin-smartlists-plugin.dinsten.se/getting-started/quick-start/\n* Added support for sorting collections by aggregated child item values in collections/playlists\n* Added support for uploading images\n* Support nested collection searches with customizable search depth property\n* Added support for production locations, custom rating, subtitle languages, and last episode air date.\n### Bug Fixes\n* Fixed an issue where the new user config page would not load properly in some cases.\n* Fixed an issue with clone logic\n* Fixed two issues when switching between collection/playlist, wrong user and unknown creation date\n### Other Changes\n* Prevent refresh of disabled lists\n* Changed styling for compability with other Jellyfin themes\n* Changed file storage structure\n* Some minor styling and UI changes\n* Added quick menu actions for lists in collapsed view\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.16.0...v10.11.20.0",
+        "timestamp": "2026-01-24"
+      },
+      {
         "version": "10.11.16.0",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.16.0/Jellyfin.Plugin.SmartLists_v10.11.16.0.zip",
@@ -4329,6 +4337,14 @@
     "owner": "jyourstone",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/SmartLists.jpg",
     "versions": [
+      {
+        "version": "10.11.20.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.20.0/Jellyfin.Plugin.SmartLists_v10.11.20.0.zip",
+        "checksum": "D52D6A21CF8C682682AED72D640552A1",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.20.0 -->\n\n## What's Changed\n### New Features\n* Users can now create and manage their own smart lists (requires the plugins 'File Transformation' and 'Plugin Pages'). Read more in the documentation: https://jellyfin-smartlists-plugin.dinsten.se/getting-started/quick-start/\n* Added support for sorting collections by aggregated child item values in collections/playlists\n* Added support for uploading images\n* Support nested collection searches with customizable search depth property\n* Added support for production locations, custom rating, subtitle languages, and last episode air date.\n### Bug Fixes\n* Fixed an issue where the new user config page would not load properly in some cases.\n* Fixed an issue with clone logic\n* Fixed two issues when switching between collection/playlist, wrong user and unknown creation date\n### Other Changes\n* Prevent refresh of disabled lists\n* Changed styling for compability with other Jellyfin themes\n* Changed file storage structure\n* Some minor styling and UI changes\n* Added quick menu actions for lists in collapsed view\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.16.0...v10.11.20.0",
+        "timestamp": "2026-01-24"
+      },
       {
         "version": "10.11.16.0",
         "targetAbi": "10.11.0",
