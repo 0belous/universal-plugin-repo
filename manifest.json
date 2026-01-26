@@ -3636,6 +3636,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Intro Skipper.png",
     "versions": [
       {
+        "version": "1.10.11.14",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.14)\n",
+        "targetAbi": "10.11.6.0",
+        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.14/intro-skipper-v1.10.11.14.zip",
+        "checksum": "dc5104987d5978008bd86f63934bea4a",
+        "timestamp": "2026-01-25T20:31:56Z"
+      },
+      {
         "version": "1.10.11.13",
         "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.13)\n",
         "targetAbi": "10.11.5.0",
@@ -5138,6 +5146,14 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "## [0.25.3.2] - 2026-01-25\n\n### 🐛 Bug Fixes\n\n- Typo\n",
+        "checksum": "e3b949515d0263842c867c53059607ee",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.3.2/gelato_0.25.3.2.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-01-25T19:00:26Z",
+        "version": "0.25.3.2"
+      },
+      {
         "changelog": "## [0.25.3.1] - 2026-01-23\n\n### 🐛 Bug Fixes\n\n- Check existing tripping over type\n",
         "checksum": "980a58789a583d3ac5dd30eb682d8e83",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.3.1/gelato_0.25.3.1.zip",
@@ -5368,14 +5384,6 @@
         "targetAbi": "10.11.0.0",
         "timestamp": "2025-12-04T18:02:55Z",
         "version": "0.24.7.0"
-      },
-      {
-        "changelog": "## [0.24.6.7] - 2025-12-04\n\n### 🐛 Bug Fixes\n\n- Always use primary id for first media source\n",
-        "checksum": "2dca67a69654b76b31315073ea9ff86e",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.6.7/gelato_0.24.6.7.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-12-04T00:42:28Z",
-        "version": "0.24.6.7"
       }
     ]
   },
@@ -5908,6 +5916,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Enhanced.png",
     "versions": [
+      {
+        "changelog": "- Refactor discovery modules with shared utilities and fix All filter\n - fix: feature toggle for colored ratings\n - Fix Plugin Icons overriding default material icon styles\n - Add support for Apple Touch Icons in branding\n - Update configPage.html\n - Add option to exclude rejected items from suggestions\n - Update discovery-filter-utils.js\n - Update item-details.js\n - Refactor discovery modules with shared utilities and fix All filter\n - Update discovery-filter-utils.js\n - Update item-details.js\n - Update item-details.js\n - Merge branch 'jake/discovery-refactor-and-filter-fix' of https://github.com/4eh5xitv6787h645ebv/Jellyfin-Enhanced into pr/285\n - Refactor discovery modules with shared utilities and fix All filter ([#285](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/285))\n - Add missed JellyseerrExcludeRejectedItems to Public-Config\n - Add i18n for discovery filter and update button styles\n - Update README.md\n - v10.6.0.0\n - Add requests page with sonarr/radarr/jellyseerr request monitoring\n - Remove unused references\n - Enhance requests page UI\n - Add Calendar Page for Sonarr/Radarr releases\n - Reduce the size of 2x overlay\n - Update README.md\n - Refactor navigation and logging for enhanced UI consistency\n - Improve branding uploads with image dimension preview\n - Improve sidebar navigation injection and resilience",
+        "targetAbi": "10.11.0.0",
+        "version": "10.7.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/10.7.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "5A9E061DFBE0FCD90E0D046DD109B48C",
+        "timestamp": "2026-01-25T19:14:04"
+      },
       {
         "changelog": "- Refactor discovery modules with shared utilities and fix All filter\n - fix: feature toggle for colored ratings\n - Fix Plugin Icons overriding default material icon styles\n - Add support for Apple Touch Icons in branding\n - Update configPage.html\n - Add option to exclude rejected items from suggestions\n - Update discovery-filter-utils.js\n - Update item-details.js\n - Refactor discovery modules with shared utilities and fix All filter\n - Update discovery-filter-utils.js\n - Update item-details.js\n - Update item-details.js\n - Merge branch 'jake/discovery-refactor-and-filter-fix' of https://github.com/4eh5xitv6787h645ebv/Jellyfin-Enhanced into pr/285\n - Refactor discovery modules with shared utilities and fix All filter ([#285](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/285))\n - Add missed JellyseerrExcludeRejectedItems to Public-Config\n - Add i18n for discovery filter and update button styles\n - Update README.md",
         "targetAbi": "10.11.0.0",
@@ -11361,6 +11377,42 @@
         "sourceUrl": "https://repo.jellyfin.org/files/plugin/lrclib/lrclib_2.0.0.0.zip",
         "checksum": "f329ab0dc589c0ac1aa82522e278d49e",
         "timestamp": "2024-10-29T00:27:05Z"
+      }
+    ]
+  },
+  {
+    "guid": "7a9f4890-b216-4d75-a0e4-4c9f29ed5217",
+    "name": "Google Books",
+    "description": "Pulls book metadata and cover images from Google Books.\n",
+    "overview": "Google Books Metadata Provider",
+    "owner": "jellyfin",
+    "category": "Books",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/google-books/google-books_1.0.0.0.zip",
+        "checksum": "3ab915e6a4ceef9020717c253b1db5d7",
+        "timestamp": "2026-01-25T15:06:31Z"
+      }
+    ]
+  },
+  {
+    "guid": "309ec7e5-4981-4e8c-992f-8e4dde9591e0",
+    "name": "Comic Vine",
+    "description": "Pulls comic metadata and cover images from Comic Vine.\n",
+    "overview": "Comic Vine Metadata Provider",
+    "owner": "jellyfin",
+    "category": "Books",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/comic-vine/comic-vine_1.0.0.0.zip",
+        "checksum": "d84b4958da5325fd35b2298c11264bdf",
+        "timestamp": "2026-01-26T01:27:36Z"
       }
     ]
   },
