@@ -6491,6 +6491,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "0.5.0.0",
+        "changelog": "Image sync for custom posters and backdrops\n- Custom poster images are now preserved in recommendation libraries\n- Copies poster.jpg and backdrop.jpg from source items to virtual folders\n- Configurable: Enable/disable image sync and backdrop copying\n- Fixes issue where user customizations (e.g., French posters) were lost",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/rdpharr/jellyfin-plugin-localrecs/releases/download/v0.5.0/jellyfin-plugin-localrecs-v0.5.0.zip",
+        "checksum": "139099920d5c8b5722298374775d38fd",
+        "timestamp": "2026-01-28T00:00:00Z"
+      },
+      {
         "version": "0.4.0.0",
         "changelog": "Decade-based temporal similarity and bug fix\n- Recommendations now consider content from similar time periods\n- Decade grouping (1980s, 1990s, etc.) replaces continuous year normalization\n- Improves temporal relevance alongside genre/actor/director similarity\n- Tested with production data: ~12 decades extracted from 970 items\n- Observable impact: 24% of movie recommendations changed, 8% of TV\n- Fixed: In-progress TV series no longer appear in recommendations",
         "targetAbi": "10.11.0.0",
