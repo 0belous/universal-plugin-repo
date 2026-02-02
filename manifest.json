@@ -2055,7 +2055,7 @@
       },
       {
         "changelog": "Nightly build\n",
-        "checksum": "51f350d2bc8d4395d53c8d138c476bf1",
+        "checksum": "a73804f780a841d0b046f29824e7984a",
         "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/nightly/sso-authentication_0.0.0.9000.zip",
         "targetAbi": "10.11.0.0",
         "timestamp": "2022-07-01T01:20:33Z",
@@ -3962,262 +3962,6 @@
         "checksum": "B0075A1551E85319CCF5ED083EA5598D",
         "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.9.1 -->\n\n## What's Changed\n### Bug Fixes\n* Fixed rare race condition that could affect the media types of smart playlists\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.9.0...v10.10.9.1",
         "timestamp": "2025-09-02"
-      },
-      {
-        "version": "10.10.9.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.9.0/Jellyfin.Plugin.SmartPlaylist_v10.10.9.0.zip",
-        "checksum": "4038FC543435D9BDA831CFD91BD62F89",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.9.0 -->\n\n## What's Changed\n### New Features\n* Added support for media types Home Videos and Photos.\n* Added support for Books and Audio Books.\n### Other Changes\n* Performance optimizations\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.8.1...v10.10.9.0",
-        "timestamp": "2025-09-01"
-      },
-      {
-        "version": "10.10.8.1",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.8.1/Jellyfin.Plugin.SmartPlaylist_v10.10.8.1.zip",
-        "checksum": "0E03E4B0EEA589AD92C0226DE1D96765",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.8.1 -->\n\n## What's Changed\n### Bug Fixes\n* Fixed issue with user matching on playlist import\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.8.0...v10.10.8.1",
-        "timestamp": "2025-08-25"
-      },
-      {
-        "version": "10.10.8.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.8.0/Jellyfin.Plugin.SmartPlaylist_v10.10.8.0.zip",
-        "checksum": "1C7DB7C7D1EE69BE006B96CA4C5239B6",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.8.0 -->\n\n## What's Changed\n### New Features\n* Added new Export/Import functionality in Settings.\n* Some styling changes to mimic Jellyfin layout.\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.7.0...v10.10.8.0",
-        "timestamp": "2025-08-25"
-      },
-      {
-        "version": "10.10.7.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.7.0/Jellyfin.Plugin.SmartPlaylist_v10.10.7.0.zip",
-        "checksum": "0ABFD241565884038FC7A31BC9E4A531",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.7.0 -->\n\n## What's Changed\n### New Features\n* Added new Resolution rule field\n* Added new Framerate rule field\n* Added new Series Name rule field\n\n\n### Bug Fixes\n* You can now enter decimal values in integer fields (for example Community Rating)\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.6.1...v10.10.7.0",
-        "timestamp": "2025-08-24"
-      },
-      {
-        "version": "10.10.6.1",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.6.1/Jellyfin.Plugin.SmartPlaylist_v10.10.6.1.zip",
-        "checksum": "85388A77C9CB16CA6714B0BD4D58C752",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.6.1 -->\n\n## What's Changed\n### New Features\n* You can now include individual episodes from series within the Collections rule field\n* Improvements to release date sorting\n### Other Changes\n* Code optimizations\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.6.0...v10.10.6.1",
-        "timestamp": "2025-08-21"
-      },
-      {
-        "version": "10.10.6.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.6.0/Jellyfin.Plugin.SmartPlaylist_v10.10.6.0.zip",
-        "checksum": "0CF494FC6259425348D264F12AED7E0F",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.6.0 -->\n\n## What's Changed\n### New Features\n* Added new IsIn/IsNotIn operator for matching multiple words\n* Added new Collections rule field that searches for items belonging to a specific collection.\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.5.3...v10.10.6.0",
-        "timestamp": "2025-08-17"
-      },
-      {
-        "version": "10.10.5.3",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.5.3/Jellyfin.Plugin.SmartPlaylist_v10.10.5.3.zip",
-        "checksum": "BC2A757F7811283621E762443FF3902F",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.5.3 -->\n\n## What's Changed\n### Bug Fixes\n* Fixed caching issue which could cause wrong contents showing up in playlists\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.5.2...v10.10.5.3",
-        "timestamp": "2025-08-09"
-      },
-      {
-        "version": "10.10.5.2",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.5.2/Jellyfin.Plugin.SmartPlaylist_v10.10.5.2.zip",
-        "checksum": "27E7735B2E8BFED8012F2415F33E7F76",
-        "changelog": "- PlaylistMediaType is now set to Video when the playlist only contains video files.",
-        "timestamp": "2025-08-07"
-      },
-      {
-        "version": "10.10.5.1",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.5.1/Jellyfin.Plugin.SmartPlaylist_v10.10.5.1.zip",
-        "checksum": "46A522BDDC92B43DE1A904C780DFDB99",
-        "changelog": "- Added support for Music Videos, thank you guluarte!\n- Prevent search while playlists are loading\n- Code optimizations",
-        "timestamp": "2025-08-05"
-      },
-      {
-        "version": "10.10.5.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.5.0/Jellyfin.Plugin.SmartPlaylist_v10.10.5.0.zip",
-        "checksum": "9809AD0F21C0074D3FC82D974210F1AF",
-        "changelog": "Added new rule field properties:\n- 'Overview': For the media item description\n- 'Last Played': When the media item was last played\n- 'Next Unwatched': The next unwatched episode\n\nOther changes:\n- Changed the rule field categories to make a bit more sense\n- Media type pre-filtering now uses API to increase performance\n- Restructured code to make it easier to add new features",
-        "timestamp": "2025-07-31"
-      },
-      {
-        "version": "10.10.4.1",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.4.1/Jellyfin.Plugin.SmartPlaylist_v10.10.4.1.zip",
-        "checksum": "78A8BCB5A590B0F6959F62EE29F822F7",
-        "changelog": "- You can now set a max play time for playlists\n- Split scheduled tasks into two, one for video (hourly) and one for audio (daily)\n- Fixed issue with config page causing styling errors",
-        "timestamp": "2025-07-27"
-      },
-      {
-        "version": "10.10.4.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.4.0/Jellyfin.Plugin.SmartPlaylist_v10.10.4.0.zip",
-        "checksum": "88B078C0FF7A47735BB047C78B84033E",
-        "changelog": "- You can now set your own suffix/prefix or even remove them completely\n- Playlists are now connected with ID instead of name\n\nNOTE: This change comes with a lot of backend changes. Make sure your playlists have refreshed once before changing name and/or owner to avoid duplicate Jellyfin playlists",
-        "timestamp": "2025-07-26"
-      },
-      {
-        "version": "10.10.3.3",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.3.3/Jellyfin.Plugin.SmartPlaylist_v10.10.3.3.zip",
-        "checksum": "0C2607BCA56729F3BB1DBE1D93E5C376",
-        "changelog": "New features:\n- You can now choose an item limit when playlists are generated\n- Added a 'Random' sort option for playlists\n\nFix:\n- Now works properly with all Jellyfin 10.10.x versions",
-        "timestamp": "2025-07-25"
-      },
-      {
-        "version": "10.10.3.2",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.3.2/Jellyfin.Plugin.SmartPlaylist_v10.10.3.2.zip",
-        "checksum": "BC57DED597F13890AE6DDAD6DEC20848",
-        "changelog": "- Fix: Artists fields now work properly",
-        "timestamp": "2025-07-19"
-      },
-      {
-        "version": "10.10.3.1",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.3.1/Jellyfin.Plugin.SmartPlaylist_v10.10.3.1.zip",
-        "checksum": "465086A4A7603BC0B2A17C1CDF380229",
-        "changelog": "- Added support for Artists and Album Artists.\n- Sorted rule fields into categories for better overview.",
-        "timestamp": "2025-07-18"
-      },
-      {
-        "version": "10.10.3.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.3.0/Jellyfin.Plugin.SmartPlaylist_v10.10.3.0.zip",
-        "checksum": "B6B7385037E94EC25112A81320861B76",
-        "changelog": "New features:\n- You can now target specific users for playback fields, such as IsPlayed.\n- Added support for relative date comparisons ('Newer Than' and 'Older Than')\n- Added 'After' and 'Before' operators for date fields (removed 'LessThan' and 'GreaterThan')\n- Added support for Release Date\n\nFixes:\n- Fixed bug for config page event listeners when using back/forward in browser.\n- Date fields now work properly",
-        "timestamp": "2025-07-15"
-      },
-      {
-        "version": "10.10.2.3",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.2.3/Jellyfin.Plugin.SmartPlaylist_v10.10.2.3.zip",
-        "checksum": "2674E0EA901911BC3B1019DD642B8DDD",
-        "changelog": "- Added Series media type and renamed TV Shows to Episodes for clarity\n- You can now search for users as well\n- More styling changes to better match Jellyfin",
-        "timestamp": "2025-07-12"
-      },
-      {
-        "version": "10.10.2.2",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.2.2/Jellyfin.Plugin.SmartPlaylist_v10.10.2.2.zip",
-        "checksum": "C57FFD25A3E5E46647EF2CBC366B1C2B",
-        "changelog": "- You can now search for playlists under Manage Playlists\n- Styling changes to better match Jellyfin\n- Various other tweaks and fixes",
-        "timestamp": "2025-07-10"
-      },
-      {
-        "version": "10.10.2.1",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.2.1/Jellyfin.Plugin.SmartPlaylist_v10.10.2.1.zip",
-        "checksum": "9F35A762FFFC7C906423F15FB26F0B4D",
-        "changelog": "- Fix: Playlist covers are now regenerated properly (metadata refresh) when editing and refreshing playlists.\n- Changed refresh task to trigger every hour instead instead of every 30 minutes.\n- Various other enhancements and stability improvements.",
-        "timestamp": "2025-07-09"
-      },
-      {
-        "version": "10.10.2.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.2.0/Jellyfin.Plugin.SmartPlaylist_v10.10.2.0.zip",
-        "checksum": "9EACA4AE34A398456CD008FD2908DF71",
-        "changelog": "New features and optimizations:\n\n- You can now choose and mix AND/OR logic when creating rules\n- Option to select media type first to go well in hand with the new rules logic\n- Added flexible deletion options (config only vs config + playlist)\n- Added regex validation\n- Added option to enable/disable playlists\n- Various performance optimizations\n\nAlso switched to Jellyfin version semantics.",
-        "timestamp": "2025-07-06"
-      },
-      {
-        "version": "2.1.2.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.1.2/Jellyfin.Plugin.SmartPlaylist_v2.1.2.zip",
-        "checksum": "D15C205BB8EB3AA9FE5F1E281BB83145",
-        "changelog": "Fixes:\n- Prevent duplicate names when renaming smart playlists\n- Delete old playlist when renaming a smart playlist\n\nOptimizations:\n- When creating and editing smart playlists, only refresh that specific list.\n- Optimized and cleaned up code",
-        "timestamp": "2025-07-02"
-      },
-      {
-        "version": "2.1.1.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.1.1/Jellyfin.Plugin.SmartPlaylist_v2.1.1.zip",
-        "checksum": "092AEE72716D612EBC6F7F67E1E60456",
-        "changelog": "Fix: Multiple playlists could get deleted after cancellation",
-        "timestamp": "2025-07-02"
-      },
-      {
-        "version": "2.1.0.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.1.0/Jellyfin.Plugin.SmartPlaylist_v2.1.0.zip",
-        "checksum": "978140ADE1625BAE4D517B2D6760E9CB",
-        "changelog": "New features:\n- Edit existing playlists directly in the UI!\n- Choose playlist owner from dropdown of all Jellyfin users\n- User ID Migration: Automatic migration from usernames to User IDs for reliability\n\nPlus some other fixes, enhancements and performance tweaks.",
-        "timestamp": "2025-07-01"
-      },
-      {
-        "version": "2.0.8.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.8/Jellyfin.Plugin.SmartPlaylist_v2.0.8.zip",
-        "checksum": "6B6527F26BEF975EF152C825078EE3F3",
-        "changelog": "- Changed some log messages to DEBUG to not spam logs",
-        "timestamp": "2025-06-30"
-      },
-      {
-        "version": "2.0.7.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.7/Jellyfin.Plugin.SmartPlaylist_v2.0.7.zip",
-        "checksum": "7CC2105DC1813C68ECE738DCD25EAA7D",
-        "changelog": "- Added support for People metadata.",
-        "timestamp": "2025-06-30"
-      },
-      {
-        "version": "2.0.6.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.6/Jellyfin.Plugin.SmartPlaylist_v2.0.6.zip",
-        "checksum": "ACC7FA946FDFB19FE16812D42E9CE200",
-        "changelog": "- Enhanced performance with optimized rule processing",
-        "timestamp": "2025-06-29"
-      },
-      {
-        "version": "2.0.5.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.5/Jellyfin.Plugin.SmartPlaylist_v2.0.5.zip",
-        "checksum": "DEED742BC1FED768918016CF2877967F",
-        "changelog": "Fixes:\n- Playlist images are now populating again.\n- Proper fix for null exception.",
-        "timestamp": "2025-06-29"
-      },
-      {
-        "version": "2.0.4.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.4/Jellyfin.Plugin.SmartPlaylist_v2.0.4.zip",
-        "checksum": "0006E7BAAB00C15485650A0EF69DC634",
-        "changelog": "- New feature: Added rule field support for Audio Language\n- Fix: Null reference when trying to populate playlist image cover for empty playlists",
-        "timestamp": "2025-06-29"
-      },
-      {
-        "version": "2.0.3.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.3/Jellyfin.Plugin.SmartPlaylist_v2.0.3.zip",
-        "checksum": "8B4435BBEDB42F5F59D77228EE86BFB7",
-        "changelog": "- Fix: Contains and Regex operators now match strings within lists, for example Studios.",
-        "timestamp": "2025-06-28"
-      },
-      {
-        "version": "2.0.2.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.2/Jellyfin.Plugin.SmartPlaylist_v2.0.2.zip",
-        "checksum": "74268411124E18D49942ABEAA8E9A03C",
-        "changelog": "- Added support for field rules: Is Played, Is Favorite, Play Count, Runtime, Parental Rating",
-        "timestamp": "2025-06-27"
-      },
-      {
-        "version": "2.0.1.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.1/Jellyfin.Plugin.SmartPlaylist_v2.0.1.zip",
-        "checksum": "B569ABA7A32269C99203B81E89905444",
-        "changelog": "- Added support for Tags field in rules.",
-        "timestamp": "2025-06-27"
-      },
-      {
-        "version": "2.0.0.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.0/Jellyfin.Plugin.SmartPlaylist_v2.0.0.zip",
-        "checksum": "A9FFA0331E888BE555103E7832709821",
-        "changelog": "- Works with newer Jellyfin versions\n- UI to create and manage smart playlists",
-        "timestamp": "2025-06-27"
       }
     ]
   },
@@ -4432,262 +4176,6 @@
         "checksum": "B0075A1551E85319CCF5ED083EA5598D",
         "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.9.1 -->\n\n## What's Changed\n### Bug Fixes\n* Fixed rare race condition that could affect the media types of smart playlists\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.9.0...v10.10.9.1",
         "timestamp": "2025-09-02"
-      },
-      {
-        "version": "10.10.9.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.9.0/Jellyfin.Plugin.SmartPlaylist_v10.10.9.0.zip",
-        "checksum": "4038FC543435D9BDA831CFD91BD62F89",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.9.0 -->\n\n## What's Changed\n### New Features\n* Added support for media types Home Videos and Photos.\n* Added support for Books and Audio Books.\n### Other Changes\n* Performance optimizations\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.8.1...v10.10.9.0",
-        "timestamp": "2025-09-01"
-      },
-      {
-        "version": "10.10.8.1",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.8.1/Jellyfin.Plugin.SmartPlaylist_v10.10.8.1.zip",
-        "checksum": "0E03E4B0EEA589AD92C0226DE1D96765",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.8.1 -->\n\n## What's Changed\n### Bug Fixes\n* Fixed issue with user matching on playlist import\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.8.0...v10.10.8.1",
-        "timestamp": "2025-08-25"
-      },
-      {
-        "version": "10.10.8.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.8.0/Jellyfin.Plugin.SmartPlaylist_v10.10.8.0.zip",
-        "checksum": "1C7DB7C7D1EE69BE006B96CA4C5239B6",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.8.0 -->\n\n## What's Changed\n### New Features\n* Added new Export/Import functionality in Settings.\n* Some styling changes to mimic Jellyfin layout.\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.7.0...v10.10.8.0",
-        "timestamp": "2025-08-25"
-      },
-      {
-        "version": "10.10.7.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.7.0/Jellyfin.Plugin.SmartPlaylist_v10.10.7.0.zip",
-        "checksum": "0ABFD241565884038FC7A31BC9E4A531",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.7.0 -->\n\n## What's Changed\n### New Features\n* Added new Resolution rule field\n* Added new Framerate rule field\n* Added new Series Name rule field\n\n\n### Bug Fixes\n* You can now enter decimal values in integer fields (for example Community Rating)\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.6.1...v10.10.7.0",
-        "timestamp": "2025-08-24"
-      },
-      {
-        "version": "10.10.6.1",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.6.1/Jellyfin.Plugin.SmartPlaylist_v10.10.6.1.zip",
-        "checksum": "85388A77C9CB16CA6714B0BD4D58C752",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.6.1 -->\n\n## What's Changed\n### New Features\n* You can now include individual episodes from series within the Collections rule field\n* Improvements to release date sorting\n### Other Changes\n* Code optimizations\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.6.0...v10.10.6.1",
-        "timestamp": "2025-08-21"
-      },
-      {
-        "version": "10.10.6.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.6.0/Jellyfin.Plugin.SmartPlaylist_v10.10.6.0.zip",
-        "checksum": "0CF494FC6259425348D264F12AED7E0F",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.6.0 -->\n\n## What's Changed\n### New Features\n* Added new IsIn/IsNotIn operator for matching multiple words\n* Added new Collections rule field that searches for items belonging to a specific collection.\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.5.3...v10.10.6.0",
-        "timestamp": "2025-08-17"
-      },
-      {
-        "version": "10.10.5.3",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.5.3/Jellyfin.Plugin.SmartPlaylist_v10.10.5.3.zip",
-        "checksum": "BC2A757F7811283621E762443FF3902F",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.5.3 -->\n\n## What's Changed\n### Bug Fixes\n* Fixed caching issue which could cause wrong contents showing up in playlists\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.5.2...v10.10.5.3",
-        "timestamp": "2025-08-09"
-      },
-      {
-        "version": "10.10.5.2",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.5.2/Jellyfin.Plugin.SmartPlaylist_v10.10.5.2.zip",
-        "checksum": "27E7735B2E8BFED8012F2415F33E7F76",
-        "changelog": "- PlaylistMediaType is now set to Video when the playlist only contains video files.",
-        "timestamp": "2025-08-07"
-      },
-      {
-        "version": "10.10.5.1",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.5.1/Jellyfin.Plugin.SmartPlaylist_v10.10.5.1.zip",
-        "checksum": "46A522BDDC92B43DE1A904C780DFDB99",
-        "changelog": "- Added support for Music Videos, thank you guluarte!\n- Prevent search while playlists are loading\n- Code optimizations",
-        "timestamp": "2025-08-05"
-      },
-      {
-        "version": "10.10.5.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.5.0/Jellyfin.Plugin.SmartPlaylist_v10.10.5.0.zip",
-        "checksum": "9809AD0F21C0074D3FC82D974210F1AF",
-        "changelog": "Added new rule field properties:\n- 'Overview': For the media item description\n- 'Last Played': When the media item was last played\n- 'Next Unwatched': The next unwatched episode\n\nOther changes:\n- Changed the rule field categories to make a bit more sense\n- Media type pre-filtering now uses API to increase performance\n- Restructured code to make it easier to add new features",
-        "timestamp": "2025-07-31"
-      },
-      {
-        "version": "10.10.4.1",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.4.1/Jellyfin.Plugin.SmartPlaylist_v10.10.4.1.zip",
-        "checksum": "78A8BCB5A590B0F6959F62EE29F822F7",
-        "changelog": "- You can now set a max play time for playlists\n- Split scheduled tasks into two, one for video (hourly) and one for audio (daily)\n- Fixed issue with config page causing styling errors",
-        "timestamp": "2025-07-27"
-      },
-      {
-        "version": "10.10.4.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.4.0/Jellyfin.Plugin.SmartPlaylist_v10.10.4.0.zip",
-        "checksum": "88B078C0FF7A47735BB047C78B84033E",
-        "changelog": "- You can now set your own suffix/prefix or even remove them completely\n- Playlists are now connected with ID instead of name\n\nNOTE: This change comes with a lot of backend changes. Make sure your playlists have refreshed once before changing name and/or owner to avoid duplicate Jellyfin playlists",
-        "timestamp": "2025-07-26"
-      },
-      {
-        "version": "10.10.3.3",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.3.3/Jellyfin.Plugin.SmartPlaylist_v10.10.3.3.zip",
-        "checksum": "0C2607BCA56729F3BB1DBE1D93E5C376",
-        "changelog": "New features:\n- You can now choose an item limit when playlists are generated\n- Added a 'Random' sort option for playlists\n\nFix:\n- Now works properly with all Jellyfin 10.10.x versions",
-        "timestamp": "2025-07-25"
-      },
-      {
-        "version": "10.10.3.2",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.3.2/Jellyfin.Plugin.SmartPlaylist_v10.10.3.2.zip",
-        "checksum": "BC57DED597F13890AE6DDAD6DEC20848",
-        "changelog": "- Fix: Artists fields now work properly",
-        "timestamp": "2025-07-19"
-      },
-      {
-        "version": "10.10.3.1",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.3.1/Jellyfin.Plugin.SmartPlaylist_v10.10.3.1.zip",
-        "checksum": "465086A4A7603BC0B2A17C1CDF380229",
-        "changelog": "- Added support for Artists and Album Artists.\n- Sorted rule fields into categories for better overview.",
-        "timestamp": "2025-07-18"
-      },
-      {
-        "version": "10.10.3.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.3.0/Jellyfin.Plugin.SmartPlaylist_v10.10.3.0.zip",
-        "checksum": "B6B7385037E94EC25112A81320861B76",
-        "changelog": "New features:\n- You can now target specific users for playback fields, such as IsPlayed.\n- Added support for relative date comparisons ('Newer Than' and 'Older Than')\n- Added 'After' and 'Before' operators for date fields (removed 'LessThan' and 'GreaterThan')\n- Added support for Release Date\n\nFixes:\n- Fixed bug for config page event listeners when using back/forward in browser.\n- Date fields now work properly",
-        "timestamp": "2025-07-15"
-      },
-      {
-        "version": "10.10.2.3",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.2.3/Jellyfin.Plugin.SmartPlaylist_v10.10.2.3.zip",
-        "checksum": "2674E0EA901911BC3B1019DD642B8DDD",
-        "changelog": "- Added Series media type and renamed TV Shows to Episodes for clarity\n- You can now search for users as well\n- More styling changes to better match Jellyfin",
-        "timestamp": "2025-07-12"
-      },
-      {
-        "version": "10.10.2.2",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.2.2/Jellyfin.Plugin.SmartPlaylist_v10.10.2.2.zip",
-        "checksum": "C57FFD25A3E5E46647EF2CBC366B1C2B",
-        "changelog": "- You can now search for playlists under Manage Playlists\n- Styling changes to better match Jellyfin\n- Various other tweaks and fixes",
-        "timestamp": "2025-07-10"
-      },
-      {
-        "version": "10.10.2.1",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.2.1/Jellyfin.Plugin.SmartPlaylist_v10.10.2.1.zip",
-        "checksum": "9F35A762FFFC7C906423F15FB26F0B4D",
-        "changelog": "- Fix: Playlist covers are now regenerated properly (metadata refresh) when editing and refreshing playlists.\n- Changed refresh task to trigger every hour instead instead of every 30 minutes.\n- Various other enhancements and stability improvements.",
-        "timestamp": "2025-07-09"
-      },
-      {
-        "version": "10.10.2.0",
-        "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.2.0/Jellyfin.Plugin.SmartPlaylist_v10.10.2.0.zip",
-        "checksum": "9EACA4AE34A398456CD008FD2908DF71",
-        "changelog": "New features and optimizations:\n\n- You can now choose and mix AND/OR logic when creating rules\n- Option to select media type first to go well in hand with the new rules logic\n- Added flexible deletion options (config only vs config + playlist)\n- Added regex validation\n- Added option to enable/disable playlists\n- Various performance optimizations\n\nAlso switched to Jellyfin version semantics.",
-        "timestamp": "2025-07-06"
-      },
-      {
-        "version": "2.1.2.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.1.2/Jellyfin.Plugin.SmartPlaylist_v2.1.2.zip",
-        "checksum": "D15C205BB8EB3AA9FE5F1E281BB83145",
-        "changelog": "Fixes:\n- Prevent duplicate names when renaming smart playlists\n- Delete old playlist when renaming a smart playlist\n\nOptimizations:\n- When creating and editing smart playlists, only refresh that specific list.\n- Optimized and cleaned up code",
-        "timestamp": "2025-07-02"
-      },
-      {
-        "version": "2.1.1.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.1.1/Jellyfin.Plugin.SmartPlaylist_v2.1.1.zip",
-        "checksum": "092AEE72716D612EBC6F7F67E1E60456",
-        "changelog": "Fix: Multiple playlists could get deleted after cancellation",
-        "timestamp": "2025-07-02"
-      },
-      {
-        "version": "2.1.0.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.1.0/Jellyfin.Plugin.SmartPlaylist_v2.1.0.zip",
-        "checksum": "978140ADE1625BAE4D517B2D6760E9CB",
-        "changelog": "New features:\n- Edit existing playlists directly in the UI!\n- Choose playlist owner from dropdown of all Jellyfin users\n- User ID Migration: Automatic migration from usernames to User IDs for reliability\n\nPlus some other fixes, enhancements and performance tweaks.",
-        "timestamp": "2025-07-01"
-      },
-      {
-        "version": "2.0.8.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.8/Jellyfin.Plugin.SmartPlaylist_v2.0.8.zip",
-        "checksum": "6B6527F26BEF975EF152C825078EE3F3",
-        "changelog": "- Changed some log messages to DEBUG to not spam logs",
-        "timestamp": "2025-06-30"
-      },
-      {
-        "version": "2.0.7.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.7/Jellyfin.Plugin.SmartPlaylist_v2.0.7.zip",
-        "checksum": "7CC2105DC1813C68ECE738DCD25EAA7D",
-        "changelog": "- Added support for People metadata.",
-        "timestamp": "2025-06-30"
-      },
-      {
-        "version": "2.0.6.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.6/Jellyfin.Plugin.SmartPlaylist_v2.0.6.zip",
-        "checksum": "ACC7FA946FDFB19FE16812D42E9CE200",
-        "changelog": "- Enhanced performance with optimized rule processing",
-        "timestamp": "2025-06-29"
-      },
-      {
-        "version": "2.0.5.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.5/Jellyfin.Plugin.SmartPlaylist_v2.0.5.zip",
-        "checksum": "DEED742BC1FED768918016CF2877967F",
-        "changelog": "Fixes:\n- Playlist images are now populating again.\n- Proper fix for null exception.",
-        "timestamp": "2025-06-29"
-      },
-      {
-        "version": "2.0.4.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.4/Jellyfin.Plugin.SmartPlaylist_v2.0.4.zip",
-        "checksum": "0006E7BAAB00C15485650A0EF69DC634",
-        "changelog": "- New feature: Added rule field support for Audio Language\n- Fix: Null reference when trying to populate playlist image cover for empty playlists",
-        "timestamp": "2025-06-29"
-      },
-      {
-        "version": "2.0.3.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.3/Jellyfin.Plugin.SmartPlaylist_v2.0.3.zip",
-        "checksum": "8B4435BBEDB42F5F59D77228EE86BFB7",
-        "changelog": "- Fix: Contains and Regex operators now match strings within lists, for example Studios.",
-        "timestamp": "2025-06-28"
-      },
-      {
-        "version": "2.0.2.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.2/Jellyfin.Plugin.SmartPlaylist_v2.0.2.zip",
-        "checksum": "74268411124E18D49942ABEAA8E9A03C",
-        "changelog": "- Added support for field rules: Is Played, Is Favorite, Play Count, Runtime, Parental Rating",
-        "timestamp": "2025-06-27"
-      },
-      {
-        "version": "2.0.1.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.1/Jellyfin.Plugin.SmartPlaylist_v2.0.1.zip",
-        "checksum": "B569ABA7A32269C99203B81E89905444",
-        "changelog": "- Added support for Tags field in rules.",
-        "timestamp": "2025-06-27"
-      },
-      {
-        "version": "2.0.0.0",
-        "targetAbi": "10.10.7",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.0/Jellyfin.Plugin.SmartPlaylist_v2.0.0.zip",
-        "checksum": "A9FFA0331E888BE555103E7832709821",
-        "changelog": "- Works with newer Jellyfin versions\n- UI to create and manage smart playlists",
-        "timestamp": "2025-06-27"
       }
     ]
   },
@@ -5130,6 +4618,38 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "## [0.25.3.10] - 2026-02-01\n\n### 🐛 Bug Fixes\n\n- Mark virtual if no mediasources\n",
+        "checksum": "942976facef092ca9bf004f205e521b3",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.3.10/gelato_0.25.3.10.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-02-01T13:01:01Z",
+        "version": "0.25.3.10"
+      },
+      {
+        "changelog": "## [0.25.3.9] - 2026-02-01\n\n### 🐛 Bug Fixes\n\n- Purge task\n",
+        "checksum": "ad2bd6420204a2af49b738bbd231fca2",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.3.9/gelato_0.25.3.9.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-02-01T09:39:06Z",
+        "version": "0.25.3.9"
+      },
+      {
+        "changelog": "## [0.25.3.8] - 2026-02-01\n\n### 🐛 Bug Fixes\n\n- Purge task\n",
+        "checksum": "c12dd425db06cad9fd396b8a47170f9d",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.3.8/gelato_0.25.3.8.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-02-01T08:57:55Z",
+        "version": "0.25.3.8"
+      },
+      {
+        "changelog": "## [0.25.3.7] - 2026-02-01\n\n### 🐛 Bug Fixes\n\n- PresentationUniqueKey generation\n",
+        "checksum": "270a8ebbc97e9499a6c8a40855abc277",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.3.7/gelato_0.25.3.7.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-02-01T08:01:15Z",
+        "version": "0.25.3.7"
+      },
+      {
         "changelog": "## [0.25.3.6] - 2026-01-30\n\n### 🚜 Refactor\n\n- Meta imports\n",
         "checksum": "a5ad41d0586e5cd8d71fa921a4b6b1f9",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.3.6/gelato_0.25.3.6.zip",
@@ -5336,38 +4856,6 @@
         "targetAbi": "10.11.0.0",
         "timestamp": "2025-12-23T11:35:35Z",
         "version": "0.24.7.8"
-      },
-      {
-        "changelog": "## [0.24.7.7] - 2025-12-23\n\n### 🐛 Bug Fixes\n\n- Dont refresh metadata for episodes on insert\n",
-        "checksum": "774e3f454f938d7b15bfc7c89c8c51c4",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.7.7/gelato_0.24.7.7.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-12-23T10:03:53Z",
-        "version": "0.24.7.7"
-      },
-      {
-        "changelog": "## [0.24.7.6] - 2025-12-10\n\n### 🐛 Bug Fixes\n\n- Add movie recommended\n",
-        "checksum": "89824303a14beb6dc79b5e42fe1a2103",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.7.6/gelato_0.24.7.6.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-12-10T18:01:07Z",
-        "version": "0.24.7.6"
-      },
-      {
-        "changelog": "## [0.24.7.5] - 2025-12-07\n\n### 🐛 Bug Fixes\n\n- Force save for metadata refresh on insert\n",
-        "checksum": "bbc4a62faf6a6cea428e0f9dc078ab43",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.7.5/gelato_0.24.7.5.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-12-07T00:40:56Z",
-        "version": "0.24.7.5"
-      },
-      {
-        "changelog": "## [0.24.7.4] - 2025-12-06\n\n### 🐛 Bug Fixes\n\n- Always use primary id for first media source\n",
-        "checksum": "63714cf34592ea611c27d7755a1ec847",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.7.4/gelato_0.24.7.4.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-12-06T13:15:46Z",
-        "version": "0.24.7.4"
       }
     ]
   },
@@ -5900,6 +5388,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Enhanced.png",
     "versions": [
+      {
+        "changelog": "- Enforce icon size on card with !important\n - Keep last calendar view in user settings\n - fix: Jellyseerr proxy URL fallback on HTTP errors\n - Fix calendar range handling (UTC) and pass RFC3339 start/end to Sonarr/Radarr\n - Add watchlist re-addition prevention feature\n - Improve logging and result tracking in watchlist sync\n - Reduce unnecessary info logs\n - Use new item by provider id endpoint to navigate in calendar\n - Add manual refresh and improve polling for downloads\n - Remove status filter from download queue request\n - Add PeopleTagsEnabled to config handling\n - Improve handling of downloads poll interval config\n - Enhance request status colors and section classes\n - Add detailed logging to Jellyseerr watchlist sync\n - Add downloads tab filtering and search UI\n - Add i18n support for requests page and update translations\n - Update ratings.css\n - Add video format detection and badges to quality tags\n - Set calendar default view mode to 'agenda'\n - Add Custom Tabs support for Calendar and Requests pages\n - Refactor JS file structure and update imports\n - Update CONTRIBUTING.md",
+        "targetAbi": "10.11.0.0",
+        "version": "10.10.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/10.10.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "C67E7ACC3182508DEE51045692BA5694",
+        "timestamp": "2026-02-01T14:02:35"
+      },
       {
         "changelog": "- Fix http link\n - Switch to Material Symbols Rounded icons in calendar page\n - fix: Navigate to available items form Calendar ([#313](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/313))\n - feat: Highlight calendar entries for favorites and watched series ([#314](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/314))\n - Change Menu Icon to material_icon for consistency\n - Revamp calendar event indicators for watchlist/watched\n - Update Translations\n - Refactor nav items to use anchor elements\n - Add interactive filtering to calendar legend\n - Add dynamic theme color support to calendar and requests pages\n - Handle server ID mismatch during plugin initialization\n - Fix ColorRatings on Scyfin and Elegantfin\n - Remove icons.js from config page to fix initialization conflicts\n - Refactor agenda event indicators layout\n - Add view mode hash support and default mobile to agenda\n - Fix season pack size calculation in requests page\n - Access to Calendar/Requests pages with Plugin Pages\n - Fix for calendar item without file but with bookmark\n - Parameter to disable Plugin Pages integration\n - Add note in configPage and improve logging\n - Update configPage.html\n - Add custom icon classes and badge for source labels\n - Translations for Coming Soon\n - Add 'Coming Soon' filter and release date display to requests\n - Add seamless infinite scroll to discovery sections\n - Refactor infinite scroll to require seamlessScroll module\n - Create CONTRIBUTING.md\n - Translations for People Tags\n - Add People Tags feature for cast member info\n - Remove useless call to calendar & new endpoint item by providers\n - Rename sonarr to Sonarr\n - Fix Semicolon",
         "targetAbi": "10.11.0.0",
@@ -7887,7 +7383,7 @@
     "description": "This metadata provider helps fill Jellyfin/Emby with information for your adult videos by pulling from the ThePornDB.\n\nhttps://github.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB",
     "owner": "DirtyRacer",
     "overview": "Manage Your Adult Videos in Jellyfin/Emby",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/ThePornDB.png",
+    "imageUrl": "https://theporndb.net/images/logo.png",
     "versions": [
       {
         "checksum": "8d41de924b78c6873f1f987b4c04a5b7",
@@ -11533,6 +11029,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/ListenBrainz.svg",
     "versions": [
+      {
+        "version": "6.0.4.0",
+        "changelog": "- Fix plugin settings error for mixed type libraries\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_6.0.4.0.zip",
+        "checksum": "656c7e1a7aac886c7ce25302f4e05f15",
+        "timestamp": "2026-02-01T09:52:09Z"
+      },
       {
         "version": "6.0.3.7",
         "changelog": "Maintenance release:\n  - Plugin maintenance / code cleanup\n  - Fix duplication of items in plugin config\n",
