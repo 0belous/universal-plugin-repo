@@ -2976,6 +2976,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Bazarr.png",
     "versions": [
       {
+        "version": "1.1.2.0",
+        "changelog": "See release notes on GitHub",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/enoch85/bazarr-jellyfin/releases/download/v1.1.2/Jellyfin.Plugin.Bazarr.zip",
+        "checksum": "1833bf8bc8bf8b51ad178c30fd2e9147",
+        "timestamp": "2026-02-02T17:08:08Z"
+      },
+      {
         "version": "1.1.1.0",
         "changelog": "See release notes on GitHub",
         "targetAbi": "10.11.0.0",
@@ -7383,7 +7391,7 @@
     "description": "This metadata provider helps fill Jellyfin/Emby with information for your adult videos by pulling from the ThePornDB.\n\nhttps://github.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB",
     "owner": "DirtyRacer",
     "overview": "Manage Your Adult Videos in Jellyfin/Emby",
-    "imageUrl": "https://theporndb.net/images/logo.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/ThePornDB.png",
     "versions": [
       {
         "checksum": "8d41de924b78c6873f1f987b4c04a5b7",
@@ -11521,6 +11529,28 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
+      {
+        "version": "2.5.5.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- Further fixes to performance issues, this time more wholesale across all the supported sections. I found a different way to get items from the library which seems to be significantly quicker than the old approach.\r\n\r\n🌐 Translations\r\n\r\n- Added Russian translations (PR #191, @gallyamb)\r\n- Added Mexican Spanish translations (PR #194, @josephmora)",
+        "targetAbi": "10.11.4.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.5.0/Release-10.11.4.zip",
+        "checksum": "9B72F74986F3B145955386B6927EA1BB",
+        "timestamp": "2026-02-03T01:22:11",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.4.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed issue where LatestShows/LatestMovies was really really slow. I've personally seen a 15x speed improvement when collecting items from this section",
+        "targetAbi": "10.11.4.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.4.0/Release-10.11.4.zip",
+        "checksum": "926EFF010A2A1ECDFD495FF2C2FCE051",
+        "timestamp": "2026-02-02T23:24:36",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.5.3.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed #177 - Added support for hiding watched episodes in the combined Continue Watching / Next Up section (PR #178, @AdamWHY2K)\r\n\r\n🌐 Translations\r\n\r\n- Added Turkish translations (PR #186, @dgkndemir)\r\n- Added Czech translations (PR #187, @vdobes)",
