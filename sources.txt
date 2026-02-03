@@ -46,6 +46,7 @@ https://raw.githubusercontent.com/TheXaman/jellyfin-plugin-languageTags/main/man
 https://raw.githubusercontent.com/tubearchivist/tubearchivist-jf-plugin/master/manifest.json
 https://raw.githubusercontent.com/Viperinius/jellyfin-plugins/master/manifest.json
 https://raw.githubusercontent.com/virtualmarc/jellyfin-jfignore-plugin/master/manifest.json
+https://raw.githubusercontent.com/voc0der/jellyfin-transcode-nag/main/manifest.json
 https://raw.githubusercontent.com/vosmiic/jellyfin-ani-sync/master/manifest.json
 https://raw.githubusercontent.com/ztffn/Jellyfin-Roulette/main/manifest.json
 https://repo.jellyfin.org/files/plugin/manifest.json
