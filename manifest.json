@@ -8114,6 +8114,112 @@
   },
   {
     "category": "General",
+    "guid": "a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d",
+    "name": "Transcode Nag",
+    "description": "Intelligently nags users when they transcode due to unsupported formats/codecs, while allowing bitrate-based transcoding without harassment.\n\nhttps://github.com/voc0der/jellyfin-transcode-nag",
+    "owner": "voc0der",
+    "overview": "Smart transcoding monitor that only nags for format/codec incompatibility",
+    "versions": [
+      {
+        "version": "1.0.1.11",
+        "changelog": "## What's Changed\n\n- Fix: Embed actual version number in plugin DLL assembly metadata (e407928)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.10...v1.0.1.11\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.11/Transcode_Nag_v1.0.1.11.zip",
+        "checksum": "b89c0fabf27f93e24a6467e43da3da9c",
+        "timestamp": "2026-02-02T13:01:01Z"
+      },
+      {
+        "version": "1.0.1.10",
+        "changelog": "## What's Changed\n\n- Fix: Remove 'v' prefix from plugin folder name inside ZIP (04e9ba7)\n- Update manifest.json for version v1.0.1.9 (922bc48)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.9...v1.0.1.10\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.10/Transcode_Nag_v1.0.1.10.zip",
+        "checksum": "8b8e09cf2183368278b51dd85894cf3d",
+        "timestamp": "2026-02-02T11:17:25Z"
+      },
+      {
+        "version": "1.0.1.9",
+        "changelog": "## What's Changed\n\n- Fix: v1.0.1.8 changelog formatting (1f6e8be)\n- Fix: Changelog formatting in Jellyfin UI (82a1812)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.8...v1.0.1.9\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.9/Transcode_Nag_v1.0.1.9.zip",
+        "checksum": "4c94a9f592d193683b49b5f3ce4f28d7",
+        "timestamp": "2026-02-02T11:04:48Z"
+      },
+      {
+        "version": "1.0.1.8",
+        "changelog": "## What's Changed\n\n- Fix: Include configPage.html as embedded resource (6c19123)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.7...v1.0.1.8",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.8/Transcode_Nag_v1.0.1.8.zip",
+        "checksum": "8d83f20df0ae5a67bc78e047ce347fe1",
+        "timestamp": "2026-02-02T11:00:18Z"
+      },
+      {
+        "version": "1.0.1.7",
+        "changelog": "## What's Changed\n\n- Fix: Remove 'v' prefix from manifest versions to prevent plugin page crash (06bc04a)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.6...v1.0.1.7",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.7/Transcode_Nag_v1.0.1.7.zip",
+        "checksum": "7719ee9f191565d0d7e6213cd9f9df89",
+        "timestamp": "2026-02-02T10:51:29Z"
+      },
+      {
+        "version": "1.0.1.6",
+        "changelog": "## What's Changed\n\n- Fix nullable pattern in session activity (f034f18)\n- Add login nag tracking and event kinds (e740dfa)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.5...v1.0.1.6",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.6/Transcode_Nag_v1.0.1.6.zip",
+        "checksum": "d5d61dcd86ba603c0aedc1489efea0c4",
+        "timestamp": "2026-01-25T17:01:31Z"
+      },
+      {
+        "version": "1.0.1.5",
+        "changelog": "## What's Changed\n\n- Use DI Correct typing. (2a2eced)\n- Fix: Use MediaBrowser.Model.Session namespace for TranscodeReason (015a35c)\n- Fix: Add Jellyfin.Data package reference for TranscodeReason type (828f9bc)\n- Refactor login nag to use week/month dropdown and template placeholders (1c7726f)\n- Add login nag feature with transcode history tracking (5c6a96c)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.4...v1.0.1.5",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.5/Transcode_Nag_v1.0.1.5.zip",
+        "checksum": "fb0c51a554e67ac7356b5796218c0163",
+        "timestamp": "2026-01-25T16:40:50Z"
+      },
+      {
+        "version": "1.0.1.4",
+        "changelog": "## What's Changed\n\n- Fix: Use IHostedService instead of IServerEntryPoint (6ee2f90)\n- Refactor: Switch from polling to event-driven playback monitoring (f75d62b)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.3...v1.0.1.4",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.4/Transcode_Nag_v1.0.1.4.zip",
+        "checksum": "3ead1c2cda4cd2da62644e96ec825c98",
+        "timestamp": "2026-01-24T16:35:37Z"
+      },
+      {
+        "version": "1.0.1.3",
+        "changelog": "## What's Changed\n\n- Fix: Nag once per video instead of once per login session (54559f5)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.2...v1.0.1.3",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.3/Transcode_Nag_v1.0.1.3.zip",
+        "checksum": "bd017ce5d7f20f266f434c9452b2597c",
+        "timestamp": "2026-01-23T19:59:19Z"
+      },
+      {
+        "version": "1.0.1.2",
+        "changelog": "## What's Changed\n\n- Fix: Pass session ID to SendMessageCommand (6fa387a)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.1...v1.0.1.2",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.2/Transcode_Nag_v1.0.1.2.zip",
+        "checksum": "b2d4913e89e7ac7c7614da4d471a3ffd",
+        "timestamp": "2026-01-23T13:19:05Z"
+      },
+      {
+        "version": "1.0.1.1",
+        "changelog": "## What's Changed\n\n- Use jq for manifest.json updates (1bc7745)\n- Fix: Use temporary Python file instead of inline heredoc (737fc3d)\n- Fix: Correct Python heredoc in release workflow (375957b)\n- Add Jellyfin plugin repository support with proper versioning (38ce74a)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1...v1.0.1.1",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.1/Transcode_Nag_v1.0.1.1.zip",
+        "checksum": "4bf4190a72f6b0b631e9fe7224fb7996",
+        "timestamp": "2026-01-23T13:09:42Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release\n- Smart detection using TranscodeReasons API\n- Configurable messages and intervals\n- Web UI configuration page\n- Background monitoring service",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/1.0.0.0/Transcode_Nag_1.0.0.0.zip",
+        "checksum": "PLACEHOLDER",
+        "timestamp": "2026-01-23T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "category": "General",
     "guid": "c78f11cf-93e6-4423-8c42-d2c255b70e47",
     "name": "Ani-Sync",
     "description": "Synchronize anime watch status between Jellyfin and anime tracking sites.\n\nhttps://github.com/vosmiic/jellyfin-ani-sync",
