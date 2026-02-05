@@ -8121,6 +8121,14 @@
     "overview": "Smart transcoding monitor that only nags for format/codec incompatibility",
     "versions": [
       {
+        "version": "1.0.1.12",
+        "changelog": "## What's Changed\n\n- Add user exclusion feature to prevent nag messages for specific users (bb4a426)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.11...v1.0.1.12\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.12/Transcode_Nag_v1.0.1.12.zip",
+        "checksum": "151a50513d579169e678c704d77a4f68",
+        "timestamp": "2026-02-04T13:08:31Z"
+      },
+      {
         "version": "1.0.1.11",
         "changelog": "## What's Changed\n\n- Fix: Embed actual version number in plugin DLL assembly metadata (e407928)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.10...v1.0.1.11\n",
         "targetAbi": "10.9.0.0",
