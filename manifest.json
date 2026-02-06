@@ -4626,6 +4626,14 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "## [0.25.4.1] - 2026-02-05\n\n### 🐛 Bug Fixes\n\n- Playstate for episodes\n",
+        "checksum": "c0c8b46408bf18a179b699852e9d821f",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.4.1/gelato_0.25.4.1.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-02-05T11:24:04Z",
+        "version": "0.25.4.1"
+      },
+      {
         "changelog": "## [0.25.4.0] - 2026-02-03\n\n### 🚀 Features\n\n- Ignore people search for movie and shows types\n",
         "checksum": "3476f70c150c363fb49ad5eb6161d8b1",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.4.0/gelato_0.25.4.0.zip",
@@ -4856,14 +4864,6 @@
         "targetAbi": "10.11.0.0",
         "timestamp": "2026-01-01T18:08:02Z",
         "version": "0.24.7.10"
-      },
-      {
-        "changelog": "## [0.24.7.9] - 2025-12-29\n\n### 🐛 Bug Fixes\n\n- Check for valid stremio client in seriesprovider\n",
-        "checksum": "f094fa9e72545503b8b8438b3f3b1bac",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.7.9/gelato_0.24.7.9.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-12-29T16:11:46Z",
-        "version": "0.24.7.9"
       }
     ]
   },
@@ -8120,6 +8120,22 @@
     "owner": "voc0der",
     "overview": "Smart transcoding monitor that only nags for format/codec incompatibility",
     "versions": [
+      {
+        "version": "1.0.1.15",
+        "changelog": "## What's Changed\n\n- chore: Bump the jellyfin-packages group with 2 updates (798a293)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.14...v1.0.1.15\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.15/Transcode_Nag_v1.0.1.15.zip",
+        "checksum": "c132fe64072c8003bb964d5c788ead04",
+        "timestamp": "2026-02-05T16:59:02Z"
+      },
+      {
+        "version": "1.0.1.13",
+        "changelog": "## What's Changed\n\n- Add Dependabot configuration for automated dependency updates (5bc8104)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.12...v1.0.1.13\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.13/Transcode_Nag_v1.0.1.13.zip",
+        "checksum": "845026b4aecbd338e972e5c17886474f",
+        "timestamp": "2026-02-05T16:55:33Z"
+      },
       {
         "version": "1.0.1.12",
         "changelog": "## What's Changed\n\n- Add user exclusion feature to prevent nag messages for specific users (bb4a426)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.11...v1.0.1.12\n",
