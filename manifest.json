@@ -4626,6 +4626,14 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "## [0.25.5.0] - 2026-02-06\n\n### 🚀 Features\n\n- Show play button even if unaired\n\n### 🐛 Bug Fixes\n\n- User id parsing returning true when empty (#96)\n",
+        "checksum": "3ac8ffa31ed3082ec364b9b96193432d",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.5.0/gelato_0.25.5.0.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-02-06T11:14:36Z",
+        "version": "0.25.5.0"
+      },
+      {
         "changelog": "## [0.25.4.1] - 2026-02-05\n\n### 🐛 Bug Fixes\n\n- Playstate for episodes\n",
         "checksum": "c0c8b46408bf18a179b699852e9d821f",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.4.1/gelato_0.25.4.1.zip",
@@ -4856,14 +4864,6 @@
         "targetAbi": "10.11.0.0",
         "timestamp": "2026-01-04T21:42:38Z",
         "version": "0.24.7.11"
-      },
-      {
-        "changelog": "## [0.24.7.10] - 2026-01-01\n\n### 🐛 Bug Fixes\n\n- Use released field formpremiere date\n",
-        "checksum": "494542e2397ddd6e03d0419e35a6bd9b",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.7.10/gelato_0.24.7.10.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2026-01-01T18:08:02Z",
-        "version": "0.24.7.10"
       }
     ]
   },
@@ -5396,6 +5396,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Enhanced.png",
     "versions": [
+      {
+        "changelog": "- Respect Plugin Pages Settings\n - Add *arr URL mapping support\n - Add markdown support to reviews\n - Refactor reviews page detection to use onViewPage hook\n - Leverage helpers for throttling, debouncing, and observers\n - Update quality tag documentation for codecs and features\n - Fix load order for dependencies\n - Rework Calendar UI ([#338](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/338))\n - Update funding.yml\n - Update funding.yml\n - Missed \"All Day\" Translation\n - Fix clicking on items not navigating to item in request custom tab\n - Remove debug logging for person tags\n - fix: Add custom tab flags and conditional init\n - Small css tweaks\n - Remove in-memory season request cache\n - Add ArrTags sync filter and UI\n - Update pr.json\n - Fix backdrop issue in custom tabs\n - Update README.md\n - Add plugin-pages support for Bookmarks\n - Fallback to series rating only if missing\n - Add configurable auto-refresh for Downloads page",
+        "targetAbi": "10.11.0.0",
+        "version": "10.11.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/10.11.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "CFC644A2DAC90A059639C8B7B8EFE034",
+        "timestamp": "2026-02-06T22:06:42"
+      },
       {
         "changelog": "- Enforce icon size on card with !important\n - Keep last calendar view in user settings\n - fix: Jellyseerr proxy URL fallback on HTTP errors\n - Fix calendar range handling (UTC) and pass RFC3339 start/end to Sonarr/Radarr\n - Add watchlist re-addition prevention feature\n - Improve logging and result tracking in watchlist sync\n - Reduce unnecessary info logs\n - Use new item by provider id endpoint to navigate in calendar\n - Add manual refresh and improve polling for downloads\n - Remove status filter from download queue request\n - Add PeopleTagsEnabled to config handling\n - Improve handling of downloads poll interval config\n - Enhance request status colors and section classes\n - Add detailed logging to Jellyseerr watchlist sync\n - Add downloads tab filtering and search UI\n - Add i18n support for requests page and update translations\n - Update ratings.css\n - Add video format detection and badges to quality tags\n - Set calendar default view mode to 'agenda'\n - Add Custom Tabs support for Calendar and Requests pages\n - Refactor JS file structure and update imports\n - Update CONTRIBUTING.md",
         "targetAbi": "10.11.0.0",
@@ -5986,6 +5994,14 @@
     "owner": "rdpharr",
     "category": "General",
     "versions": [
+      {
+        "version": "0.5.1.0",
+        "changelog": "Bug fixes for series recommendations and playback crashes\n- Fixed: Partially watched series not included in watch history, causing all users to get identical cold-start recommendations (#7)\n- Fixed: Playback from recommendation libraries crashing with database failures (#8)\n- Series watch history now detected at episode level instead of requiring all episodes watched\n- Virtual library items no longer removed during active playback",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/rdpharr/jellyfin-plugin-localrecs/releases/download/v0.5.1/jellyfin-plugin-localrecs-v0.5.1.zip",
+        "checksum": "f374c0f8f6df4beaaba682d7fe42a87a",
+        "timestamp": "2026-02-06T00:00:00Z"
+      },
       {
         "version": "0.5.0.0",
         "changelog": "Image sync for custom posters and backdrops\n- Custom poster images are now preserved in recommendation libraries\n- Copies poster.jpg and backdrop.jpg from source items to virtual folders\n- Configurable: Enable/disable image sync and backdrop copying\n- Fixes issue where user customizations (e.g., French posters) were lost",
