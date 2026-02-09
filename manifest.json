@@ -6003,6 +6003,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "0.5.2.0",
+        "changelog": "Fix playback freeze when playing from recommendation libraries (#8)\n- Never remove virtual library items from event handlers (deferred to next refresh)\n- Ignore PlaybackStart/PlaybackProgress events to prevent DB write storms during playback\n- Only sync play status on meaningful events (PlaybackFinished, TogglePlayed, etc.)\n- Known tradeoff: partially watched items may appear in Continue Watching twice until next refresh",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/rdpharr/jellyfin-plugin-localrecs/releases/download/v0.5.2/jellyfin-plugin-localrecs-v0.5.2.zip",
+        "checksum": "b99cd687dc2d9efd0ab92f100b3d34c9",
+        "timestamp": "2026-02-08T00:00:00Z"
+      },
+      {
         "version": "0.5.1.0",
         "changelog": "Bug fixes for series recommendations and playback crashes\n- Fixed: Partially watched series not included in watch history, causing all users to get identical cold-start recommendations (#7)\n- Fixed: Playback from recommendation libraries crashing with database failures (#8)\n- Series watch history now detected at episode level instead of requiring all episodes watched\n- Virtual library items no longer removed during active playback",
         "targetAbi": "10.11.0.0",
@@ -6248,6 +6256,22 @@
     "category": "Anime",
     "imageUrl": "",
     "versions": [
+      {
+        "version": "6.3.10.1",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.10.1",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.10.1/myanimelist_6.3.10.1.zip",
+        "checksum": "2a9069425142fbd252cda7db633b31d0",
+        "timestamp": "2026-02-08T23:21:18Z"
+      },
+      {
+        "version": "6.3.10.0",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.10.0",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.10.0/myanimelist_6.3.10.0.zip",
+        "checksum": "06f815df65e6b9de6a1ae2e337879858",
+        "timestamp": "2026-02-08T23:02:15Z"
+      },
       {
         "version": "6.3.9.2",
         "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.9.2",
@@ -11584,6 +11608,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Bar.png",
     "versions": [
+      {
+        "version": "2.4.8.1",
+        "changelog": "Hotfix to solve issue where trailer enable/disable toggle didn't work",
+        "targetAbi": "10.11.4.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.8.1/Release-10.11.4.zip",
+        "checksum": "01B5FF71B0CB5C3660E9D685724C39A4",
+        "timestamp": "2026-02-08T11:23:49",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.4.7.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6\r\n- Merged with upstream",
