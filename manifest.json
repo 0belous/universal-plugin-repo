@@ -1421,112 +1421,6 @@
     ]
   },
   {
-    "guid": "5e7fe7f0-b048-429e-a431-b1a7e69c930d",
-    "name": "LastFM",
-    "description": "Scrobble LastFM plays with Jellyfin\n\nhttps://github.com/jesseward/jellyfin-plugin-lastfm",
-    "overview": "A plugin that scrobbles your Jellyfin music to LastFM",
-    "owner": "Jesse Ward",
-    "category": "music",
-    "versions": [
-      {
-        "version": "10.0.0.0",
-        "changelog": "Jellyfin LastFM build v10.0.0.0",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jesseward/jellyfin-plugin-lastfm/releases/download/10.0.0.0/lastfm_10.0.0.0.zip",
-        "checksum": "32277a418e7cddad5c66865418091438",
-        "timestamp": "2025-10-25T20:03:04Z"
-      },
-      {
-        "version": "9.0.0.0",
-        "changelog": "Jellyfin LastFM build v9.0.0.0",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/jesseward/jellyfin-plugin-lastfm/releases/download/9.0.0.0/lastfm_9.0.0.0.zip",
-        "checksum": "231cef743567e156db542d04c9088711",
-        "timestamp": "2025-09-28T15:15:02Z"
-      },
-      {
-        "version": "8.2.0.0",
-        "changelog": "Jellyfin LastFM build v8.2.0.0",
-        "targetAbi": "10.9.0.0",
-        "sourceUrl": "https://github.com/jesseward/jellyfin-plugin-lastfm/releases/download/8.2.0.0/lastfm_8.2.0.0.zip",
-        "checksum": "d6dbd4df6a71351f342f6919f504b475",
-        "timestamp": "2024-10-03T01:10:00Z"
-      },
-      {
-        "version": "8.1.0.0",
-        "changelog": "Jellyfin LastFM build v8.1.0.0",
-        "targetAbi": "10.9.0.0",
-        "sourceUrl": "https://github.com/jesseward/jellyfin-plugin-lastfm/releases/download/8.1.0.0/lastfm_8.1.0.0.zip",
-        "checksum": "16999fa8966d0eb2c588460c36fd5292",
-        "timestamp": "2024-05-14T15:05:38Z"
-      },
-      {
-        "version": "8.0.0.4",
-        "changelog": "Jellyfin LastFM build v8.0.0.4",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/jesseward/jellyfin-plugin-lastfm/releases/download/8.0.0.4/lastfm_8.0.0.4.zip",
-        "checksum": "f9a0cff6c9cb03af6e381b23dd3c4b89",
-        "timestamp": "2024-01-09T16:40:16Z"
-      },
-      {
-        "version": "8.0.0.3",
-        "changelog": "Jellyfin LastFM build v8.0.0.3",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/jesseward/jellyfin-plugin-lastfm/releases/download/8.0.0.3/lastfm_8.0.0.3.zip",
-        "checksum": "a0d280bdc2de4d935b6ab8ec5e17aef6",
-        "timestamp": "2023-06-10T21:12:28Z"
-      },
-      {
-        "version": "8.0.0.2",
-        "changelog": "Jellyfin LastFM build v8.0.0.2",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/jesseward/jellyfin-plugin-lastfm/releases/download/8.0.0.2/lastfm_8.0.0.2.zip",
-        "checksum": "76f94858caebe4d77c82d94693e0666e",
-        "timestamp": "2023-06-02T02:41:29Z"
-      },
-      {
-        "version": "8.0.0.1",
-        "changelog": "Jellyfin LastFM build v8.0.0.1",
-        "targetAbi": "10.7.0.0",
-        "sourceUrl": "https://github.com/jesseward/jellyfin-plugin-lastfm/releases/download/8.0.0.1/lastfm_8.0.0.1.zip",
-        "checksum": "e943eb0c5ce78b37feb82164cb9664c9",
-        "timestamp": "2023-06-02T02:23:27Z"
-      },
-      {
-        "version": "7.0.0.0",
-        "changelog": "Jellyfin LastFM build v7.0.0.0",
-        "targetAbi": "10.7.0.0",
-        "sourceUrl": "https://github.com/jesseward/jellyfin-plugin-lastfm/releases/download/7.0.0.0/lastfm_7.0.0.0.zip",
-        "checksum": "d6dbcf63760c7de4d09813a4c6f78361",
-        "timestamp": "2021-01-25T00:57:19Z"
-      },
-      {
-        "version": "6.0.0.3",
-        "changelog": "Jellyfin LastFM build v6.0.0.3",
-        "targetAbi": "10.6.0.0",
-        "sourceUrl": "https://github.com/jesseward/jellyfin-plugin-lastfm/releases/download/6.0.0.3/lastfm_6.0.0.3.zip",
-        "checksum": "2e35486f5fdccfb1405c3edb88ce9054",
-        "timestamp": "2020-12-16T15:26:49Z"
-      },
-      {
-        "version": "6.0.0.2",
-        "changelog": "Jellyfin LastFM build v6.0.0.2",
-        "targetAbi": "10.6.0.0",
-        "sourceUrl": "https://github.com/jesseward/jellyfin-plugin-lastfm/releases/download/6.0.0.2/lastfm_6.0.0.2.zip",
-        "checksum": "5f2d86ed9c4cb87197b6dca7a8805bf9",
-        "timestamp": "2020-11-26T19:06:56Z"
-      },
-      {
-        "version": "6.0.0.1",
-        "changelog": "Jellyfin LastFM build v6.0.0.1",
-        "targetAbi": "10.6.0.0",
-        "sourceUrl": "https://github.com/jesseward/jellyfin-plugin-lastfm/releases/download/6.0.0.1/lastfm_6.0.0.1.zip",
-        "checksum": "ed83070c1c7287425a3126afe3918e73",
-        "timestamp": "2020-10-22T13:25:25Z"
-      }
-    ]
-  },
-  {
     "description": "bgm.tv metadata provider for Jellyfin\n\nhttps://github.com/user-attachments/assets",
     "versions": [
       {
@@ -2055,7 +1949,7 @@
       },
       {
         "changelog": "Nightly build\n",
-        "checksum": "a73804f780a841d0b046f29824e7984a",
+        "checksum": "40a1368b05f72b223e53b0934575bb65",
         "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/nightly/sso-authentication_0.0.0.9000.zip",
         "targetAbi": "10.11.0.0",
         "timestamp": "2022-07-01T01:20:33Z",
@@ -5402,7 +5296,7 @@
     "description": "A combination of the Jellyfin Enhanced and Jellyfin Elsewhere userscripts, providing a comprehensive set of tweaks and features for Jellyfin.\n\nhttps://github.com/n00bcodr/Jellyfin-Enhanced",
     "owner": "n00bcodr",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/n00bcodr/Jellyfin-Enhanced/master/images/icon.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Enhanced.png",
     "versions": [
       {
         "changelog": "- Respect Plugin Pages Settings\n - Add *arr URL mapping support\n - Add markdown support to reviews\n - Refactor reviews page detection to use onViewPage hook\n - Leverage helpers for throttling, debouncing, and observers\n - Update quality tag documentation for codecs and features\n - Fix load order for dependencies\n - Rework Calendar UI ([#338](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/338))\n - Update funding.yml\n - Update funding.yml\n - Missed \"All Day\" Translation\n - Fix clicking on items not navigating to item in request custom tab\n - Remove debug logging for person tags\n - fix: Add custom tab flags and conditional init\n - Small css tweaks\n - Remove in-memory season request cache\n - Add ArrTags sync filter and UI\n - Update pr.json\n - Fix backdrop issue in custom tabs\n - Update README.md\n - Add plugin-pages support for Bookmarks\n - Fallback to series rating only if missing\n - Add configurable auto-refresh for Downloads page",
@@ -8168,6 +8062,30 @@
     "owner": "voc0der",
     "overview": "Smart transcoding monitor that only nags for format/codec incompatibility",
     "versions": [
+      {
+        "version": "1.0.1.19",
+        "changelog": "## What's Changed\n\n- Fix CodeQL path and exception handling alerts (9a701eb)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.18...v1.0.1.19\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.19/Transcode_Nag_v1.0.1.19.zip",
+        "checksum": "b475d81ea9377c212f2534bd06db4e9a",
+        "timestamp": "2026-02-11T16:12:38Z"
+      },
+      {
+        "version": "1.0.1.18",
+        "changelog": "## What's Changed\n\n- Embed live monitor in settings and remove sidebar page (27c567d)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.17...v1.0.1.18\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.18/Transcode_Nag_v1.0.1.18.zip",
+        "checksum": "b00ce064524bf0caafdb069531b9eb08",
+        "timestamp": "2026-02-11T03:02:25Z"
+      },
+      {
+        "version": "1.0.1.17",
+        "changelog": "## What's Changed\n\n- Add configurable nag controls, live sidebar page, and CI workflows (400ed3a)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.16...v1.0.1.17\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/voc0der/jellyfin-transcode-nag/releases/download/v1.0.1.17/Transcode_Nag_v1.0.1.17.zip",
+        "checksum": "ee4b17581c88d6e7856d07601f116b66",
+        "timestamp": "2026-02-11T02:33:42Z"
+      },
       {
         "version": "1.0.1.16",
         "changelog": "## What's Changed\n\n- Fix user exclusion GUID format mismatch, update docs (21864ab)\n\n**Full Changelog**: https://github.com/voc0der/jellyfin-transcode-nag/compare/v1.0.1.15...v1.0.1.16\n",
