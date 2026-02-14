@@ -4528,6 +4528,30 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "## [0.25.6.1] - 2026-02-13\n\n### 🐛 Bug Fixes\n\n- Missing import\n",
+        "checksum": "f337ae5f408689fccaa17e27a275f833",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.6.1/gelato_0.25.6.1.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-02-13T13:03:05Z",
+        "version": "0.25.6.1"
+      },
+      {
+        "changelog": "## [0.25.6.0] - 2026-02-13\n\n### 🚀 Features\n\n- Nudge release\n",
+        "checksum": "",
+        "sourceUrl": "",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-02-13T12:51:43Z",
+        "version": "0.25.6.0"
+      },
+      {
+        "changelog": "## [0.25.5.4] - 2026-02-13\n\n### 🐛 Bug Fixes\n\n- Add latest legacy endpoints to listing routes\n",
+        "checksum": "",
+        "sourceUrl": "",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-02-13T12:35:47Z",
+        "version": "0.25.5.4"
+      },
+      {
         "changelog": "## [0.25.5.3] - 2026-02-09\n\n### 🐛 Bug Fixes\n\n- Add latest legacy endpoints to listing routes\n",
         "checksum": "44e3a4f82103665d0ca12d05df40e3f3",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.5.3/gelato_0.25.5.3.zip",
@@ -4742,30 +4766,6 @@
         "targetAbi": "10.11.0.0",
         "timestamp": "2026-01-17T11:55:39Z",
         "version": "0.25.1.1"
-      },
-      {
-        "changelog": "## [0.25.1.0] - 2026-01-15\n\n### 🚀 Features\n\n- Add timer to stream sync log\n\n### 🐛 Bug Fixes\n\n- Wrong primary version id format resulting in dupes\n",
-        "checksum": "4c869ad58e81217a4cbaa9b3dc188ec6",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.1.0/gelato_0.25.1.0.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2026-01-15T11:02:52Z",
-        "version": "0.25.1.0"
-      },
-      {
-        "changelog": "## [0.25.0.3] - 2026-01-13\n\n### 🐛 Bug Fixes\n\n- Squeezing out the last drop of performance for loading streams\n",
-        "checksum": "345155d0b6c54c96109dd1b279cdd93d",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.0.3/gelato_0.25.0.3.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2026-01-13T11:58:11Z",
-        "version": "0.25.0.3"
-      },
-      {
-        "changelog": "## [0.25.0.2] - 2026-01-13\n\n### 🐛 Bug Fixes\n\n- Use jellyfin bulk save for streams. At least i think it is\n",
-        "checksum": "56ad8609ee94417edff42365d894a572",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.0.2/gelato_0.25.0.2.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2026-01-13T11:47:20Z",
-        "version": "0.25.0.2"
       }
     ]
   },
@@ -6473,6 +6473,22 @@
     "category": "Anime",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Shoko.png",
     "versions": [
+      {
+        "version": "6.0.4.11",
+        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.4) for more info.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.4/shoko_6.0.4.0_for_10.11.zip",
+        "checksum": "7846d654a3112439e343bc04c6f0e19b",
+        "timestamp": "2026-02-14T00:39:25Z"
+      },
+      {
+        "version": "6.0.4.10",
+        "changelog": "Only compatible with **10.10.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.4) for more info.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.4/shoko_6.0.4.0_for_10.10.zip",
+        "checksum": "f938a56f4433ac725f88a8ffdff8b4e3",
+        "timestamp": "2026-02-14T00:39:35Z"
+      },
       {
         "version": "6.0.3.11",
         "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.3) for more info.",
@@ -11150,6 +11166,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/ListenBrainz.svg",
     "versions": [
       {
+        "version": "6.2.0.3",
+        "changelog": "New features:\n - Strict mode option for ListenBrainz submissions\n - Sync playlists from ListenBrainz\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_6.2.0.3.zip",
+        "checksum": "ea5fd1f48cc0c513c93f13da8030858d",
+        "timestamp": "2026-02-13T19:59:29Z"
+      },
+      {
         "version": "6.0.4.0",
         "changelog": "- Fix plugin settings error for mixed type libraries\n",
         "targetAbi": "10.11.0.0",
@@ -11172,6 +11196,14 @@
         "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_6.0.1.1.zip",
         "checksum": "7a7e4fee01ce2db1f99d75110c2fe721",
         "timestamp": "2025-10-20T16:50:32Z"
+      },
+      {
+        "version": "5.4.0.1",
+        "changelog": "Fix:\n  - Fetch metadata before evaluating strict mode in resubmit listens task\nNew:\n  - Sync playlists from ListenBrainz\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_5.4.0.1.zip",
+        "checksum": "7fa6031e028dee7a167d47a3fa1e02cf",
+        "timestamp": "2026-02-13T21:35:13Z"
       },
       {
         "version": "5.2.0.4",
@@ -11356,6 +11388,24 @@
         "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_2.3.0.0.zip",
         "checksum": "27ff3ac6cfbb6f6a5877c241bbdf96a2",
         "timestamp": "2023-05-12T09:31:30Z"
+      }
+    ]
+  },
+  {
+    "guid": "5d7cee2e-23f0-4c30-ad30-d71c228a90a2",
+    "name": "Log Settings",
+    "description": "Jellyfin plugin that allows configuring logging options directly from the admin UI.\n",
+    "overview": "Configure logging options from the admin UI.",
+    "owner": "lyarenei",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release.\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/log-settings/log-settings_1.0.0.0.zip",
+        "checksum": "e95a9d6a4eb20163e2237185e058a50a",
+        "timestamp": "2026-02-13T12:39:04Z"
       }
     ]
   },
