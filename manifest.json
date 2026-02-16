@@ -1000,6 +1000,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
     "versions": [
       {
+        "version": "2.1.5.0",
+        "changelog": "修复10.10.x豆瓣",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.1.5/metashark_2.1.5.0.zip",
+        "checksum": "801137d46bd37aba7e7342c88bdf23d5",
+        "timestamp": "2026-02-15T07:49:30"
+      },
+      {
         "version": "2.3.1.0",
         "changelog": "修复豆瓣",
         "targetAbi": "10.11.0.0",
