@@ -2291,6 +2291,96 @@
     ]
   },
   {
+    "category": "General",
+    "guid": "a31b415a-5264-419d-b152-8c8192a54994",
+    "name": "Mediathek Downloader",
+    "description": "Mit dem Plugin kann man die Mediatheken der öffentlich-rechtlichen Sender in Deutschland durchsuchen und Inhalte herunterladen. Für die suche wird die MediathekViewWeb-API verwendet. Der Videos werden direkt über die Original-URLs der Sender heruntergeladen. Es können Abos anglegt werden um z.B. Serien automatisch herunterzuladen.\n\n\nhttps://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL",
+    "owner": "CatNoir2006",
+    "overview": "Sucht und lädt Inhalte aus den Mediatheken über die MediathekViewWeb-API.",
+    "versions": [
+      {
+        "version": "0.7.2.0",
+        "changelog": "# Release v0.7.2.0                                                                                                                                                                                                              \r\nDieses Update verbessert die Suchfunktion um datumsbasierte Kriterien, ermöglicht Testläufe (Dry Run) ohne konfigurierten Speicherpfad und beinhaltet wichtige interne Strukturverbesserungen sowie Fehlerbehebungen bei der Titelverarbeitung.                                                                                                                                                                                                            \r\n\r\n## ⚠️ Wichtige Hinweise                                                                                                                                                                                                          \r\n*   **Kein Downgrade empfohlen:** Aufgrund von Änderungen am Speicherformat für Suchanfragen (Queries) sollte nach diesem Update kein Downgrade auf eine ältere Version durchgeführt werden. Die alte Version wird die gespeicherten Daten nicht mehr korrekt lesen können.                                                                                                       \r\n                                                                                                                                                                                                                             \r\n## 🚀 Neue Funktionen                                                                                                                                                                                                            \r\n*   **Suche nach Datum:** Die Suche wurde erweitert, um Inhalte gezielt nach Datum finden zu können.                                                                                                                      \r\n*   **Dry Run ohne Pfad:** Der Simulationsmodus (Dry Run) kann nun ausgeführt werden, selbst wenn kein Download-Pfad in den Einstellungen hinterlegt ist.                                                                 \r\n                                                                                                                                                                                                                              \r\n## 🛠️ Verbesserungen & Refactoring                                                                                                                                                                                              \r\n*   **API-Entkopplung:** Die interne Anwendungslogik wurde von den externen Datenmodellen der MediathekViewWeb-API entkoppelt. Dies verbessert die Wartbarkeit und Architektur des Plugins (#83).\r\n\r\n## 🐞 Bugfixes\r\n* Generell\r\n\r\n## What's Changed\r\n* feat: Entkopplung der internen logik von externen api modellen zu mediathekviewweb by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/83\r\n* #85, #84, #82 search by date, allow dry run without path, fix title cleaning with datebased shows by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/86\r\n\r\n\r\n**Full Changelog**: https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/compare/v0.7.1.0...v0.7.2.0",
+        "timestamp": "2026-01-23T16:48:23Z",
+        "sourceUrl": "https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/releases/download/v0.7.2.0/mediathek-downloader_0.7.2.0.zip",
+        "checksum": "99b11e2dba8a6a56ab31fae4c85c2121",
+        "targetAbi": "10.11.0.0"
+      },
+      {
+        "version": "0.7.1.0",
+        "changelog": "## Release v0.7.1.0\r\n\r\n###  Dieses Update führt ein völlig neues System zur Pfadverwaltung ein, macht die Suche deutlich mächtiger und verbessert die Benutzererfahrung durch eine direkte Videovorschau.\r\n\r\n ## 🚀 Neue Funktionen\r\n   * Kontextbasiertes Pfad-Management: Anstelle eines einzigen globalen Download-Ordners können nun spezifische Standardpfade für verschiedene Mediathek-Inhalte festgelegt werden:\r\n       * Filme & Serien: Getrennte Basisordner ermöglichen eine saubere, automatische Integration in die jeweilige Jellyfin-Bibliothek.\r\n       * Abonnements & Manuelle Downloads: Eigene Zielverzeichnisse sorgen für eine bessere Organisation Ihrer Medien.\r\n   * Direkte Videovorschau (Play-Button): Suchergebnisse verfügen nun über einen Play-Button. Damit lassen sich die MP4-Direktlinks der Sender sofort im Browser öffnen, um Inhalte vor dem Download kurz zu sichten.\r\n   * Intelligente Sucherweiterung:\r\n       * Kombinierte Abfragen: Die Suche erlaubt nun die gleichzeitige Eingabe von Titel und Thema, um Treffer in großen Mediatheken (z.B. ARD/ZDF) präziser einzugrenzen.\r\n       * Auto-Pre-Fill: Der Dialog für erweiterte Downloads wird jetzt automatisch mit erkannten Metadaten und Pfadvorschlägen (basierend auf der Videoanalyse) vorausgefüllt.\r\n       * Optimierte Eingabe: Suchfelder wachsen nun dynamisch mit dem Text mit (auto-grow).\r\n   * UI-Verbesserungen: Die Standard-Pfadeinstellungen in der Konfiguration sind jetzt einklappbar, um die Übersichtlichkeit zu erhöhen.\r\n\r\n ## 🛠️ Verbesserungen & Refactoring\r\n   * Restrukturierung der Web-UI: Komplette Trennung von HTML-Struktur und JavaScript-Logik zur Verbesserung der Wartbarkeit und Ladezeiten.\r\n   * Robuste Verzeichniserstellung: Die Logik zur automatischen Erstellung von Jellyfin-konformen Ordnerstrukturen wurde grundlegend verbessert.\r\n   * Metadaten-Logik: Verfeinerte Integration von DuckDuckGo und TMDB-Suchen für eine bessere Zuordnung von Postern und Beschreibungen.\r\n\r\n ## 🐞 Bugfixes\r\n   * Sicherheits-Update: Implementierung eines Schutzes gegen Path-Traversal-Angriffe bei der manuellen Pfadeingabe für Downloads.\r\n   * Stabilität: Behebung von Fehlern in den Unit-Tests, die durch die Umstellung auf das neue Pfad-Schema entstanden waren.\r\n\r\n## What's Changed\r\n* feat(UI): Suchfunktionen erweitern und UI des Abo-Editors verbessern by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/77\r\n* feat: Optional automatic folder creation and UI-Improvments, More by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/81\r\n\r\n\r\n**Full Changelog**: https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/compare/v0.7.0.0...v0.7.1.0",
+        "timestamp": "2026-01-07T13:50:44Z",
+        "sourceUrl": "https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/releases/download/v0.7.1.0/mediathek-downloader_0.7.1.0.zip",
+        "checksum": "15d2c5961ce24105fce938bcc02d38b7",
+        "targetAbi": "10.11.0.0"
+      },
+      {
+        "version": "0.7.0.0",
+        "changelog": "## Release Notes (v0.6.1.0 -> v0.7.0.0)\r\n\r\n #### Dieses Update verbessert die Stabilität und erweitert die Download-Möglichkeiten.\r\n\r\n  ### 🚀 Neue Funktionen\r\n\r\n   * M3U8-Support: Das Plugin lädt nun M3U8-Streams direkt herunter. Das erhöht die Kompatibilität mit vielen Sendern.\r\n   * Audio-Extraktion: Tonspuren werden jetzt direkt aus dem Web extrahiert. Das spart Zeit und Datenvolumen.\r\n   * OV-Sprache: In Abos kannst du eine Standardsprache für OV-Inhalte festlegen (z. B. 'eng').\r\n   * Temp-Pfad: Der Pfad für temporäre Dateien ist nun frei konfigurierbar.\r\n   * Bereinigung: Ein neuer Task löscht beim Start automatisch alte temporäre Dateien.\r\n   * HTTP-Option: Downloads über HTTP können nun explizit erlaubt werden.\r\n\r\n ### 🛠️ Verbesserungen\r\n\r\n   * Neues System: Die Download-Logik wurde für mehr Stabilität komplett modernisiert.\r\n   * FFmpeg-Anzeige: Vorgänge wie M3U8-Downloads zeigen nun genaue Prozentwerte an.\r\n   * Fehlerschutz: Automatische Wiederholungen (via Polly) machen Downloads zuverlässiger.\r\n   * Jellyfin 10.11: Das Plugin wurde auf die neueste Jellyfin-Version aktualisiert.\r\n   * Speicherprüfung: Die Prüfung des freien Speicherplatzes arbeitet nun genauer.\r\n   * Doku: Die README wurde überarbeitet und enthält nun Bilder und neue Anleitungen.\r\n\r\n ### 🐞 Fehlerbehebungen\r\n\r\n   * Gebärdensprache: Diese Inhalte werden nun korrekt immer als Video geladen.\r\n   * Task-Trigger: Die Zeitpläne wurden an aktuelle API-Standards angepasst.\r\n\r\n## What's Changed\r\n* Implement resilience patterns polly by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/64\r\n* Configurable Temporary Download Path & Improve Disc Space Check by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/66\r\n* Fix: SignLanguage should alwas be downloaded as Video never as Audio by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/69\r\n* Docs: Add GitHub issue templates by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/70\r\n* feat: Add subscription setting for Original Language (OV) override by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/72\r\n* feat: Streaming audio extraction by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/74\r\n* Implement TempFileCleanup scheduled task by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/75\r\n* Add support for m3u files for download by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/76\r\n\r\n\r\n**Full Changelog**: https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/compare/v0.6.1.0.0...v0.7.0.0",
+        "timestamp": "2026-01-05T21:28:07Z",
+        "sourceUrl": "https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/releases/download/v0.7.0.0/mediathek-downloader_0.7.0.0.zip",
+        "checksum": "f18abf9542e54ce33a3f316af381c8ed",
+        "targetAbi": "10.11.0.0"
+      },
+      {
+        "version": "0.6.1.0",
+        "changelog": "  # Release v0.6.1.0\r\n\r\nThis minor release introduces several usability improvements, optimizations for library scanning, and fixes for download management.\r\n\r\n## 🚀 Features & Improvements\r\n\r\n   * Plugin Settings in Sidebar: The plugin settings page is now directly accessible from the left sidebar in the Jellyfin Admin Dashboard for easier access #57 \r\n   * Enhanced Download Status: Active downloads and history entries now display the name of the triggering subscription (e.g., (Abo: Tatort)) instead of a generic label, providing better context #55 \r\n   * Optimized Library Scanning: Library scans are now smarter; the plugin waits until all queued downloads in a batch are finished before triggering a scan, preventing redundant scans and reducing system load  #54 \r\n\r\n## 🐛 Bug Fixes\r\n\r\n   * Prevent Duplicate Downloads: Fixed an issue where existing videos were sometimes re-added to the download list. The logic for checking existing files and quality upgrades has been refactored and made more robust using a new\r\n     FileType system #56 \r\n## 🔧 Internal\r\n\r\n   * Refactored File Handling: Introduced a FileType enum to explicitly manage media types (Video, Audio, Strm, Subtitle), improving internal logic for file naming and path generation.\r\n   * Build: Enabled deterministic builds for reproducible release artifacts.\r\n\r\n## What's Changed\r\n* Feature/minor improvements by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/58\r\n\r\n\r\n**Full Changelog**: https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/compare/v0.6.0.0...v0.7.0.0",
+        "timestamp": "2025-12-28T16:33:57Z",
+        "sourceUrl": "https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/releases/download/v0.6.1.0.0/mediathek-downloader_0.6.1.0.zip",
+        "checksum": "8b070c01c8de04c6c0d58ae57bbba331",
+        "targetAbi": "10.11.0.0"
+      },
+      {
+        "version": "0.6.0.0",
+        "changelog": "## What's Changed\r\n* feat: Implement Persistent Quality Cache using EF Core and SQLite #49 by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/50\r\n* feat: Processed items a stored in DB by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/51\r\n* feat: manage active downloads via web configuration page by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/53\r\n* refactoring: improve api error handling with typed exceptions by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/52\r\n\r\n\r\n\r\n**Full Changelog**: https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/compare/v0.5.0.0...v0.6.0.0",
+        "timestamp": "2025-12-19T20:39:03Z",
+        "sourceUrl": "https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/releases/download/v0.6.0.0/mediathek-downloader_0.6.0.0.zip",
+        "checksum": "c5aa1dac2408d84e54312794255c009b",
+        "targetAbi": "10.11.0.0"
+      },
+      {
+        "version": "0.5.0.0",
+        "changelog": "## 🚀 Neue Funktionen und Verbesserungen (Version 0.5.0.0)\r\n\r\nDieses Release bringt eine Reihe wichtiger neuer Funktionen, Verbesserungen und interne Optimierungen mit sich, die die Funktionalität und Stabilität des Plugins deutlich erhöhen.\r\n\r\n### ✨ Neue Hauptfunktionen\r\n\r\n* **Metadaten-Anreicherung und NFO-Generierung:** Das Plugin kann nun erweiterte Metadaten abrufen und NFO-Dateien generieren, um die Integration und Anzeige in Jellyfin zu optimieren. (Pull Request #42)\r\n* **Bandbreitenlimitierung für Downloads:** Eine neue Funktion ermöglicht es Ihnen, die Download-Bandbreite zu begrenzen, um andere Netzwerkdienste nicht zu beeinträchtigen. (Pull Request #43)\r\n* **Qualitäts-Fallback-Strategie:** Das Plugin kann nun automatisch auf eine niedrigere Videoqualität zurückgreifen, falls die bevorzugte Qualität nicht verfügbar ist. (Pull Request #47)\r\n* **Automatisches Upgrade auf höhere Qualität:** Bereits vorhandene Downloads können automatisch auf eine höhere verfügbare Qualität aktualisiert werden. (Pull Request #48)\r\n\r\n### 🛠️ Interne Verbesserungen und Stabilität\r\n\r\n* **Refactoring und Testbarkeit:** Die internen Dienste wurden umfassend refaktoriert, um die Testbarkeit zu verbessern und die Abdeckung der Unit-Tests zu erhöhen. Dies sorgt für eine stabilere Codebasis. (Pull Request #41)\r\n* **Verbesserte Konfigurationsseite:** Das JavaScript der Konfigurationsseite wurde überarbeitet und die `StrmCleanupTask` verwendet nun ein Interface, was die Wartbarkeit der Konfiguration verbessert. (Pull Request #45)\r\n\r\n## What's Changed\r\n* 7 Refactor services for testability and increase unit test coverage by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/41\r\n* Feature: Metadata Enrichment & NFO Generation by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/42\r\n* feat: Add download bandwidth limiting by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/43\r\n* Refactor configuration page JS and use interface for StrmCleanupTask by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/45\r\n* feat: Implement quality fallback strategy by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/47\r\n* Feat: Auto-Upgrade to Higher Quality by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/48\r\n\r\n\r\n**Full Changelog**: https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/compare/v0.4.0.0...v0.5.0.0",
+        "timestamp": "2025-12-13T16:37:38Z",
+        "sourceUrl": "https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/releases/download/v0.5.0.0/mediathek-downloader_0.5.0.0.zip",
+        "checksum": "9e53333bb93f16f03505a5b158509e7a",
+        "targetAbi": "10.11.0.0"
+      },
+      {
+        "version": "0.4.0.0",
+        "changelog": "## What's Changed\r\n* Fix config page variable redeclaration error by using IIFE and namespacing. by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/37\r\n* Feature: Subscription Test / Dry Run Mode, Refactoring of configPage.html #34 by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/38\r\n* fix: Change download job type to AudioExtraction for audio-only procssing by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/40\r\n\r\n\r\n**Full Changelog**: https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/compare/v0.3.0.0...v0.4.0.0",
+        "timestamp": "2025-12-11T09:35:44Z",
+        "sourceUrl": "https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/releases/download/v0.4.0.0/mediathek-downloader_0.4.0.0.zip",
+        "checksum": "eeb71a895809e3711dbd86190d24476c",
+        "targetAbi": "10.11.0.0"
+      },
+      {
+        "version": "0.3.0.0",
+        "changelog": " ## v0.3.0.0 - Automated Cleanup, Enhanced Subscriptions & Refactoring\r\n\r\n  This release brings significant improvements to subscription management, file maintenance, and the underlying architecture of the plugin.\r\n\r\n ### 🚀 New Features\r\n\r\n   * Automated `.strm` Cleanup: A new scheduled task scans your download directories for invalid .strm files. It safely deletes files only if the stream URL is definitively gone (404/410), keeping your library clean without\r\n     risking accidental deletions during server outages.\r\n   * Subscription Management: You can now enable or disable individual subscriptions without deleting them.\r\n   * Smart Duplicate Detection: The plugin now scans the target directory for existing episodes (SxxExx or absolute numbering) to prevent redundant downloads.\r\n   * Library Scan Toggle: Added an option to choose whether the Jellyfin library should be scanned automatically after a download finishes.\r\n   * Enhanced Extras Handling: Better detection and handling of non-episode content (Trailers, Interviews) with options to save them as separate .strm files.\r\n\r\n ### 🐛 Bug Fixes & Improvements\r\n\r\n   * Language Detection: Fixed an issue where short words in titles were misinterpret as language codes.\r\n   * API Stability: Fixed API response mapping (replaced missing Total field with QueryInfo).\r\n\r\n ### 🛠 Technical Improvements\r\n\r\n   * Major Refactoring: The download logic has been split into SubscriptionProcessor and DownloadManager for better stability and maintainability.\r\n   * Frontend Modernization: Refactored the configuration page to use ES6 classes and safer DOM manipulation.\r\n   * Grouped Downloads: Video and subtitle downloads are now grouped into a single logical job.\r\n\r\n\r\n## What's Changed\r\n* feat: Enhanced Duplicate Detection (Issue #2) by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/3\r\n* Refactor MediathekPluginConfig to ES6 Class (Closes #10) by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/11\r\n* Fix API response mapping: Replace Total field with QueryInfo object by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/13\r\n* Refactor configPage.html to use safer DOM manipulation and improve structure by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/14\r\n* 15 Feat: Add ability to enable/disable subscriptions by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/16\r\n* Refactor DownloadScheduledTask into SubscriptionProcessor and DownloadManager by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/17\r\n* 19 language detection regex misinterprets short words as language codes by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/20\r\n* Refactor Download Architecture to Group Related Downloads (Video + Subtitle) #18 by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/21\r\n* 8 Multiple Improvements and Features by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/22\r\n* feat: Add option to toggle automatic library scan after download by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/24\r\n* #25 feat: Add automated cleanup task for invalid .strm files by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/26\r\n\r\n\r\n**Full Changelog**: https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/compare/v0.2.0.0...v0.3.0.0",
+        "timestamp": "2025-12-08T22:29:00Z",
+        "sourceUrl": "https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/releases/download/v0.3.0.0/mediathek-downloader_0.3.0.0.zip",
+        "checksum": "6aaedfdb1c68efe6608a4957defdb826",
+        "targetAbi": "10.11.0.0"
+      },
+      {
+        "version": "0.2.0.0",
+        "changelog": "## What's Changed\r\n* feat: Add Advanced Subscription Options & Progress Reporting; Fix QueryField Config Overwrites and Refactoring by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/1\r\n* Code Refactoring\r\nNew Features:\r\n- [feat: Improve progress reporting for ScheduledTask](https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/commit/47b492b956cb6ca4d95c8650d1392cf8b9dc842d)\r\n- [feat(config): Conditionally hide and uncheck dependent subscription options](https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/commit/327f55aa90cbd5c7e976513bc7c3ff129f2239fa)\r\n- [Feat: Add option to download full video for secondary audio languages](https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/commit/64b83eb27e5a81ba927121226de77cf0f1e29edf)\r\n\r\nFixes:\r\n- [fix: Prevent QueryFields in subscriptions from being overwritten by defaults on config load](https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/commit/7e1bb92febbe44ca46ef75f729ec882d6126973c)\r\n\r\n\r\n## New Contributors\r\n* @CatNoir2006 made their first contribution in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/1\r\n\r\n**Full Changelog**: https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/compare/v0.1.0.0-Test2...v0.2.0.0\r\n\r\n## What's Changed\r\n* feat: Add Advanced Subscription Options & Progress Reporting; Fix QueryField Config Overwrites and Refactoring by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/1\r\n\r\n## New Contributors\r\n* @CatNoir2006 made their first contribution in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/1\r\n\r\n**Full Changelog**: https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/compare/v0.1.0.0-Test2...v0.2.0.0",
+        "timestamp": "2025-12-07T01:10:00Z",
+        "sourceUrl": "https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/releases/download/v0.2.0.0/mediathek-downloader_0.2.0.0.zip",
+        "checksum": "1a153980588f9a7f26eb029cd9e7f95c",
+        "targetAbi": "10.11.0.0"
+      },
+      {
+        "version": "0.1.0.0",
+        "changelog": "**Full Changelog**: https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/compare/v0.1.0.0-Test...v0.1.0.0-Test2",
+        "timestamp": "2025-12-06T17:22:12Z",
+        "sourceUrl": "https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/releases/download/v0.1.0.0-Test2/mediathek-downloader_0.1.0.0.zip",
+        "checksum": "2dfe5692c40847d51d6203e8ee65ac72",
+        "targetAbi": "10.11.0.0"
+      }
+    ]
+  },
+  {
     "category": "Notifications",
     "guid": "8f3c85d3-19cf-4e50-a57e-7d2ce3c0c413",
     "name": "Discord Notifier",
@@ -2552,6 +2642,316 @@
         "sourceUrl": "https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin/releases/download/v0.0.1/Newsletters-v0.0.1.zip",
         "checksum": "0f9e05f8f1e13a0f2eaadd69542a7700",
         "timestamp": "2023-03-10T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "ef1e863f-cbb0-4e47-9f23-f0cbb1826ad4",
+    "name": "Seasonals",
+    "description": "Adds atmospheric, animated seasonal effects like snow, falling leaves, hearts, fireworks and more. The plugin provides a settings page for configuration. If you do not have write permissions to the web folder, please also install the file-transformation plugin.\n\nhttps://github.com/CodeDevMLH/Jellyfin-Seasonals",
+    "overview": "Atmospheric, configurable seasonal effects for the Jellyfin web interface",
+    "owner": "CodeDevMLH",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Seasonals.png",
+    "versions": [
+      {
+        "version": "1.8.0.0",
+        "changelog": "- feat: add summer, spring, carnival and cherry blossom themes\n- fix: some improvements and bug fixes",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v1.8.0.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "c7d7ae1ec34070bc89811d94493c333c",
+        "timestamp": "2026-02-21T15:44:23Z"
+      },
+      {
+        "version": "1.7.0.0",
+        "changelog": "- feat: add customizable auto seasonal list via config page\n- feat: add new season theme 'resurrection' by Bioflash257",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v1.7.0.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "ff5f1554c0c81c28e72115ebbdc2bdc4",
+        "timestamp": "2026-02-17T00:24:10Z"
+      },
+      {
+        "version": "1.6.3.0",
+        "changelog": "- fix path issue on subpath installations",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v1.6.3.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "4671cbecd5fe0c59a81c430b6f2403f9",
+        "timestamp": "2026-02-15T01:31:36Z"
+      },
+      {
+        "version": "1.6.2.0",
+        "changelog": "- Refactor seasonals.js and several improvements",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v1.6.2.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "d7232dbc6d38a5fb6603e14d41790a80",
+        "timestamp": "2026-02-04T19:55:55Z"
+      },
+      {
+        "version": "1.6.1.0",
+        "changelog": "- fix misspellings in: feat: Add client-side toggle option for seasonal settings",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v1.6.1.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "e0637347cd2324b263eb349f368a1ac9",
+        "timestamp": "2026-02-03T23:20:24Z"
+      },
+      {
+        "version": "1.6.0.0",
+        "changelog": "- feat: Add client-side toggle option for seasonal settings",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v1.6.0.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "16f5de24753a4df92c77c2fbf66a75bf",
+        "timestamp": "2026-02-03T21:44:06Z"
+      },
+      {
+        "version": "1.5.1.0",
+        "changelog": "- fix: snowfall effect sometimes not scaling on window resize, which leads to clustering and rain effect of snowflakes",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v1.5.1.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "923d1d96cb47adb50be3e40086d8d63a",
+        "timestamp": "2026-01-21T23:15:47Z"
+      },
+      {
+        "version": "1.5.0.0",
+        "changelog": "- feat: Refactor script injection logic\n-fix: some improvements and bug fixes",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v1.5.0.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "834501e4d11ad60dcc4293023ccd2a44",
+        "timestamp": "2026-01-08T09:45:45Z"
+      },
+      {
+        "version": "1.4.1.0",
+        "changelog": "- fix fireworks functionality to support scrolling",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "",
+        "checksum": "",
+        "timestamp": ""
+      },
+      {
+        "version": "1.4.0.0",
+        "changelog": "- settings are now linked directly in the main menu\n- renamed main plugin script\n- added enable/disable toggle for the entire plugin",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v1.4.0.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "6f0cf223a37609dd2dc2cdd98af7483f",
+        "timestamp": "2025-12-28T19:43:14Z"
+      },
+      {
+        "version": "1.3.4.0",
+        "changelog": "- some fixes for js loading\n- adapted config page descriptions",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v1.3.4.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "be71abc257ab596e820de4d6d78ec49e",
+        "timestamp": "2025-12-24T02:30:30Z"
+      },
+      {
+        "version": "1.3.3.0",
+        "changelog": "- several improvements and bug fixes\n- added advanced configuration settings\n- fixed z-layer issues with certain themes\n- fixed image path issues\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v1.3.3.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "f84774948160863e5c7293139bc267ee",
+        "timestamp": "2025-12-18T00:19:52Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "\nFeatures & Improvements\n- Enhanced the initialization process by loading configuration and improving event handling.\n- Enhanced script injection logic to include fallback registration via the File Transformation plugin.\n- Improved error handling during the injection process.\n- Updated warning messages to clearly clarify the fallback behavior when script injection fails.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v1.1.0.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "26200101668fae90ae5b2d1370fb5afb",
+        "timestamp": "2025-12-17T16:24:29Z"
+      },
+      {
+        "version": "1.0.1.0",
+        "changelog": "- Add warning logs for permission issues during script injection and removal",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v1.0.1.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "b129ae6745e42b885faea30f4de147b8",
+        "timestamp": "2025-12-16T23:30:47Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v1.0.0.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "be6d06a959b3e18e5058a6d8fb6d800c",
+        "timestamp": "2025-12-15T15:33:15Z"
+      }
+    ]
+  },
+  {
+    "guid": "d7e11d57-819b-4bdd-a88d-53c5f5560225",
+    "name": "Media Bar Enhanced",
+    "description": "A feature-rich fork of the original Media Bar script by MakD that brings your home screen to life.\n\n-> 100% Configurable via Web UI: Manage all features, lists, and settings effortlessly through the plugin configuration page.\n\nKey Highlights:\n- Cinematic Video Backdrops: Supports local & YouTube trailers (incl. SponsorBlock)\n- Custom Content: Curate your slideshow with specific Collections, Playlists, or seasonal events\n\nAdditional Features:\n- Full-width immersive mode\n- Smart resolution handling (up to 4K)\n- Full keyboard navigation & playback control\n- Wait-for-trailer options\n- Customizable pagination & animations\n\nIf you do not have write permissions to the web folder, please also install the file-transformation plugin.\n\nhttps://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced",
+    "overview": "Transforms your Jellyfin home screen with an immersive, fully configurable media slideshow featuring video backdrops.",
+    "owner": "CodeDevMLH",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Bar Enhanced.png",
+    "versions": [
+      {
+        "version": "1.6.6.0",
+        "changelog": "- feat: add static backdrop also for video backdrops\n- fix: renaming issue of settings (avoiding conflict with other plugins)",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.6.6.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "d8f30797ce246212d1ebdd6ffd4aa3ff",
+        "timestamp": "2026-02-19T18:03:48Z"
+      },
+      {
+        "version": "1.6.5.0",
+        "changelog": "- refactored seasonal UI settings\n- fix local trailer/backdrop issue that could potentially cause Jellyfin WebSockets to be 'crowded out'",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.6.5.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "c48d3998b8f783bd44c7ad47c906c531",
+        "timestamp": "2026-02-17T00:17:05Z"
+      },
+      {
+        "version": "1.6.4.0",
+        "changelog": "- fix slide transition when using local/backdrop videos",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.6.4.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "6bb0eea92f9b226a99e3f643a0fafc44",
+        "timestamp": "2026-02-16T00:25:28Z"
+      },
+      {
+        "version": "1.6.3.0",
+        "changelog": "- fix path issue on subpath installations",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.6.3.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "8fe90256deeda36d0c897e8f55850d8c",
+        "timestamp": "2026-02-15T01:29:59Z"
+      },
+      {
+        "version": "1.6.2.0",
+        "changelog": "- feat: add options for local backdrops (theme videos) support and randomization features for local trailer/backdrops if more than one is available\n- feat: add option to include watched content in the random selection",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.6.2.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "039314bc50b39f5d11058ab8b134c6f3",
+        "timestamp": "2026-02-15T00:41:18Z"
+      },
+      {
+        "version": "1.6.1.0",
+        "changelog": "- feat: add seasonal UI logic\n- add option to also set the limits for custom ids\n- fix tv mode scroll issue\n- smaller fixes and improvements",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.6.1.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "8d7fa5243e17474607c9071655fa8b1f",
+        "timestamp": "2026-02-14T16:18:04Z"
+      },
+      {
+        "version": "1.6.0.0",
+        "changelog": "- add local trailer support on trailer button\n- custom media ID functionality extended with manual Jellyfin ID override support\n- fix: iOS/MacOS playback issue now?",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.6.0.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "e11e6011236952eea0e664e787591767",
+        "timestamp": "2026-02-10T22:08:44Z"
+      },
+      {
+        "version": "1.5.1.2",
+        "changelog": "fix layout issue",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.5.1.2/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "0c1fe94cc32f1a228c8ed82435d36743",
+        "timestamp": "2026-02-10T20:23:23Z"
+      },
+      {
+        "version": "1.5.1.1",
+        "changelog": "fix layout issue",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.5.1.1/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "7ce1623e88a4ea2c1c4a5450b03ca0a1",
+        "timestamp": "2026-02-10T17:05:57Z"
+      },
+      {
+        "version": "1.5.1.0",
+        "changelog": "fix playback issue on apple devices???",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.5.1.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "423ab89c06ac9a12107f89cc6af066c2",
+        "timestamp": "2026-02-10T01:06:38Z"
+      },
+      {
+        "version": "1.5.0.0",
+        "changelog": "- fix: Keyboard controls in TV mode\n- Add sorting options for content\n- Add local trailer support\n- fix performance issue\n- Update mediaBarEnhanced.js and mediaBarEnhanced.css with version 4.0.1 from original repo",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.5.0.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "a3a13125be74e848b64769c7ced250df",
+        "timestamp": "2026-02-10T01:03:19Z"
+      },
+      {
+        "version": "1.4.0.0",
+        "changelog": "- feat: Add client-side settings feature for selected media bar settings",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.4.0.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "1d35e5a16535756eea8193c10fb9c11b",
+        "timestamp": "2026-02-04T18:56:46Z"
+      },
+      {
+        "version": "1.3.0.0",
+        "changelog": "- feat: Enhance custom media ID functionality with manual YouTube trailer override support",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.3.0.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "ebd0af368e16904242bbf82dfdfe44c2",
+        "timestamp": "2026-02-04T02:08:07Z"
+      },
+      {
+        "version": "1.2.3.0",
+        "changelog": "- Fix the issue where buttons were cut off on smaller screens such as on S24/S25.\n- Update mediaBarEnhanced.js and mediaBarEnhanced.css with version 3.0.9 from original repo",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.2.3.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "c3f77d9f6dfd89dfad4add9b9e804cf3",
+        "timestamp": "2026-01-28T22:52:20Z"
+      },
+      {
+        "version": "1.2.2.0",
+        "changelog": "- Fixes issues with persistent slides-container visibility",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.2.2.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "3ee37399f12f46147fc63220c23b7669",
+        "timestamp": "2026-01-24T23:00:17Z"
+      },
+      {
+        "version": "1.2.1.0",
+        "changelog": "- Update mediaBarEnhanced.js and mediaBarEnhanced.css with version 3.0.8 from original repo",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.2.1.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "491f88fa1242e7c0e2a375efb712a2db",
+        "timestamp": "2026-01-23T00:09:51Z"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "- Add Youtube video quality preference setting (Auto / 1080p / Highres)\n- Set preferred video quality on YouTube player based on setting",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.2.0.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "e04f00b39ccbc70e8e4af4510e40cdac",
+        "timestamp": "2026-01-08T22:22:51Z"
+      },
+      {
+        "version": "1.1.2.0",
+        "changelog": "- Add method to resume video playback when slideshow is active",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.1.2.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "63e7c662cf66ee89b7d74a4da50b24dc",
+        "timestamp": "2026-01-08T15:30:09Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "- Add method to pause all video playback when navigating away from home screen",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.1.1.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "c5b5d704e6d3efefd36ab678f54e921f",
+        "timestamp": "2026-01-08T14:58:18Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "- 'custom media IDs' setting is now enabled by default (no input --> random selection)\n- improve GUID handling in slideshow manager to handle seperator and description",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.1.0.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "110d76e6566b74eef41b6e984b2fc035",
+        "timestamp": "2026-01-08T09:45:17Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.0.0.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "c20c442e1fb63ca93c7afcfe41e5604d",
+        "timestamp": "2026-01-06T23:58:04Z"
       }
     ]
   },
