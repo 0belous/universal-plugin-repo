@@ -24,7 +24,7 @@ https://raw.githubusercontent.com/Fovty/HoverTrailer/master/manifest.json
 https://raw.githubusercontent.com/G-grbz/Jellyfin-MonWUI-Plugin/main/manifest.json
 https://raw.githubusercontent.com/GrandguyJS/media-upload-plugin/main/manifest.json
 https://raw.githubusercontent.com/iankiller77/MyAnimeSync/main/manifest.json
-https://raw.githubusercontent.com/ImLacy/Jellyfin-CustomLogo/refs/heads/main/manifest.json
+https://raw.githubusercontent.com/NewsGuyTor/LogoSwap/main/manifest.json
 https://raw.githubusercontent.com/johnpc/jellyfin-plugin-smart-collections/refs/heads/main/manifest.json
 https://raw.githubusercontent.com/johnpc/jellyfin-plugin-top-ten/refs/heads/main/manifest.json
 https://raw.githubusercontent.com/jon4hz/jellyfin-plugin-jellysleep/main/manifest.json
