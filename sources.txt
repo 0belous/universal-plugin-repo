@@ -10,9 +10,11 @@ https://noonamer.github.io/Jellyfin.Plugin.LocalPosters/repository.json
 https://raw.githubusercontent.com/9p4/jellyfin-plugin-sso/manifest-release/manifest.json
 https://raw.githubusercontent.com/AECX/FinTube/master/manifest.json
 https://raw.githubusercontent.com/arnesacnussem/jellyfin-plugin-meilisearch/refs/heads/master/manifest.json
+https://raw.githubusercontent.com/CatNoir2006/jellyfin-plugin-manifest/main/manifest.json
 https://raw.githubusercontent.com/cedev-1/Jellyfin-Plugin-DiscordNotifier/master/manifest.json
 https://raw.githubusercontent.com/CherryFloors/jellyfin-plugin-cinemamode/main/manifest.json
 https://raw.githubusercontent.com/Cloud9Developer/Jellyfin-Newsletter-Plugin/master/manifest.json
+https://raw.githubusercontent.com/CodeDevMLH/jellyfin-plugin-manifest/refs/heads/main/manifest.json
 https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json
 https://raw.githubusercontent.com/DirtyRacer1337/Jellyfin.Plugin.Stash/main/manifest.json
 https://raw.githubusercontent.com/Eeeeelias/playlist-generator/refs/heads/main/manifest.json
