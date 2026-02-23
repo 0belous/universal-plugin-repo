@@ -3619,52 +3619,37 @@
     ]
   },
   {
-    "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
-    "name": "CustomLogo",
-    "description": "Add the abiliy to replace the Jellyfin logo\n\nhttps://github.com/ImLacy/Jellyfin-CustomLogo",
-    "owner": "Lacy",
+    "guid": "19b92b8c-3926-4449-8432-10d30ab75a05",
+    "name": "LogoSwap",
+    "description": "Swap the default Jellyfin logo with your own custom branding.\n\nhttps://github.com/NewsGuyTor/LogoSwap",
+    "overview": "Upload a custom logo to replace Jellyfin branding throughout the interface.",
+    "owner": "NewsGuyTor",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/CustomLogo.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/LogoSwap.png",
     "versions": [
       {
-        "version": "1.0.0.4",
-        "changelist": "Patched image and version after installation",
-        "targetAbi": "10.10.7.0",
-        "sourceUrl": "https://github.com/ImLacy/Jellyfin-CustomLogo/releases/download/1.0.0.4/CustomLogo.zip",
-        "checksum": "42F764E2A6723915C198272F257C9E01",
-        "timestamp": "2025-10-15T03:00:00"
+        "version": "1.1.1",
+        "changelog": "Updated plugin icon.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/NewsGuyTor/LogoSwap/releases/download/1.1.1/LogoSwap_1.1.1.zip",
+        "checksum": "636687fd8b3e4640eb40a0133abb4398",
+        "timestamp": "2025-11-25T23:18:47Z"
       },
       {
-        "version": "1.0.0.3",
-        "changelist": "Pathched image and version after installation",
-        "targetAbi": "10.10.7.0",
-        "sourceUrl": "https://github.com/ImLacy/Jellyfin-CustomLogo/releases/download/1.0.0.3/CustomLogo.zip",
-        "checksum": "00FA95E97B89190A486769B3AF128A84",
-        "timestamp": "2025-10-12T21:00:00"
+        "version": "1.1.0",
+        "changelog": "Simplified CSS injection - cleaner generated CSS, removed redundant selectors.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/NewsGuyTor/LogoSwap/releases/download/1.1.0/LogoSwap_1.1.0.zip",
+        "checksum": "edcb200d6c425ea701926a3a945de587",
+        "timestamp": "2025-11-25T22:50:14Z"
       },
       {
-        "version": "1.0.0.2",
-        "changelist": "Verification for missing permisions",
-        "targetAbi": "10.10.7.0",
-        "sourceUrl": "https://github.com/ImLacy/Jellyfin-CustomLogo/releases/download/1.0.0.2/CustomLogo.zip",
-        "checksum": "7FD69B8DA3A4D3FFFFD3DB44152DE3DE",
-        "timestamp": "2025-09-06T13:50:00"
-      },
-      {
-        "version": "1.0.0.1",
-        "changelist": "Better redirection after configuration",
-        "targetAbi": "10.10.7.0",
-        "sourceUrl": "https://github.com/ImLacy/Jellyfin-CustomLogo/releases/download/1.0.0.1/CustomLogo.zip",
-        "checksum": "9006EAAE7A17993A38C5AE5EBD7C57EF",
-        "timestamp": "2025-06-16T13:50:00"
-      },
-      {
-        "version": "1.0.0.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.7.0",
-        "sourceUrl": "https://github.com/ImLacy/Jellyfin-CustomLogo/releases/download/1.0.0.0/CustomLogo.zip",
-        "checksum": "6966DCC632D634959C37465445002AB7",
-        "timestamp": "2025-06-05T13:58:00"
+        "version": "1.0.0",
+        "changelog": "Initial release. Upload custom logos, auto-inject via branding settings, Jellyfin 10.11 compatible.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/NewsGuyTor/LogoSwap/releases/download/1.0.0/LogoSwap_1.0.0.zip",
+        "checksum": "d3568c4bd370d07efb6748992526914b",
+        "timestamp": "2025-11-25T12:00:00Z"
       }
     ]
   },
