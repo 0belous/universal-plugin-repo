@@ -1,10 +1,19 @@
 const fs = require('fs/promises');
 const path = require('path');
 const crypto = require('crypto');
-const userAgent = "Jellyfin-Server/10.11.4"; // Required for some repositories
+let userAgent = "Jellyfin-Server/10.11.4"; // Required for some repositories
 
 const imagesDir = path.join(__dirname, 'images');
 const imageBaseUrl = 'https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/';
+
+async function getLatestJellyfinVersion() {
+    const response = await fetch('https://api.github.com/repos/jellyfin/jellyfin/releases/latest', {
+        headers: { 'User-Agent': 'Node-Fetch' }
+    });
+    if (!response.ok) throw new Error();
+    const data = await response.json();
+    return data.tag_name.replace('v', '');
+}
 
 async function getSources(){
     let sources = [];
@@ -146,10 +155,10 @@ async function writeManifest(dataToWrite){
         console.error('Error writing manifest file:', err);
     }
     console.log(`\nSuccessfully created manifest.json with ${dataToWrite.length} total plugins`);
-    console.log('Manifest updated with new image URLs.');
 }
 
 async function main() {
+    userAgent = `Jellyfin-Server/${await getLatestJellyfinVersion()}`;
     const plugins = await getSources();
     await processDescriptions(plugins);
     await processImages(plugins);
