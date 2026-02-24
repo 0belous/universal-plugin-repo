@@ -3279,6 +3279,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Playlist Generator.png",
     "versions": [
       {
+        "version": "1.5.0.0",
+        "changelog": "Remove disliked songs",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.5.0.0/PlaylistGenerator_1.5.0.0.zip",
+        "checksum": "20ee2180105ae93c6dd758f6938509fa",
+        "timestamp": "2026-02-23T12:13:45Z"
+      },
+      {
         "version": "1.4.3.0",
         "changelog": "Add multiuser support",
         "targetAbi": "10.11.0.0",
@@ -3537,6 +3545,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JMSFusion.png",
     "versions": [
+      {
+        "version": "1.9.1.0",
+        "changelog": "All libraries in Jellyfin can now be optionally added to the Home screen.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/G-grbz/Jellyfin-MonWUI-Plugin/releases/download/v1.9.0/JMSFusion-1.9.1.0-server.zip",
+        "checksum": "f5df3096ce9b70269781a38d607701d4",
+        "timestamp": "2026-02-23T17:36:56.2087102Z"
+      },
       {
         "version": "1.9.0.0",
         "changelog": "Added a Netflix-Style ‘Who’s Watching?’ Module",
@@ -4980,6 +4996,30 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "## [0.26.5.1] - 2026-02-23\n\n### 🐛 Bug Fixes\n\n- Remove hardcoded subtitle oang\n",
+        "checksum": "262664224c65f361d2fb6981a862f511",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.5.1/gelato_0.26.5.1.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-02-23T17:50:04Z",
+        "version": "0.26.5.1"
+      },
+      {
+        "changelog": "## [0.26.5.0] - 2026-02-23\n\n### 🚀 Features\n\n- Move user configs to own tab\n- Prewarm subtitles\n\n### 🐛 Bug Fixes\n\n- Remove deprecated remote subs flag\n",
+        "checksum": "9f2e1b75ad37d33c8e57b232123ee718",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.5.0/gelato_0.26.5.0.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-02-23T17:24:24Z",
+        "version": "0.26.5.0"
+      },
+      {
+        "changelog": "## [0.26.4.0] - 2026-02-23\n\n### 🚀 Features\n\n- Implement subtitle provider integration including an gelato subtitle provider (#112)\n",
+        "checksum": "05606951ad8c24b83f5a08fc9cfb83cb",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.4.0/gelato_0.26.4.0.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-02-23T13:38:49Z",
+        "version": "0.26.4.0"
+      },
+      {
         "changelog": "## [0.26.3.0] - 2026-02-22\n\n### 🚀 Features\n\n- Add support for segment providers and add introdb provider (#110)\n\n### 🚜 Refactor\n\n- Code cleanup and null checks (#109)\n",
         "checksum": "ab3f2d1d3879432df6cce1399a2403b6",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.3.0/gelato_0.26.3.0.zip",
@@ -5180,14 +5220,6 @@
         "version": "0.25.4.0"
       },
       {
-        "changelog": "## [0.25.3.10] - 2026-02-01\n\n### 🐛 Bug Fixes\n\n- Mark virtual if no mediasources\n",
-        "checksum": "942976facef092ca9bf004f205e521b3",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.3.10/gelato_0.25.3.10.zip",
-        "targetAbi": "10.11.6.0",
-        "timestamp": "2026-02-01T13:01:01Z",
-        "version": "0.25.3.10"
-      },
-      {
         "changelog": "## [0.25.3.9] - 2026-02-01\n\n### 🐛 Bug Fixes\n\n- Purge task\n",
         "checksum": "ad2bd6420204a2af49b738bbd231fca2",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.3.9/gelato_0.25.3.9.zip",
@@ -5202,22 +5234,6 @@
         "targetAbi": "10.11.6.0",
         "timestamp": "2026-02-01T08:57:55Z",
         "version": "0.25.3.8"
-      },
-      {
-        "changelog": "## [0.25.3.7] - 2026-02-01\n\n### 🐛 Bug Fixes\n\n- PresentationUniqueKey generation\n",
-        "checksum": "270a8ebbc97e9499a6c8a40855abc277",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.3.7/gelato_0.25.3.7.zip",
-        "targetAbi": "10.11.6.0",
-        "timestamp": "2026-02-01T08:01:15Z",
-        "version": "0.25.3.7"
-      },
-      {
-        "changelog": "## [0.25.3.6] - 2026-01-30\n\n### 🚜 Refactor\n\n- Meta imports\n",
-        "checksum": "a5ad41d0586e5cd8d71fa921a4b6b1f9",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.3.6/gelato_0.25.3.6.zip",
-        "targetAbi": "10.11.6.0",
-        "timestamp": "2026-01-30T17:44:49Z",
-        "version": "0.25.3.6"
       }
     ]
   },
