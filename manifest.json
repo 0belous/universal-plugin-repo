@@ -1473,12 +1473,12 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Segment Editor.png",
     "versions": [
       {
-        "version": "0.1.8.0",
+        "version": "0.1.10.0",
         "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
         "targetAbi": "10.11.5.0",
-        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.8.0/segment-editor-plugin-v0.1.8.0.zip",
-        "checksum": "8085a23807fd035652cacce806878d66",
-        "timestamp": "2026-02-27T07:58:04Z"
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.10.0/segment-editor-plugin-v0.1.10.0.zip",
+        "checksum": "bc8e8ec495b3550935a7e4578d2feef9",
+        "timestamp": "2026-02-28T16:16:22Z"
       }
     ]
   },
@@ -2671,6 +2671,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Seasonals.png",
     "versions": [
       {
+        "version": "2.0.0.0",
+        "changelog": "feat: add new themes:\n- Birthday (ballons, computer mouse interactive)\n- Earthday\n- Eid al-Fitr (sugar feast/ramadan)\n- Eurovision/Music\n- Film Noir filter\n- Friday the 13\n- Frost\n- Mario Day\n- Matrix\n- Oktoberfest\n- Olympia\n- Oscar Awards\n- Pride\n- Rain\n- Spooky\n- Sports (many selectable balls of ball games like handball, football (soccer) or tennis)\n- Star Wars Day\n- Storm (Epilepsy Warning!!!, Thunderstorm)\nrefactored spring (new lawn with flowers), easter (new easter bunny, new lawn with flowers and ester eggs), halloween (add spiders (computer mouse sensitive), add mice, add fog) \nfix: many improvements and bug fixes e.g. changed top to translate/transform for performance reasons",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v2.0.0.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "566942236b253ae2d9d1c803237ef265",
+        "timestamp": "2026-02-28T15:47:38Z"
+      },
+      {
         "version": "1.8.0.0",
         "changelog": "- feat: add summer, spring, carnival and cherry blossom themes\n- fix: some improvements and bug fixes",
         "targetAbi": "10.11.0.0",
@@ -3294,6 +3302,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Playlist Generator.png",
     "versions": [
+      {
+        "version": "1.5.0.1",
+        "changelog": "Fix crash when missing enough similar songs",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.5.0.1/PlaylistGenerator_1.5.0.1.zip",
+        "checksum": "b6109a711fa7e6ea1a65d027772c113f",
+        "timestamp": "2026-02-28T08:57:42Z"
+      },
       {
         "version": "1.5.0.0",
         "changelog": "Remove disliked songs",
