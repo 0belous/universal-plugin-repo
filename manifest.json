@@ -991,233 +991,6 @@
     ]
   },
   {
-    "guid": "9a19103f-16f7-4668-be54-9a1e7a4f7556",
-    "name": "MetaShark",
-    "description": "jellyfin电影元数据插件，影片信息只要从豆瓣获取，并由TMDB补充缺失的剧集数据。\n\nhttps://github.com/cxfksword/jellyfin-plugin-metashark",
-    "overview": "jellyfin电影元数据插件",
-    "owner": "cxfksword",
-    "category": "Metadata",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
-    "versions": [
-      {
-        "version": "2.1.5.0",
-        "changelog": "修复10.10.x豆瓣",
-        "targetAbi": "10.9.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.1.5/metashark_2.1.5.0.zip",
-        "checksum": "801137d46bd37aba7e7342c88bdf23d5",
-        "timestamp": "2026-02-15T07:49:30"
-      },
-      {
-        "version": "2.3.1.0",
-        "changelog": "修复豆瓣",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.1/metashark_2.3.1.0.zip",
-        "checksum": "cb0bb26b7561f3d19490ac8d8b0ba97d",
-        "timestamp": "2026-01-29T13:34:40"
-      },
-      {
-        "version": "2.3.0.0",
-        "changelog": "支持tmdb剧集组，优化刮削",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.0/metashark_2.3.0.0.zip",
-        "checksum": "f0b298b487af04e886bbf0afd3912bc3",
-        "timestamp": "2025-12-04T12:52:27"
-      },
-      {
-        "version": "2.2.2.0",
-        "changelog": "对Jellyfin 10.11进行刮削优化，增加开关控制降级到tmdb进行自动匹配",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.2.2/metashark_2.2.2.0.zip",
-        "checksum": "ac7d09477ba12e9518d1e130c90b4c14",
-        "timestamp": "2025-11-29T07:58:56"
-      },
-      {
-        "version": "2.2.1.0",
-        "changelog": "修复演员链接错误",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.2.1/metashark_2.2.1.0.zip",
-        "checksum": "898c019132e0dfd5afb31857d70182dc",
-        "timestamp": "2025-10-27T12:30:49"
-      },
-      {
-        "version": "2.2.0.0",
-        "changelog": "支持jellyfin 10.11",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.2.0/metashark_2.2.0.0.zip",
-        "checksum": "bc76c01f53292a09f96710257a86f5e7",
-        "timestamp": "2025-10-26T08:37:11"
-      },
-      {
-        "version": "2.1.4.0",
-        "changelog": "修正刮削虚拟剧集导致的异常",
-        "targetAbi": "10.9.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.1.4/metashark_2.1.4.0.zip",
-        "checksum": "a10c6dbf0420bf93211a8da3c74250fa",
-        "timestamp": "2025-03-30T05:59:55"
-      },
-      {
-        "version": "2.1.3.0",
-        "changelog": "修正剧集识别",
-        "targetAbi": "10.9.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.1.3/metashark_2.1.3.0.zip",
-        "checksum": "6d23cf8eee4e18ff52371659d884c926",
-        "timestamp": "2025-03-09T03:19:35"
-      },
-      {
-        "version": "2.1.2.0",
-        "changelog": "",
-        "targetAbi": "10.9.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.1.2/metashark_2.1.2.0.zip",
-        "checksum": "98d6e3d75efab3fca6ad8c655ea530bf",
-        "timestamp": "2025-02-16T07:26:59"
-      },
-      {
-        "version": "2.1.1.0",
-        "changelog": "tmdb图片改使用https请求",
-        "targetAbi": "10.9.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.1.1/metashark_2.1.1.0.zip",
-        "checksum": "9cc02efc9468f66815dae5830dba5ab4",
-        "timestamp": "2024-11-10T03:27:04"
-      },
-      {
-        "version": "2.1.0.0",
-        "changelog": "支持刮削合集，商标支持获取日语版本",
-        "targetAbi": "10.9.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.1.0/metashark_2.1.0.0.zip",
-        "checksum": "4c5d7a93e15a13dbea37eb8a5b64c0ed",
-        "timestamp": "2024-09-04T07:55:38"
-      },
-      {
-        "version": "2.0.4.0",
-        "changelog": "支持新的演员访问链接",
-        "targetAbi": "10.9.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.0.4/metashark_2.0.4.0.zip",
-        "checksum": "aad090cde11063388e86ca2be7ecc878",
-        "timestamp": "2024-07-02T08:28:00"
-      },
-      {
-        "version": "2.0.3.0",
-        "changelog": "优化季数识别处理",
-        "targetAbi": "10.9.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.0.3/metashark_2.0.3.0.zip",
-        "checksum": "6695e0a9dcdf90a0c6e7566770205489",
-        "timestamp": "2024-06-08T02:38:08"
-      },
-      {
-        "version": "1.7.16.0",
-        "changelog": "优化识别（这是10.8.x最后一次更新）",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.16/metashark_1.7.16.0.zip",
-        "checksum": "d8e0c03e20b799b7cf306574aa44c2ec",
-        "timestamp": "2024-06-08T02:31:31"
-      },
-      {
-        "version": "2.0.2.0",
-        "changelog": "修正剧集数识别",
-        "targetAbi": "10.9.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.0.2/metashark_2.0.2.0.zip",
-        "checksum": "1544315a1969901ba2d891c573ac7b7a",
-        "timestamp": "2024-05-25T08:11:49"
-      },
-      {
-        "version": "1.7.15.0",
-        "changelog": "修正剧集数识别",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.15/metashark_1.7.15.0.zip",
-        "checksum": "d8f0407bd4cf8ada73173f8321778dd5",
-        "timestamp": "2024-05-25T08:05:22"
-      },
-      {
-        "version": "2.0.1.0",
-        "changelog": "修正演员信息缺失",
-        "targetAbi": "10.9.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.0.1/metashark_2.0.1.0.zip",
-        "checksum": "d88fc5cca3e003fff411882082fa856e",
-        "timestamp": "2024-05-18T08:26:03"
-      },
-      {
-        "version": "1.7.14.0",
-        "changelog": "修正演员信息缺失",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.14/metashark_1.7.14.0.zip",
-        "checksum": "fc85bd567c204f6aa9cd64055266279d",
-        "timestamp": "2024-05-18T08:19:52"
-      },
-      {
-        "version": "2.0.0.0",
-        "changelog": "支持Jellyfin 10.9\n支持直接在文件夹名中设置指定豆瓣ID",
-        "targetAbi": "10.9.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.0.0/metashark_2.0.0.0.zip",
-        "checksum": "344cd6f0a0c5a7335d61089f487f85eb",
-        "timestamp": "2024-05-12T10:53:51"
-      },
-      {
-        "version": "1.7.13.0",
-        "changelog": "优化 tmdb id 查找",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.13/metashark_1.7.13.0.zip",
-        "checksum": "7de7b6ee39fb241551b68626b4d693b5",
-        "timestamp": "2024-04-13T07:32:23"
-      },
-      {
-        "version": "1.7.12.0",
-        "changelog": "修正电影推荐列表只有一部影片",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.12/metashark_1.7.12.0.zip",
-        "checksum": "c0fce92fbbc6f5a96421e7c0cb75b5ad",
-        "timestamp": "2024-02-28T03:04:59"
-      },
-      {
-        "version": "1.7.11.0",
-        "changelog": "修正不支持 SxxEPxx 格式",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.11/metashark_1.7.11.0.zip",
-        "checksum": "47db3474ceb12b2bf97574f0d2d4005a",
-        "timestamp": "2024-02-23T06:56:06"
-      },
-      {
-        "version": "1.7.10.0",
-        "changelog": "修正名称带数字时刮削失败、拆分获取商标配置",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.10/metashark_1.7.10.0.zip",
-        "checksum": "eaf9bb6cfaedee236a869d5b29865a1a",
-        "timestamp": "2024-02-07T04:19:51"
-      },
-      {
-        "version": "1.7.9.0",
-        "changelog": "添加获取tmdb商标",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.9/metashark_1.7.9.0.zip",
-        "checksum": "03c3246ed32791c4ef3c96491a36b195",
-        "timestamp": "2024-02-03T06:06:17"
-      },
-      {
-        "version": "1.7.8.0",
-        "changelog": "优化日志输出，剧集支持EP前缀命名",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.8/metashark_1.7.8.0.zip",
-        "checksum": "a7982662696b1ddd46480a6507a1a9ba",
-        "timestamp": "2024-01-06T02:20:02"
-      },
-      {
-        "version": "1.7.7.0",
-        "changelog": "增加获取海报大图配置\n优化图片处理",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.7/metashark_1.7.7.0.zip",
-        "checksum": "b0b8b8f715f54b05b20c8288ec33ac68",
-        "timestamp": "2023-12-30T07:19:48"
-      },
-      {
-        "version": "1.7.6.0",
-        "changelog": "改回使用旧国内加速域",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.6/metashark_1.7.6.0.zip",
-        "checksum": "59a0eceae6022cb032667fc9ca013804",
-        "timestamp": "2023-12-16T07:22:10"
-      }
-    ]
-  },
-  {
     "guid": "70bb2ec1-f19e-46b5-b49a-942e6b96ebae",
     "name": "Editor's Choice",
     "overview": "Create a Netflix-style featured content slider on the main page.",
@@ -4246,6 +4019,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/SmartLists.jpg",
     "versions": [
       {
+        "version": "10.11.23.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.23.0/Jellyfin.Plugin.SmartLists_v10.11.23.0.zip",
+        "checksum": "AA00B67C0FD22F1DA7983F6C3FFA195C",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.23.0 -->\n\n## What's Changed\n### New Features\n* Added support for 'Music Album' media type in Collections\n* Added support for configuring Sort Title and Overview.\n* Added Letterboxd support for external lists and optimized fetching logic\n### Bug Fixes\n* Fixed an issue when using multiple external lists\n### Other Changes\n* Modified sorting precision for DateCreated\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.22.0...v10.11.23.0",
+        "timestamp": "2026-03-01"
+      },
+      {
         "version": "10.11.22.0",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.22.0/Jellyfin.Plugin.SmartLists_v10.11.22.0.zip",
@@ -4467,6 +4248,14 @@
     "owner": "jyourstone",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/SmartLists.jpg",
     "versions": [
+      {
+        "version": "10.11.23.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.23.0/Jellyfin.Plugin.SmartLists_v10.11.23.0.zip",
+        "checksum": "AA00B67C0FD22F1DA7983F6C3FFA195C",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.23.0 -->\n\n## What's Changed\n### New Features\n* Added support for 'Music Album' media type in Collections\n* Added support for configuring Sort Title and Overview.\n* Added Letterboxd support for external lists and optimized fetching logic\n### Bug Fixes\n* Fixed an issue when using multiple external lists\n### Other Changes\n* Modified sorting precision for DateCreated\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.22.0...v10.11.23.0",
+        "timestamp": "2026-03-01"
+      },
       {
         "version": "10.11.22.0",
         "targetAbi": "10.11.0",
@@ -5028,6 +4817,30 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "## [0.26.6.4] - 2026-03-01\n\n### 🐛 Bug Fixes\n\n- Try to catch non standard subtitle language fields\n\n### 🚜 Refactor\n\n- Use imdbid for subtitles with fallback to stremioid\n",
+        "checksum": "3d07e1af2b8ef27a39f154c6a3184f27",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.6.4/gelato_0.26.6.4.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-03-01T21:00:59Z",
+        "version": "0.26.6.4"
+      },
+      {
+        "changelog": "## [0.26.6.3] - 2026-03-01\n\n### 🐛 Bug Fixes\n\n- Disable imdbRating from catalogs\n",
+        "checksum": "03e10e6cd87ea33aac64dc86a39c9fbc",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.6.3/gelato_0.26.6.3.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-03-01T17:22:47Z",
+        "version": "0.26.6.3"
+      },
+      {
+        "changelog": "## [0.26.6.2] - 2026-03-01\n\n### 🐛 Bug Fixes\n\n- Introduce new logic to determine if an catalog is importable or not\n",
+        "checksum": "e6083a60b701c75d9dba9ecbf5d88332",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.6.2/gelato_0.26.6.2.zip",
+        "targetAbi": "10.11.6.0",
+        "timestamp": "2026-03-01T16:35:12Z",
+        "version": "0.26.6.2"
+      },
+      {
         "changelog": "## [0.26.6.1] - 2026-02-26\n\n### 🐛 Bug Fixes\n\n- Return of the delete and download option\n",
         "checksum": "db6db697c46098d9da1e1ba8062f5d55",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.6.1/gelato_0.26.6.1.zip",
@@ -5242,30 +5055,6 @@
         "targetAbi": "10.11.6.0",
         "timestamp": "2026-02-09T11:56:16Z",
         "version": "0.25.5.3"
-      },
-      {
-        "changelog": "## [0.25.5.2] - 2026-02-09\n\n### 🐛 Bug Fixes\n\n- Better error handling during import\n",
-        "checksum": "6830d099f3ed784693fc4e97a7b942ca",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.5.2/gelato_0.25.5.2.zip",
-        "targetAbi": "10.11.6.0",
-        "timestamp": "2026-02-09T11:07:13Z",
-        "version": "0.25.5.2"
-      },
-      {
-        "changelog": "## [0.25.5.1] - 2026-02-07\n\n### 🐛 Bug Fixes\n\n- Disable userdata for boxsets\n",
-        "checksum": "63796c8faac70428a0c9fb7601dc9516",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.5.1/gelato_0.25.5.1.zip",
-        "targetAbi": "10.11.6.0",
-        "timestamp": "2026-02-07T07:29:10Z",
-        "version": "0.25.5.1"
-      },
-      {
-        "changelog": "## [0.25.5.0] - 2026-02-06\n\n### 🚀 Features\n\n- Show play button even if unaired\n\n### 🐛 Bug Fixes\n\n- User id parsing returning true when empty (#96)\n",
-        "checksum": "3ac8ffa31ed3082ec364b9b96193432d",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.25.5.0/gelato_0.25.5.0.zip",
-        "targetAbi": "10.11.6.0",
-        "timestamp": "2026-02-06T11:14:36Z",
-        "version": "0.25.5.0"
       }
     ]
   },
@@ -8590,7 +8379,7 @@
         "timestamp": "2023-02-26T19:54:34Z"
       }
     ],
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Spotify Import.png"
+    "imageUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/raw/master/viperinius-plugin-spotifyimport.png"
   },
   {
     "guid": "A6363EF3-AEB3-4BC1-8408-243AAE4C1B8B",
