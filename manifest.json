@@ -4246,6 +4246,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/SmartLists.jpg",
     "versions": [
       {
+        "version": "10.11.23.1",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.23.1/Jellyfin.Plugin.SmartLists_v10.11.23.1.zip",
+        "checksum": "655CB5673A4D100AAC338007E26E3006",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.23.1 -->\n\n## What's Changed\n### Bug Fixes\n* Fixed an issue with ReleaseDate sorting using multiple sort orders\n* Add support for episode-level sorting in Trakt integration and update documentation\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.23.0...v10.11.23.1",
+        "timestamp": "2026-03-04"
+      },
+      {
         "version": "10.11.23.0",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.23.0/Jellyfin.Plugin.SmartLists_v10.11.23.0.zip",
@@ -4475,6 +4483,14 @@
     "owner": "jyourstone",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/SmartLists.jpg",
     "versions": [
+      {
+        "version": "10.11.23.1",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.23.1/Jellyfin.Plugin.SmartLists_v10.11.23.1.zip",
+        "checksum": "655CB5673A4D100AAC338007E26E3006",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.23.1 -->\n\n## What's Changed\n### Bug Fixes\n* Fixed an issue with ReleaseDate sorting using multiple sort orders\n* Add support for episode-level sorting in Trakt integration and update documentation\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.23.0...v10.11.23.1",
+        "timestamp": "2026-03-04"
+      },
       {
         "version": "10.11.23.0",
         "targetAbi": "10.11.0",
@@ -6690,6 +6706,14 @@
     "category": "Anime",
     "imageUrl": "",
     "versions": [
+      {
+        "version": "6.5.0.0",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.5.0.0",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.5.0.0/myanimelist_6.5.0.0.zip",
+        "checksum": "ebd195aad45647f3400d4165d527d675",
+        "timestamp": "2026-03-04T20:24:51Z"
+      },
       {
         "version": "6.4.0.0",
         "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.4.0.0",
