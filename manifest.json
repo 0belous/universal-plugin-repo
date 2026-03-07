@@ -2810,6 +2810,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Bar Enhanced.png",
     "versions": [
       {
+        "version": "1.7.0.0",
+        "changelog": "- Switched to YouTube no-cookie host and referrer policy for iframe security\n- fix playback issues on iOS/MacOS \n- Disable animations and backdrop filters for TV layout\n- removed list.txt functionality to clean up, use the web ui instead\n- Enhance logging with contextual messages, in order to be able to clearly assign logs to this plugin",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.7.0.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "8f5c6537ce427db6d0bca8df383e9ceb",
+        "timestamp": "2026-03-06T03:35:31Z"
+      },
+      {
         "version": "1.6.6.0",
         "changelog": "- feat: add static backdrop also for video backdrops\n- fix: renaming issue of settings (avoiding conflict with other plugins)",
         "targetAbi": "10.11.0.0",
