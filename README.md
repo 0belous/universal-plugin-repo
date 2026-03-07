@@ -25,7 +25,9 @@ https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/
 
 <details>
 <summary>More plugins</summary>
+  
 You can optionally install the NSFW repo too
+
 ```
 https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/manifestnsfw.json
 ```
