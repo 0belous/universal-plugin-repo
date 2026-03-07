@@ -4075,41 +4075,6 @@
     ]
   },
   {
-    "guid": "19b92b8c-3926-4449-8432-10d30ab75a05",
-    "name": "LogoSwap",
-    "description": "Swap the default Jellyfin logo with your own custom branding.\n\nhttps://github.com/NewsGuyTor/LogoSwap",
-    "overview": "Upload a custom logo to replace Jellyfin branding throughout the interface.",
-    "owner": "NewsGuyTor",
-    "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/LogoSwap.png",
-    "versions": [
-      {
-        "version": "1.1.1",
-        "changelog": "Updated plugin icon.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/NewsGuyTor/LogoSwap/releases/download/1.1.1/LogoSwap_1.1.1.zip",
-        "checksum": "636687fd8b3e4640eb40a0133abb4398",
-        "timestamp": "2025-11-25T23:18:47Z"
-      },
-      {
-        "version": "1.1.0",
-        "changelog": "Simplified CSS injection - cleaner generated CSS, removed redundant selectors.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/NewsGuyTor/LogoSwap/releases/download/1.1.0/LogoSwap_1.1.0.zip",
-        "checksum": "edcb200d6c425ea701926a3a945de587",
-        "timestamp": "2025-11-25T22:50:14Z"
-      },
-      {
-        "version": "1.0.0",
-        "changelog": "Initial release. Upload custom logos, auto-inject via branding settings, Jellyfin 10.11 compatible.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/NewsGuyTor/LogoSwap/releases/download/1.0.0/LogoSwap_1.0.0.zip",
-        "checksum": "d3568c4bd370d07efb6748992526914b",
-        "timestamp": "2025-11-25T12:00:00Z"
-      }
-    ]
-  },
-  {
     "guid": "09612e52-0f93-41ab-a6ab-5a19479f5315",
     "name": "Smart Collections",
     "overview": "Enables creation of Smart Collections based on Tag",
@@ -5870,6 +5835,89 @@
     ]
   },
   {
+    "guid": "a6c0b0ea-4f02-4c47-b8ff-5e27e8c0d0e5",
+    "name": "JellyFlare",
+    "owner": "MorganKryze",
+    "category": "General",
+    "overview": "Customisable announcement banners for Jellyfin.",
+    "description": "Display announcement banners at the top of the Jellyfin web UI. Set up rotating messages or a permanent notice with per-entry colours, flexible scheduling, dismiss controls and link support — configured from the Jellyfin admin dashboard.\n\nhttps://github.com/MorganKryze/JellyFlare",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JellyFlare.png",
+    "versions": [
+      {
+        "version": "1.7.1.0",
+        "checksum": "8BA77F3EB43FB0BF2F28EE219B61DE69",
+        "changelog": "- change permanent docs image.",
+        "targetAbi": "10.11.6.0",
+        "sourceUrl": "https://github.com/MorganKryze/JellyFlare/releases/download/v1.7.1/Jellyfin.Plugin.JellyFlare.zip",
+        "timestamp": "2026-03-02T17:34:33"
+      },
+      {
+        "version": "1.7.0.0",
+        "checksum": "8E79E16C047F1A627B586CAC56276AD0",
+        "changelog": "- add custom timeframe for banners;\r\n- add customization options such as bold text, text alignment, banner height and font size, transition speed, shuffle rotation messages, memory dismissed messages | feat: link in message to redirect to specific resources;\r\n- fixed meta.json not written as up to date as possible;\r\n- update README and docs in general to reflect current state of the project.",
+        "targetAbi": "10.11.6.0",
+        "sourceUrl": "https://github.com/MorganKryze/JellyFlare/releases/download/v1.7.0/Jellyfin.Plugin.JellyFlare.zip",
+        "timestamp": "2026-03-02T17:31:22"
+      },
+      {
+        "version": "1.6.0.0",
+        "checksum": "0EFD14C06B2E5486E42C4AF91E0CA187",
+        "changelog": "- add enable/disable functionality for rotation messages;\r\n- implement permanent banner library with active selection and configuration;\r\n- add default permanent and rotation messages;\r\n- update default display and button sizes for configuration.",
+        "targetAbi": "10.11.6.0",
+        "sourceUrl": "https://github.com/MorganKryze/JellyFlare/releases/download/v1.6.0/Jellyfin.Plugin.JellyFlare.zip",
+        "timestamp": "2026-03-02T12:49:19"
+      },
+      {
+        "version": "1.5.0.0",
+        "checksum": "C44262CABC534724AFF7F0A1B510C60E",
+        "changelog": "- add preset creation;\r\n- add reset buttons for categories and one for global settings;\r\n- add danger zone with reset all configuration.",
+        "targetAbi": "10.11.6.0",
+        "sourceUrl": "https://github.com/MorganKryze/JellyFlare/releases/download/v1.5.0/Jellyfin.Plugin.JellyFlare.zip",
+        "timestamp": "2026-03-02T11:37:52"
+      },
+      {
+        "version": "1.4.0.0",
+        "checksum": "203D3E9F9E346CFDBF1D2A6966BA39F7",
+        "changelog": "- add configurable sizes for dismiss buttons in settings;\r\n- add option to show banner in admin dashboard.",
+        "targetAbi": "10.11.6.0",
+        "sourceUrl": "https://github.com/MorganKryze/JellyFlare/releases/download/v1.4.0/Jellyfin.Plugin.JellyFlare.zip",
+        "timestamp": "2026-03-02T01:34:32"
+      },
+      {
+        "version": "1.3.0.0",
+        "checksum": "C41ECD681D3F4A3C569AB3DF9E9765DE",
+        "changelog": "- project auto bump verion declaration in the .csproj file;\r\n- add a warning subtitle to refresh the page;\r\n- separate the settings inside three tabs;\r\n- add an option to disable rotation messages.",
+        "targetAbi": "10.11.6.0",
+        "sourceUrl": "https://github.com/MorganKryze/JellyFlare/releases/download/v1.3.0/Jellyfin.Plugin.JellyFlare.zip",
+        "timestamp": "2026-03-02T00:51:38"
+      },
+      {
+        "version": "1.2.0.0",
+        "checksum": "AAFDA6E8C0BAEA6C9CD2B61D29BCAE18",
+        "changelog": "- permanent banner can be disabled but still saved;\r\n- add customization to hide all button and close button.",
+        "targetAbi": "10.11.6.0",
+        "sourceUrl": "https://github.com/MorganKryze/JellyFlare/releases/download/v1.2.0/Jellyfin.Plugin.JellyFlare.zip",
+        "timestamp": "2026-03-02T00:16:24"
+      },
+      {
+        "version": "1.1.0.0",
+        "checksum": "AC6E4DDC7C92B91E8053C5EF80C77B1F",
+        "changelog": "- add quick access to the plugin from the dashboard sidebar",
+        "targetAbi": "10.11.6.0",
+        "sourceUrl": "https://github.com/MorganKryze/JellyFlare/releases/download/v1.1.0/Jellyfin.Plugin.JellyFlare.zip",
+        "timestamp": "2026-03-01T23:55:42"
+      },
+      {
+        "version": "1.0.0.0",
+        "checksum": "B372B2B47E8F98C2DF96E1B671D9ACED",
+        "changelog": "- first version, may be unstable",
+        "targetAbi": "10.11.6.0",
+        "sourceUrl": "https://github.com/MorganKryze/JellyFlare/releases/download/v1.0.0/Jellyfin.Plugin.JellyFlare.zip",
+        "timestamp": "2026-03-01T20:43:30"
+      }
+    ]
+  },
+  {
     "name": "Jellyfin Enhanced",
     "guid": "f69e946a-4b3c-4e9a-8f0a-8d7c1b2c4d9b",
     "overview": "Jellyfin Enhanced and Jellyfin Elsewhere for a better Jellyfin experience.",
@@ -6418,6 +6466,41 @@
     ]
   },
   {
+    "guid": "19b92b8c-3926-4449-8432-10d30ab75a05",
+    "name": "LogoSwap",
+    "description": "Swap the default Jellyfin logo with your own custom branding.\n\nhttps://github.com/NewsGuyTor/LogoSwap",
+    "overview": "Upload a custom logo to replace Jellyfin branding throughout the interface.",
+    "owner": "NewsGuyTor",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/LogoSwap.png",
+    "versions": [
+      {
+        "version": "1.1.1",
+        "changelog": "Updated plugin icon.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/NewsGuyTor/LogoSwap/releases/download/1.1.1/LogoSwap_1.1.1.zip",
+        "checksum": "636687fd8b3e4640eb40a0133abb4398",
+        "timestamp": "2025-11-25T23:18:47Z"
+      },
+      {
+        "version": "1.1.0",
+        "changelog": "Simplified CSS injection - cleaner generated CSS, removed redundant selectors.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/NewsGuyTor/LogoSwap/releases/download/1.1.0/LogoSwap_1.1.0.zip",
+        "checksum": "edcb200d6c425ea701926a3a945de587",
+        "timestamp": "2025-11-25T22:50:14Z"
+      },
+      {
+        "version": "1.0.0",
+        "changelog": "Initial release. Upload custom logos, auto-inject via branding settings, Jellyfin 10.11 compatible.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/NewsGuyTor/LogoSwap/releases/download/1.0.0/LogoSwap_1.0.0.zip",
+        "checksum": "d3568c4bd370d07efb6748992526914b",
+        "timestamp": "2025-11-25T12:00:00Z"
+      }
+    ]
+  },
+  {
     "guid": "6bb8dbba-2aaa-4b19-9da4-f3bbb6c44091",
     "name": "Authelia Authentication",
     "description": "Authenticate your Jellyfin with Authelia, and optionally create users who do not yet exist automatically.\n\nThis plugin uses Authelia HTTP API for authentication. Unlike with an SSO plugin, this allows using the existing Jellyfin login UI and API, which is compatible with all existing Jellyfin clients.\nThe main drawback of this approach is that 2FA is not supported.\n\n\nhttps://github.com/nikarh/jellyfin-plugin-authelia",
@@ -6746,6 +6829,14 @@
     "category": "Anime",
     "imageUrl": "",
     "versions": [
+      {
+        "version": "6.5.0.2",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.5.0.2",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.5.0.2/myanimelist_6.5.0.2.zip",
+        "checksum": "c021e869ede843cc586932f19cf7ae0d",
+        "timestamp": "2026-03-07T04:09:37Z"
+      },
       {
         "version": "6.5.0.1",
         "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.5.0.1",
