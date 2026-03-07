@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB/main/manifest.json
+https://raw.githubusercontent.com/DirtyRacer1337/Jellyfin.Plugin.Stash/main/manifest.json
+https://raw.githubusercontent.com/metatube-community/jellyfin-plugin-metatube/dist/manifest.json

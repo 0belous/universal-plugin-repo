@@ -15,13 +15,13 @@ async function getLatestJellyfinVersion() {
     return data.tag_name.replace('v', '');
 }
 
-async function getSources(){
+async function getSources(sourceFile){
     let sources = [];
     try {
-        const fileContent = await fs.readFile('sources.txt', 'utf8');
+        const fileContent = await fs.readFile(sourceFile, 'utf8');
         sources = fileContent.split(/\r?\n/).filter(line => line.trim() !== '' && !line.trim().startsWith('#'));
     } catch (err) {
-        console.error("Error reading sources.txt:", err);
+        console.error(`Error reading ${sourceFile}:`, err.message);
         return [];
     }
 
@@ -38,6 +38,7 @@ async function getSources(){
                 throw new Error(`Response status: ${response.status}`);
             }
             const json = await response.json();
+            json.forEach(p => p._metaSourceUrl = url);
             mergedData.push(...json);
             console.log(`    -> Merged ${json.length} plugins.`);
 
@@ -103,19 +104,25 @@ function findGithubUrl(obj) {
 
 async function processDescriptions(pluginData) {
     try {
+        const genTime = new Date().toISOString().substring(11, 16) + ' UTC';
         for (const plugin of pluginData) {
             const repoUrl = findGithubUrl(plugin);
-            if (repoUrl) {
-                const sourceLink = `\n\n${repoUrl}`;
-                const descriptionProp = ['description', 'Description', 'overview'].find(p => plugin[p]);
+            const sourceUrl = plugin._metaSourceUrl || 'Unknown';
+            delete plugin._metaSourceUrl;
 
-                if (descriptionProp) {
-                    if (!plugin[descriptionProp].includes(repoUrl)) {
-                        plugin[descriptionProp] += sourceLink;
-                    }
-                } else {
-                    plugin.description = sourceLink.trim();
+            let appendText = `  \n  \nUniversal Repo:  \nGenerated: ${genTime}  \nSource: ${sourceUrl}`;
+            if (repoUrl) {
+                appendText += `  \nGithub: ${repoUrl}`;
+            }
+
+            const descriptionProp = ['description', 'Description', 'overview'].find(p => plugin[p]);
+
+            if (descriptionProp) {
+                if (!plugin[descriptionProp].includes("Universal Repo:")) {
+                    plugin[descriptionProp] += appendText;
                 }
+            } else {
+                plugin.description = appendText.trim();
             }
         }
     console.log(`Sucessfully injected source URLs`);
@@ -125,7 +132,6 @@ async function processDescriptions(pluginData) {
 }
 
 async function processImages(pluginData) {
-    await clearImagesFolder();
     for (const plugin of pluginData) {
         if (plugin.imageUrl) {
             const ext = getImageExtension(plugin.imageUrl);
@@ -143,26 +149,34 @@ async function processImages(pluginData) {
     }
 }
 
-async function writeManifest(dataToWrite){
+async function writeManifest(dataToWrite, outputFile){
     if (!dataToWrite || dataToWrite.length === 0) {
-        console.log("No data to write to manifest. Aborting.");
+        console.log(`No data to write to manifest ${outputFile}. Aborting.`);
         return;
     }
     try {
         const manifestJson = JSON.stringify(dataToWrite, null, 2);
-        await fs.writeFile('manifest.json', manifestJson);
+        await fs.writeFile(outputFile, manifestJson);
     } catch (err) {
-        console.error('Error writing manifest file:', err);
+        console.error(`Error writing manifest file ${outputFile}:`, err);
     }
-    console.log(`\nSuccessfully created manifest.json with ${dataToWrite.length} total plugins`);
+    console.log(`\nSuccessfully created ${outputFile} with ${dataToWrite.length} total plugins`);
+}
+
+async function processList(sourceFile, outputFile) {
+    const plugins = await getSources(sourceFile);
+    if (plugins.length > 0) {
+        await processDescriptions(plugins);
+        await processImages(plugins);
+        await writeManifest(plugins, outputFile);
+    }
 }
 
 async function main() {
     userAgent = `Jellyfin-Server/${await getLatestJellyfinVersion()}`;
-    const plugins = await getSources();
-    await processDescriptions(plugins);
-    await processImages(plugins);
-    await writeManifest(plugins);
+    await clearImagesFolder();
+    await processList('sources.txt', 'manifest.json');
+    await processList('sourcesnsfw.txt', 'manifestnsfw.json');
 }
 
 main();

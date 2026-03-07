@@ -16,7 +16,6 @@ https://raw.githubusercontent.com/CherryFloors/jellyfin-plugin-cinemamode/main/m
 https://raw.githubusercontent.com/Cloud9Developer/Jellyfin-Newsletter-Plugin/master/manifest.json
 https://raw.githubusercontent.com/CodeDevMLH/jellyfin-plugin-manifest/refs/heads/main/manifest.json
 https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json
-https://raw.githubusercontent.com/DirtyRacer1337/Jellyfin.Plugin.Stash/main/manifest.json
 https://raw.githubusercontent.com/Eeeeelias/playlist-generator/refs/heads/main/manifest.json
 https://raw.githubusercontent.com/enoch85/bazarr-jellyfin/main/manifest.json
 https://raw.githubusercontent.com/Felitendo/jellyfin-plugin-lyrics/master/manifest.json
@@ -33,7 +32,6 @@ https://raw.githubusercontent.com/KeksBombe/jellyfin-plugin-auto-collections/ref
 https://raw.githubusercontent.com/lostb1t/Gelato/refs/heads/gh-pages/repository.json
 https://raw.githubusercontent.com/lostb1t/jellyfin-plugin-collection-import/main/manifest.json
 https://raw.githubusercontent.com/luall0/jellyfin-luall0-plugins/refs/heads/main/manifest.json
-https://raw.githubusercontent.com/metatube-community/jellyfin-plugin-metatube/dist/manifest.json
 https://raw.githubusercontent.com/MorganKryze/jellyflare/main/manifest.json
 https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json
 https://raw.githubusercontent.com/Namo2/InPlayerEpisodePreview/master/manifest.json
@@ -44,7 +42,6 @@ https://raw.githubusercontent.com/RomainPierre7/jellyfin-plugin-TelegramNotifier
 https://raw.githubusercontent.com/ryandash/jellyfin-plugin-myanimelist/main/manifest.json
 https://raw.githubusercontent.com/ShokoAnime/Shokofin/metadata/stable/manifest.json
 https://raw.githubusercontent.com/streamyfin/jellyfin-plugin-streamyfin/main/manifest.json
-https://raw.githubusercontent.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB/main/manifest.json
 https://raw.githubusercontent.com/TheXaman/jellyfin-plugin-languageTags/main/manifest.json
 https://raw.githubusercontent.com/tubearchivist/tubearchivist-jf-plugin/master/manifest.json
 https://raw.githubusercontent.com/Viperinius/jellyfin-plugins/master/manifest.json

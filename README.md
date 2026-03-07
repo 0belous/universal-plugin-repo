@@ -23,6 +23,14 @@ https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/
 ```
 5. Never add another repository again!
 
+<details>
+<summary>More plugins</summary>
+You can optionally install the NSFW repo too
+```
+https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/manifestnsfw.json
+```
+</details>
+
 # Security
 Most sources are from [awesome-jellyfin](https://github.com/awesome-jellyfin/awesome-jellyfin)
 The rest are from reputable developers, each source is reviewed before being added.
