@@ -24,7 +24,6 @@ https://raw.githubusercontent.com/Fovty/HoverTrailer/master/manifest.json
 https://raw.githubusercontent.com/G-grbz/Jellyfin-MonWUI-Plugin/main/manifest.json
 https://raw.githubusercontent.com/GrandguyJS/media-upload-plugin/main/manifest.json
 https://raw.githubusercontent.com/iankiller77/MyAnimeSync/main/manifest.json
-https://raw.githubusercontent.com/NewsGuyTor/LogoSwap/main/manifest.json
 https://raw.githubusercontent.com/johnpc/jellyfin-plugin-smart-collections/refs/heads/main/manifest.json
 https://raw.githubusercontent.com/johnpc/jellyfin-plugin-top-ten/refs/heads/main/manifest.json
 https://raw.githubusercontent.com/jon4hz/jellyfin-plugin-jellysleep/main/manifest.json
@@ -35,8 +34,10 @@ https://raw.githubusercontent.com/lostb1t/Gelato/refs/heads/gh-pages/repository.
 https://raw.githubusercontent.com/lostb1t/jellyfin-plugin-collection-import/main/manifest.json
 https://raw.githubusercontent.com/luall0/jellyfin-luall0-plugins/refs/heads/main/manifest.json
 https://raw.githubusercontent.com/metatube-community/jellyfin-plugin-metatube/dist/manifest.json
+https://raw.githubusercontent.com/MorganKryze/jellyflare/main/manifest.json
 https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json
 https://raw.githubusercontent.com/Namo2/InPlayerEpisodePreview/master/manifest.json
+https://raw.githubusercontent.com/NewsGuyTor/LogoSwap/main/manifest.json
 https://raw.githubusercontent.com/nikarh/jellyfin-plugin-authelia/main/manifest.json
 https://raw.githubusercontent.com/rdpharr/jellyfin-plugin-localrecs/main/manifest.json
 https://raw.githubusercontent.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/main/manifest.json
@@ -56,3 +57,4 @@ https://repo.xkrivo.net/jellyfin/manifest.json
 https://simoni.dev/jellyfin/repo.json
 https://www.iamparadox.dev/jellyfin/plugins/manifest.json
 https://xzonn.top/JellyfinPluginDouban/manifest.json
+ttps://raw.githubusercontent.com/RadicalMuffinMan/moonfin-server/master/manifest.json
