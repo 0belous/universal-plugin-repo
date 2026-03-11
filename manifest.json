@@ -2818,6 +2818,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Bar Enhanced.png",
     "versions": [
       {
+        "version": "1.8.0.0",
+        "changelog": "feat: add custom text/image overlay option\n- feat: add option to disable pagination dots/counter\n- feat: add exclude seasonal content from random fetching option\n- Add hide arrows on mobile option \n- fix button issue on mobile when using ElegantFin Theme",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v1.8.0.0/Jellyfin.Plugin.MediaBarEnhanced.zip",
+        "checksum": "4e4c1aa15d03e25e4900294fa7a62974",
+        "timestamp": "2026-03-11T01:41:03Z"
+      },
+      {
         "version": "1.7.0.0",
         "changelog": "- Switched to YouTube no-cookie host and referrer policy for iframe security\n- fix playback issues on iOS/MacOS \n- Disable animations and backdrop filters for TV layout\n- removed list.txt functionality to clean up, use the web ui instead\n- Enhance logging with contextual messages, in order to be able to clearly assign logs to this plugin",
         "targetAbi": "10.11.0.0",
@@ -3559,6 +3567,22 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JMSFusion.png",
     "versions": [
+      {
+        "version": "2.0.2.0",
+        "changelog": "fix: hoverTrailer CPU spike and global settings save",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/G-grbz/Jellyfin-MonWUI-Plugin/releases/download/v2.0.0/JMSFusion-2.0.2.0-server.zip",
+        "checksum": "0bf08421703f91df0ca09d74b5d9da15",
+        "timestamp": "2026-03-10T20:22:19.0445181Z"
+      },
+      {
+        "version": "2.0.1.0",
+        "changelog": "Fix missing imported function issue",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/G-grbz/Jellyfin-MonWUI-Plugin/releases/download/v2.0.0/JMSFusion-2.0.1.0-server.zip",
+        "checksum": "7ea568af60c8ed48a57351af2772ebb2",
+        "timestamp": "2026-03-10T12:26:42.3393349Z"
+      },
       {
         "version": "2.0.0.0",
         "changelog": "Subtitle customization and UX fixes",
