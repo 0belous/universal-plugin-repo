@@ -1,4 +1,4 @@
-name: Format Sources Lists
+name: Format sources list
 
 on:
   pull_request:
@@ -8,23 +8,14 @@ on:
   workflow_dispatch:
 
 jobs:
-  format:
+  check-format:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-    - uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref || github.ref }}
-    
-    - name: Sort and remove duplicates
-      run: |
-        LC_ALL=C sort -u -o sources.txt sources.txt
-        LC_ALL=C sort -u -o sourcesnsfw.txt sourcesnsfw.txt
-        
-    - name: Commit changes
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add sources.txt sourcesnsfw.txt
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-format sources lists: sort and remove duplicates" && git push)
+      - uses: actions/checkout@v4
+
+      - name: Check if sources.txt is sorted and unique
+        run: |
+          if ! diff sources.txt <(LC_ALL=C sort -u sources.txt); then
+            echo "Error: sources.txt is not sorted or contains duplicates."
+            exit 1
+          fi
