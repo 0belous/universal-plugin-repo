@@ -16,6 +16,7 @@ https://raw.githubusercontent.com/CherryFloors/jellyfin-plugin-cinemamode/main/m
 https://raw.githubusercontent.com/Cloud9Developer/Jellyfin-Newsletter-Plugin/master/manifest.json
 https://raw.githubusercontent.com/CodeDevMLH/jellyfin-plugin-manifest/refs/heads/main/manifest.json
 https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json
+https://raw.githubusercontent.com/Druidblack/Jellyfin.Plugin.ActorPlus/main/manifest.json
 https://raw.githubusercontent.com/Eeeeelias/playlist-generator/refs/heads/main/manifest.json
 https://raw.githubusercontent.com/enoch85/bazarr-jellyfin/main/manifest.json
 https://raw.githubusercontent.com/Felitendo/jellyfin-plugin-lyrics/master/manifest.json
@@ -54,4 +55,4 @@ https://repo.xkrivo.net/jellyfin/manifest.json
 https://simoni.dev/jellyfin/repo.json
 https://www.iamparadox.dev/jellyfin/plugins/manifest.json
 https://xzonn.top/JellyfinPluginDouban/manifest.json
-ttps://raw.githubusercontent.com/RadicalMuffinMan/moonfin-server/master/manifest.json
+https://raw.githubusercontent.com/RadicalMuffinMan/moonfin-server/master/manifest.json
