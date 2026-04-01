@@ -56,3 +56,4 @@ https://simoni.dev/jellyfin/repo.json
 https://www.iamparadox.dev/jellyfin/plugins/manifest.json
 https://xzonn.top/JellyfinPluginDouban/manifest.json
 https://raw.githubusercontent.com/RadicalMuffinMan/moonfin-server/master/manifest.json
+https://geiserx.github.io/whisper-subs/manifest.json
