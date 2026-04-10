@@ -1,4 +1,7 @@
-# https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/manifest.json
+# !      Please keep this file sorted alphabetically (ascending) and clear of duplicates
+# !!     In VS Code you can do this with:
+# !!!    ctrl+shift+p > Delete Duplicate Lines
+# !!!!   ctrl+shift+p > Sort Lines Ascending
 https://app.lizardbyte.dev/jellyfin-plugin-repo/manifest.json
 https://geiserx.github.io/whisper-subs/manifest.json
 https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/manifest/manifest.json
@@ -45,6 +48,7 @@ https://raw.githubusercontent.com/RadicalMuffinMan/moonfin-server/master/manifes
 https://raw.githubusercontent.com/rdpharr/jellyfin-plugin-localrecs/main/manifest.json
 https://raw.githubusercontent.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/main/manifest.json
 https://raw.githubusercontent.com/ryandash/jellyfin-plugin-myanimelist/main/manifest.json
+https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/manifest.json
 https://raw.githubusercontent.com/ShokoAnime/Shokofin/metadata/stable/manifest.json
 https://raw.githubusercontent.com/streamyfin/jellyfin-plugin-streamyfin/main/manifest.json
 https://raw.githubusercontent.com/TheXaman/jellyfin-plugin-languageTags/main/manifest.json
