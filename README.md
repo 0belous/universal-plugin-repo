@@ -19,7 +19,7 @@ After: 4 seconds to load items 1 second to load images, 1-2 seconds with cache
 3. (Optional) Remove all old repositories including the default jellyfin repo, this speeds up catalogue loading
 4. Add the universal repository
 ```
-https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/manifest.json
+https://obelo.us/upr
 ```
 5. Never add another repository again!
 
@@ -29,7 +29,7 @@ https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/
 You can optionally install the NSFW repo too
 
 ```
-https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/manifestnsfw.json
+https://obelo.us/uprn
 ```
 </details>
 
