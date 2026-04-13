@@ -7,7 +7,7 @@
 # Installation
 1. Open Jellyfin dashboard
 2. Navigate to the catalogue settings
-3. (Optional) Remove all old repositories including the default jellyfin repo, this speeds up catalogue loading
+3. Remove all old repositories
 4. Add the universal repository
 ```
 https://obelo.us/upr
